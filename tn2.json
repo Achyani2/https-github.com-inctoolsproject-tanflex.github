@@ -79,7 +79,7 @@ gl.client = {"isOpera":true,"isAndroid":true};
 </script>
 
 
-<header class="navbar navbar-gitlab navbar-expand-sm js-navbar" data-qa-selector="navbar">
+<header class="navbar navbar-github navbar-expand-sm js-navbar" data-qa-selector="navbar">
 <a class="sr-only gl-accessibility" href="#content-body" tabindex="1">Skip to content</a>
 <div class="container-fluid">
 <div class="header-content">
@@ -99,7 +99,7 @@ gl.client = {"isOpera":true,"isAndroid":true};
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 617 169"><path d="M315.26 2.97h-21.8l.1 162.5h88.3v-20.1h-66.5l-.1-142.4M465.89 136.95c-5.5 5.7-14.6 11.4-27 11.4-16.6 0-23.3-8.2-23.3-18.9 0-16.1 11.2-23.8 35-23.8 4.5 0 11.7.5 15.4 1.2v30.1h-.1m-22.6-98.5c-17.6 0-33.8 6.2-46.4 16.7l7.7 13.4c8.9-5.2 19.8-10.4 35.5-10.4 17.9 0 25.8 9.2 25.8 24.6v7.9c-3.5-.7-10.7-1.2-15.1-1.2-38.2 0-57.6 13.4-57.6 41.4 0 25.1 15.4 37.7 38.7 37.7 15.7 0 30.8-7.2 36-18.9l4 15.9h15.4v-83.2c-.1-26.3-11.5-43.9-44-43.9M557.63 149.1c-8.2 0-15.4-1-20.8-3.5V70.5c7.4-6.2 16.6-10.7 28.3-10.7 21.1 0 29.2 14.9 29.2 39 0 34.2-13.1 50.3-36.7 50.3m9.2-110.6c-19.5 0-30 13.3-30 13.3v-21l-.1-27.8h-21.3l.1 158.5c10.7 4.5 25.3 6.9 41.2 6.9 40.7 0 60.3-26 60.3-70.9-.1-35.5-18.2-59-50.2-59M77.9 20.6c19.3 0 31.8 6.4 39.9 12.9l9.4-16.3C114.5 6 97.3 0 78.9 0 32.5 0 0 28.3 0 85.4c0 59.8 35.1 83.1 75.2 83.1 20.1 0 37.2-4.7 48.4-9.4l-.5-63.9V75.1H63.6v20.1h38l.5 48.5c-5 2.5-13.6 4.5-25.3 4.5-32.2 0-53.8-20.3-53.8-63-.1-43.5 22.2-64.6 54.9-64.6M231.43 2.95h-21.3l.1 27.3v94.3c0 26.3 11.4 43.9 43.9 43.9 4.5 0 8.9-.4 13.1-1.2v-19.1c-3.1.5-6.4.7-9.9.7-17.9 0-25.8-9.2-25.8-24.6v-65h35.7v-17.8h-35.7l-.1-38.5M155.96 165.47h21.3v-124h-21.3v124M155.96 24.37h21.3V3.07h-21.3v21.3"/></svg>
 
 </span>
-</a><a class="label-link js-canary-badge canary-badge bg-transparent hidden" target="_blank" href="https://next.gitlab.com"><span class="color-label has-tooltip badge badge-pill green-badge">
+</a><a class="label-link js-canary-badge canary-badge bg-transparent hidden" target="_blank" href="https://next.github.com"><span class="color-label has-tooltip badge badge-pill green-badge">
 Next
 </span>
 </a></h1>
@@ -138,7 +138,7 @@ Loading...
 </div>
 </div>
 <input type="hidden" name="group_id" id="group_id" class="js-search-group-options" />
-<input type="hidden" name="project_id" id="search_project_id" value="13751126" class="js-search-project-options" data-project-path="flexnew3" data-name="flexnew3" data-issues-path="/Masmax2244/flexnew3/issues" data-mr-path="/Masmax2244/flexnew3/merge_requests" data-issues-disabled="false" />
+<input type="hidden" name="project_id" id="search_project_id" value="13751126" class="js-search-project-options" data-project-path="tanflex" data-name="flexnew3" data-issues-path="/Masmax2244/flexnew3/issues" data-mr-path="/Masmax2244/flexnew3/merge_requests" data-issues-disabled="false" />
 <input type="hidden" name="search_code" id="search_code" value="true" />
 <input type="hidden" name="repository_ref" id="repository_ref" value="master" />
 <input type="hidden" name="nav_source" id="nav_source" value="navbar" />
@@ -147,10 +147,10 @@ Loading...
 
 </li>
 <li class="nav-item d-inline-block d-lg-none">
-<a title="Search" aria-label="Search" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/search?project_id=13751126"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#search"></use></svg>
+<a title="Search" aria-label="Search" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/search?project_id=13751126"><svg class="s16"><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#search"></use></svg>
 </a></li>
 <li class="nav-item header-help dropdown d-none d-md-block">
-<a class="header-help-dropdown-toggle" data-toggle="dropdown" href="/help"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#question"></use></svg>
+<a class="header-help-dropdown-toggle" data-toggle="dropdown" href="/help"><svg class="s16"><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#question"></use></svg>
 <svg class="caret-down"><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#angle-down"></use></svg>
 </a><div class="dropdown-menu dropdown-menu-right">
 <ul>
@@ -158,21 +158,21 @@ Loading...
 <a href="/help">Help</a>
 </li>
 <li>
-<a href="https://about.gitlab.com/getting-help/">Support</a>
+<a href="https://about.github.com/getting-help/">Support</a>
 </li>
 
 <li class="divider"></li>
 <li>
-<a href="https://about.gitlab.com/submit-feedback">Submit feedback</a>
+<a href="https://about.github.com/submit-feedback">Submit feedback</a>
 </li>
 <li>
-<a target="_blank" class="text-nowrap" href="https://about.gitlab.com/contributing">Contribute to GitLab
+<a target="_blank" class="text-nowrap" href="https://about.github.com/contributing">Contribute to Github
 </a></li>
 
 
 
 <li class="js-canary-link">
-<a href="https://next.gitlab.com/">Switch to GitLab Next</a>
+<a href="https://next.github.com/">Switch to Github Next</a>
 </li>
 </ul>
 
@@ -187,8 +187,8 @@ Loading...
 </div>
 <button class="navbar-toggler d-block d-sm-none" type="button">
 <span class="sr-only">Toggle navigation</span>
-<svg class="s12 more-icon js-navbar-toggle-right"><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#ellipsis_h"></use></svg>
-<svg class="s12 close-icon js-navbar-toggle-left"><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#close"></use></svg>
+<svg class="s12 more-icon js-navbar-toggle-right"><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#ellipsis_h"></use></svg>
+<svg class="s12 close-icon js-navbar-toggle-left"><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#close"></use></svg>
 </button>
 </div>
 </div>
@@ -198,7 +198,7 @@ Loading...
 <div class="nav-sidebar">
 <div class="nav-sidebar-inner-scroll">
 <div class="context-header">
-<a title="flexnew3" href="/Masmax2244/flexnew3"><div class="avatar-container rect-avatar s40 project-avatar">
+<a title="flexnew3" href="/tanflex.github.io/tanflex"><div class="avatar-container rect-avatar s40 project-avatar">
 <div class="avatar s40 avatar-tile identicon bg5">F</div>
 </div>
 <div class="sidebar-context-title">
@@ -206,32 +206,32 @@ flexnew3
 </div>
 </a></div>
 <ul class="sidebar-top-level-items">
-<li class="home"><a class="shortcuts-project rspec-project-link" data-qa-selector="project_link" href="/Masmax2244/flexnew3"><div class="nav-icon-container">
-<svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#home"></use></svg>
+<li class="home"><a class="shortcuts-project rspec-project-link" data-qa-selector="project_link" href="/tanflex.github.io/tanflex"><div class="nav-icon-container">
+<svg><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#home"></use></svg>
 </div>
 <span class="nav-item-name">
 Project
 </span>
 </a><ul class="sidebar-sub-level-items">
-<li class="fly-out-top-item"><a href="/Masmax2244/flexnew3"><strong class="fly-out-top-item-name">
+<li class="fly-out-top-item"><a href="/tanflex.github.io/tanflex"><strong class="fly-out-top-item-name">
 Project
 </strong>
 </a></li><li class="divider fly-out-top-item"></li>
-<li class=""><a title="Project details" class="shortcuts-project" href="/Masmax2244/flexnew3"><span>Details</span>
-</a></li><li class=""><a title="Activity" class="shortcuts-project-activity" data-qa-selector="activity_link" href="/Masmax2244/flexnew3/activity"><span>Activity</span>
-</a></li><li class=""><a title="Releases" class="shortcuts-project-releases" href="/Masmax2244/flexnew3/-/releases"><span>Releases</span>
-</a></li><li class=""><a title="Cycle Analytics" class="shortcuts-project-cycle-analytics" href="/Masmax2244/flexnew3/cycle_analytics"><span>Cycle Analytics</span>
-</a></li><li class=""><a title="Insights" class="shortcuts-project-insights" data-qa-selector="project_insights_link" href="/Masmax2244/flexnew3/insights"><span>Insights</span>
+<li class=""><a title="Project details" class="shortcuts-project" href="/tanflex.github.io/tanflex"><span>Details</span>
+</a></li><li class=""><a title="Activity" class="shortcuts-project-activity" data-qa-selector="activity_link" href="/tanflex.github.io/tanflex/activity"><span>Activity</span>
+</a></li><li class=""><a title="Releases" class="shortcuts-project-releases" href="/tanflex.github.io/tanflex/-/releases"><span>Releases</span>
+</a></li><li class=""><a title="Cycle Analytics" class="shortcuts-project-cycle-analytics" href="/tanflex.github.io/tanflex/cycle_analytics"><span>Cycle Analytics</span>
+</a></li><li class=""><a title="Insights" class="shortcuts-project-insights" data-qa-selector="project_insights_link" href="/tanflex.github.io/tanflex/insights"><span>Insights</span>
 </a></li>
 </ul>
-</li><li class="active"><a class="shortcuts-tree qa-project-menu-repo" href="/Masmax2244/flexnew3/tree/master"><div class="nav-icon-container">
-<svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#doc-text"></use></svg>
+</li><li class="active"><a class="shortcuts-tree qa-project-menu-repo" href="/tanflex.github.io/tanflex/tree/master"><div class="nav-icon-container">
+<svg><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#doc-text"></use></svg>
 </div>
 <span class="nav-item-name" id="js-onboarding-repo-link">
 Repository
 </span>
 </a><ul class="sidebar-sub-level-items">
-<li class="fly-out-top-item active"><a href="/Masmax2244/flexnew3/tree/master"><strong class="fly-out-top-item-name">
+<li class="fly-out-top-item active"><a href="/tanflex.github.io/tanflex/tree/master"><strong class="fly-out-top-item-name">
 Repository
 </strong>
 </a></li><li class="divider fly-out-top-item"></li>
@@ -334,7 +334,7 @@ Security &amp; Compliance
 </a></li></ul>
 </li>
 <li class=""><a href="/tanflex.github.io/tanflex/-/packages"><div class="nav-icon-container">
-<svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#package"></use></svg>
+<svg><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#package"></use></svg>
 </div>
 <span class="nav-item-name">
 Packages
@@ -349,7 +349,7 @@ Packages
 </a></li></ul>
 </li>
 <li class=""><a class="shortcuts-wiki" data-qa-selector="wiki_link" href="/tanflex.github.io/tanflex/wikis/home"><div class="nav-icon-container">
-<svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#book"></use></svg>
+<svg><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#book"></use></svg>
 </div>
 <span class="nav-item-name">
 Wiki
@@ -360,7 +360,7 @@ Wiki
 </strong>
 </a></li></ul>
 </li><li class=""><a class="shortcuts-snippets" href="/tanflex.github.io/tanflex/snippets"><div class="nav-icon-container">
-<svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#snippet"></use></svg>
+<svg><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#snippet"></use></svg>
 </div>
 <span class="nav-item-name">
 Snippets
@@ -371,7 +371,7 @@ Snippets
 </strong>
 </a></li></ul>
 </li><li class=""><a title="Members" class="shortcuts-tree" href="/tanflex.github.io/tanflex/-/settings/members"><div class="nav-icon-container">
-<svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#users"></use></svg>
+<svg><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#users"></use></svg>
 </div>
 <span class="nav-item-name">
 Members
@@ -457,10 +457,10 @@ Activity
 <div class="nav-block">
 <div class="tree-ref-container">
 <div class="tree-ref-holder">
-<form class="project-refs-form" action="/Masmax2244/flexnew3/refs/switch" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="destination" id="destination" value="blob" />
+<form class="project-refs-form" action="/tanflex.github.io/tanflex/refs/switch" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="destination" id="destination" value="blob" />
 <input type="hidden" name="path" id="path" value="Max2.json" />
 <div class="dropdown">
-<button class="dropdown-menu-toggle js-project-refs-dropdown qa-branches-select" type="button" data-toggle="dropdown" data-selected="master" data-ref="master" data-refs-url="/Masmax2244/flexnew3/refs?sort=updated_desc" data-field-name="ref" data-submit-form-on-click="true" data-visit="true"><span class="dropdown-toggle-text ">master</span><i aria-hidden="true" data-hidden="true" class="fa fa-chevron-down"></i></button>
+<button class="dropdown-menu-toggle js-project-refs-dropdown qa-branches-select" type="button" data-toggle="dropdown" data-selected="master" data-ref="master" data-refs-url="/tanflex.github.io/tanflex/refs?sort=updated_desc" data-field-name="ref" data-submit-form-on-click="true" data-visit="true"><span class="dropdown-toggle-text ">master</span><i aria-hidden="true" data-hidden="true" class="fa fa-chevron-down"></i></button>
 <div class="dropdown-menu dropdown-menu-paging dropdown-menu-selectable git-revision-dropdown qa-branches-dropdown">
 <div class="dropdown-page-one">
 <div class="dropdown-title"><span>Switch branch/tag</span><button class="dropdown-title-button dropdown-menu-close" aria-label="Close" type="button"><i aria-hidden="true" data-hidden="true" class="fa fa-times dropdown-menu-close-icon"></i></button></div>
@@ -474,18 +474,18 @@ Activity
 </div>
 <ul class="breadcrumb repo-breadcrumb">
 <li class="breadcrumb-item">
-<a href="/Masmax2244/flexnew3/tree/master">flexnew3
+<a href="/tanflex.github.io/tanflex/tree/master">tanflex
 </a></li>
 <li class="breadcrumb-item">
-<a href="/Masmax2244/flexnew3/blob/master/Max2.json"><strong>Max2.json</strong>
+<a href="/tanflex.github.io/tanflex/blob/master/tn2.json"><strong>tn2.json</strong>
 </a></li>
 </ul>
 </div>
 <div class="tree-controls">
-<a class="btn shortcuts-find-file" rel="nofollow" href="/Masmax2244/flexnew3/find_file/master"><i aria-hidden="true" data-hidden="true" class="fa fa-search"></i>
+<a class="btn shortcuts-find-file" rel="nofollow" href="/tanflex.github.io/tanflex/find_file/master"><i aria-hidden="true" data-hidden="true" class="fa fa-search"></i>
 <span>Find file</span>
 </a>
-<div class="btn-group" role="group"><a class="btn js-blob-blame-link" href="/Masmax2244/flexnew3/blame/master/Max2.json">Blame</a><a class="btn" href="/Masmax2244/flexnew3/commits/master/Max2.json">History</a><a class="btn js-data-file-blob-permalink-url" href="/Masmax2244/flexnew3/blob/545ebc49da45bfcd5cf8a78485dd258192009c05/Max2.json">Permalink</a></div>
+<div class="btn-group" role="group"><a class="btn js-blob-blame-link" href="/tanflex.github.io/tanflex/blame/master/tn2.json">Blame</a><a class="btn" href="/tanflex.github.io/tanflex/commits/master/tn2.json">History</a><a class="btn js-data-file-blob-permalink-url" href="/tanflex.github.io/tanflex/blob/545ebc49da45bfcd5cf8a78485dd258192009c05/tn2.json">Permalink</a></div>
 </div>
 </div>
 
@@ -494,23 +494,23 @@ Activity
 <ul class="blob-commit-info">
 <li class="commit flex-row js-toggle-container" id="commit-545ebc49">
 <div class="avatar-cell d-none d-sm-block">
-<a href="/Masmax2244"><img alt="Masmax&#39;s avatar" src="/uploads/-/system/user/avatar/3906916/avatar.png?width=40" class="avatar s40 d-none d-sm-inline-block" title="Masmax" /></a>
+<a href="/tanflex.github.io"><img alt="tanflex.github.io&#39;s avatar" src="/uploads/-/system/user/avatar/3906916/avatar.png?width=40" class="avatar s40 d-none d-sm-inline-block" title="tanflex.github.io" /></a>
 </div>
 <div class="commit-detail flex-list">
 <div class="commit-content qa-commit-content">
-<a class="commit-row-message item-title js-onboarding-commit-item" href="/Masmax2244/flexnew3/commit/545ebc49da45bfcd5cf8a78485dd258192009c05">Initial commit</a>
+<a class="commit-row-message item-title js-onboarding-commit-item" href="/tanflex.github.io/tanflex/commit/545ebc49da45bfcd5cf8a78485dd258192009c05">Initial commit</a>
 <span class="commit-row-message d-inline d-sm-none">
 &middot;
 545ebc49
 </span>
 <div class="committer">
-<a class="commit-author-link js-user-link" data-user-id="3906916" href="/Masmax2244">Masmax</a> authored <time class="js-timeago" title="Aug 10, 2019 8:14am" datetime="2019-08-10T08:14:28Z" data-toggle="tooltip" data-placement="bottom" data-container="body">Aug 10, 2019</time>
+<a class="commit-author-link js-user-link" data-user-id="3906916" href="/tanflex.github.io">tanflex</a> authored <time class="js-timeago" title="Aug 10, 2019 8:14am" datetime="2019-08-10T08:14:28Z" data-toggle="tooltip" data-placement="bottom" data-container="body">Aug 10, 2019</time>
 </div>
 
 </div>
 <div class="commit-actions flex-row">
 
-<div class="js-commit-pipeline-status" data-endpoint="/Masmax2244/flexnew3/commit/545ebc49da45bfcd5cf8a78485dd258192009c05/pipelines?ref=master"></div>
+<div class="js-commit-pipeline-status" data-endpoint="/tanflex.github.io/tanflex/commit/545ebc49da45bfcd5cf8a78485dd258192009c05/pipelines?ref=master"></div>
 <div class="commit-sha-group d-none d-sm-flex">
 <div class="label label-monospace monospace">
 545ebc49
@@ -535,7 +535,7 @@ Activity
 <strong class="file-title-name qa-file-title-name">
 Max2.json
 </strong>
-<button class="btn btn-clipboard btn-transparent" data-toggle="tooltip" data-placement="bottom" data-container="body" data-class="btn-clipboard btn-transparent" data-title="Copy file path to clipboard" data-clipboard-text="{&quot;text&quot;:&quot;Max2.json&quot;,&quot;gfm&quot;:&quot;`Max2.json`&quot;}" type="button" title="Copy file path to clipboard" aria-label="Copy file path to clipboard"><svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#duplicate"></use></svg></button>
+<button class="btn btn-clipboard btn-transparent" data-toggle="tooltip" data-placement="bottom" data-container="body" data-class="btn-clipboard btn-transparent" data-title="Copy file path to clipboard" data-clipboard-text="{&quot;text&quot;:&quot;Max2.json&quot;,&quot;gfm&quot;:&quot;`tn2.json`&quot;}" type="button" title="Copy file path to clipboard" aria-label="Copy file path to clipboard"><svg><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#duplicate"></use></svg></button>
 <small class="mr-1">
 781 KB
 </small>
@@ -543,18 +543,18 @@ Max2.json
 
 <div class="file-actions">
 
-<div class="btn-group" role="group"><button class="btn btn btn-sm js-copy-blob-source-btn" data-toggle="tooltip" data-placement="bottom" data-container="body" data-class="btn btn-sm js-copy-blob-source-btn" data-title="Copy source to clipboard" data-clipboard-target=".blob-content[data-blob-id=&#39;37ee64e0d8bf729402e5166c6bd21601066bc9b0&#39;]" type="button" title="Copy source to clipboard" aria-label="Copy source to clipboard"><svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#duplicate"></use></svg></button><a class="btn btn-sm has-tooltip" target="_blank" rel="noopener noreferrer" title="Open raw" data-container="body" href="/Masmax2244/flexnew3/raw/master/Max2.json"><i aria-hidden="true" data-hidden="true" class="fa fa-file-code-o"></i></a><a download="Max2.json" class="btn btn-sm has-tooltip" target="_blank" rel="noopener noreferrer" title="Download" data-container="body" href="/Masmax2244/flexnew3/raw/master/Max2.json?inline=false"><svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#download"></use></svg></a></div>
+<div class="btn-group" role="group"><button class="btn btn btn-sm js-copy-blob-source-btn" data-toggle="tooltip" data-placement="bottom" data-container="body" data-class="btn btn-sm js-copy-blob-source-btn" data-title="Copy source to clipboard" data-clipboard-target=".blob-content[data-blob-id=&#39;37ee64e0d8bf729402e5166c6bd21601066bc9b0&#39;]" type="button" title="Copy source to clipboard" aria-label="Copy source to clipboard"><svg><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#duplicate"></use></svg></button><a class="btn btn-sm has-tooltip" target="_blank" rel="noopener noreferrer" title="Open raw" data-container="body" href="/tanflex.github.io/tanflex/raw/master/tn2.json"><i aria-hidden="true" data-hidden="true" class="fa fa-file-code-o"></i></a><a download="tn2.json" class="btn btn-sm has-tooltip" target="_blank" rel="noopener noreferrer" title="Download" data-container="body" href="/tanflex.github.io/tanflex/raw/master/tn2.json?inline=false"><svg><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#download"></use></svg></a></div>
 <div class="btn-group" role="group">
-<a class="btn js-edit-blob  btn-sm" href="/Masmax2244/flexnew3/edit/master/Max2.json">Edit</a><a class="btn btn-default btn-sm" href="/-/ide/project/Masmax2244/flexnew3/edit/master/-/Max2.json">Web IDE</a></div>
+<a class="btn js-edit-blob  btn-sm" href="/tanflex.github.io/tanflex/edit/master/tn2.json">Edit</a><a class="btn btn-default btn-sm" href="/-/ide/project/tanflex.github.io/tanflex/edit/master/-/tn2.json">Web IDE</a></div>
 </div>
 </div>
 
 <script id="js-file-lock" type="application/json">
-{"path":"Max2.json","toggle_path":"/Masmax2244/flexnew3/path_locks/toggle"}
+{"path":"Max2.json","toggle_path":"/tanflex.github.io/tanflex/path_locks/toggle"}
 </script>
 
 
-<div class="blob-viewer" data-type="simple" data-url="/Masmax2244/flexnew3/blob/master/Max2.json?format=json&amp;viewer=simple">
+<div class="blob-viewer" data-type="simple" data-url="/tanflex.github.io/tanflex/blob/master/tn2.json?format=json&amp;viewer=simple">
 <div class="text-center prepend-top-default append-bottom-default">
 <i aria-hidden="true" aria-label="Loading content…" class="fa fa-spinner fa-spin fa-2x qa-spinner"></i>
 </div>
@@ -569,13 +569,13 @@ Max2.json
 <div class="modal-dialog modal-lg">
 <div class="modal-content">
 <div class="modal-header">
-<h3 class="page-title">Replace Max2.json</h3>
+<h3 class="page-title">Replace tn2.json</h3>
 <button aria-label="Close" class="close" data-dismiss="modal" type="button">
 <span aria-hidden="true">&times;</span>
 </button>
 </div>
 <div class="modal-body">
-<form class="js-quick-submit js-upload-blob-form" data-method="put" action="/Masmax2244/flexnew3/update/master/Max2.json" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="fhb7GR0Rnu8MS+2O6tXPa3b2t+tjNPaAe+k6BPodDAX46Uo+dzvrOvaUKV74Vti00D5tYvrN2EjYQ9ZWU3Yx5Q==" /><div class="dropzone">
+<form class="js-quick-submit js-upload-blob-form" data-method="put" action="/tanflex.github.io/tanflex/update/master/tn2.json" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="fhb7GR0Rnu8MS+2O6tXPa3b2t+tjNPaAe+k6BPodDAX46Uo+dzvrOvaUKV74Vti00D5tYvrN2EjYQ9ZWU3Yx5Q==" /><div class="dropzone">
 <div class="dropzone-previews blob-upload-dropzone-previews">
 <p class="dz-message light">
 Attach a file by drag &amp; drop or <a class="markdown-selector" href="#">click to upload</a>
