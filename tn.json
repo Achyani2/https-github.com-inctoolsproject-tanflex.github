@@ -745,81 +745,10 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github
 </div>
 
 
-
-
-      
-
   <div itemprop="text" class="Box-body p-0 blob-wrapper data type-xml ">
       
-<table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="LC1" class="blob-code blob-code-inner js-file-line">&lt;?<span class="pl-ent">xml</span><span class="pl-e"> version</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>1.0<span class="pl-pds">&quot;</span></span><span class="pl-e"> encoding</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>UTF-8<span class="pl-pds">&quot;</span></span>?&gt;</td>
-      </tr>
-      <tr>
-        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="LC2" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">feed</span> <span class="pl-e">xmlns</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>http://www.w3.org/2005/Atom<span class="pl-pds">&quot;</span></span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="LC3" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">id</span>&gt;https://developer.github.com/&lt;/<span class="pl-ent">id</span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">title</span>&gt;GitHub API Changes&lt;/<span class="pl-ent">title</span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="LC5" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">updated</span>&gt;2019-10-03T07:00:00Z&lt;/<span class="pl-ent">updated</span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>alternate<span class="pl-pds">&quot;</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>https://developer.github.com/<span class="pl-pds">&quot;</span></span>/&gt;</td>
-      </tr>
-      <tr>
-        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>self<span class="pl-pds">&quot;</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>https://developer.github.com/changes.atom<span class="pl-pds">&quot;</span></span>/&gt;</td>
-      </tr>
-      <tr>
-        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">author</span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">name</span>&gt;hubot&lt;/<span class="pl-ent">name</span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">uri</span>&gt;https://github.com/hubot&lt;/<span class="pl-ent">uri</span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code blob-code-inner js-file-line">  &lt;/<span class="pl-ent">author</span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">entry</span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">id</span>&gt;tag:developer.github.com,2019-10-03:/changes/2019-10-03-multi-line-comments/&lt;/<span class="pl-ent">id</span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">title</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>html<span class="pl-pds">&quot;</span></span>&gt;Multi-line comments&lt;/<span class="pl-ent">title</span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">published</span>&gt;2019-10-03T07:00:00Z&lt;/<span class="pl-ent">published</span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">updated</span>&gt;2019-10-03T07:00:00Z&lt;/<span class="pl-ent">updated</span>&gt;</td>
-      </tr>
-      <tr> 
-
-
-
+   <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      
 
 <script nonce="Ol/ZUPvU1Jq7GDzofgCnTA==">
 
