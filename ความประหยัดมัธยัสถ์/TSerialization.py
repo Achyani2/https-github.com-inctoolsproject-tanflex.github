@@ -17,24 +17,22 @@
 # under the License.
 #
 
-import sys
+from .protocol import TBinaryProtocol
+from .transport import TTransport
 
-if sys.version_info[0] == 2:
 
-    from cStringIO import StringIO as BufferIO
+def serialize(thrift_object,
+              protocol_factory=TBinaryProtocol.TBinaryProtocolFactory()):
+    transport = TTransport.TMemoryBuffer()
+    protocol = protocol_factory.getProtocol(transport)
+    thrift_object.write(protocol)
+    return transport.getvalue()
 
-    def binary_to_str(bin_val):
-        return bin_val
 
-    def str_to_binary(str_val):
-        return str_val
-
-else:
-
-    from io import BytesIO as BufferIO  # noqa
-
-    def binary_to_str(bin_val):
-        return bin_val.decode('utf8')
-
-    def str_to_binary(str_val):
-        return bytes(str_val, 'utf8')
+def deserialize(base,
+                buf,
+                protocol_factory=TBinaryProtocol.TBinaryProtocolFactory()):
+    transport = TTransport.TMemoryBuffer(buf)
+    protocol = protocol_factory.getProtocol(transport)
+    base.read(protocol)
+    return base
