@@ -7,37 +7,37 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible">
 <meta content="object" property="og:type">
 <meta content="Gihub" property="og:site_name">
-<meta content="errorLog.txt · master · Masmax / flexnew3" property="og:title">
+<meta content="errorLog.txt · master · tanflex.github.io / tanflex" property="og:title">
 <meta content="Github.com" property="og:description">
-<meta content="https://assets.github-static.net/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="og:image">
+<meta content="https://assets.github-static.net/assets/github_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="og:image">
 <meta content="64" property="og:image:width">
 <meta content="64" property="og:image:height">
-<meta content="https://github.com/Masmax2244/flexnew3/blob/master/errorLog.txt" property="og:url">
+<meta content="https://github.com/tanflex.github.io/tanflex/blob/master/errorLog.txt" property="og:url">
 <meta content="summary" property="twitter:card">
-<meta content="errorLog.txt · master · Masmax / flexnew3" property="twitter:title">
+<meta content="errorLog.txt · master · tanflex.github.io / tanflex" property="twitter:title">
 <meta content="Github.com" property="twitter:description">
-<meta content="https://assets.gitlab-static.net/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="twitter:image">
+<meta content="https://assets.gitlab-static.net/assets/github_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="twitter:image">
 
-<title>errorLog.txt · master · Masmax / flexnew3 · GitLab</title>
+<title>errorLog.txt · master · Masmax / flexnew3 · Github</title>
 <meta content="GitLab.com" name="description">
-<link rel="shortcut icon" type="image/png" href="https://gitlab.com/assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png" id="favicon" data-original-href="https://gitlab.com/assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png" />
-<link rel="stylesheet" media="all" href="https://assets.gitlab-static.net/assets/application-1da73cad58989dc461966410eb529707f1e373c27ba32853a1f8e5613bb7dc7f.css" />
-<link rel="stylesheet" media="print" href="https://assets.gitlab-static.net/assets/print-74c3df10dad473d66660c828e3aa54ca3bfeac6d8bb708643331403fe7211e60.css" />
+<link rel="shortcut icon" type="image/png" href="https://github.com/assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png" id="favicon" data-original-href="https://gitlab.com/assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png" />
+<link rel="stylesheet" media="all" href="https://assets.github-static.net/assets/application-1da73cad58989dc461966410eb529707f1e373c27ba32853a1f8e5613bb7dc7f.css" />
+<link rel="stylesheet" media="print" href="https://assets.github-static.net/assets/print-74c3df10dad473d66660c828e3aa54ca3bfeac6d8bb708643331403fe7211e60.css" />
 
 
 <link rel="stylesheet" media="all" href="https://assets.gitlab-static.net/assets/highlight/themes/white-3144068cf4f603d290f553b653926358ddcd02493b9728f62417682657fc58c0.css" />
 <script nonce="JWx8CR0X8cgt1xBXErcXvg==">
 //<![CDATA[
-window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.gitlab-static.net/assets/no_avatar-849f9c04a3a0d0cea2424ae97b27447dc64a7dbfae83c036c45b403392f0e8ba.png";gon.max_file_size=10;gon.asset_host="https://assets.gitlab-static.net";gon.webpack_public_path="https://assets.gitlab-static.net/assets/webpack/";gon.relative_url_root="";gon.shortcuts_path="/help/shortcuts";gon.user_color_scheme="white";gon.sentry_dsn="https://526a2f38a53d44e3a8e69bfa001d1e8b@sentry.gitlab.net/15";gon.sentry_environment=null;gon.gitlab_url="https://gitlab.com";gon.revision="f79c1794977";gon.gitlab_logo="https://assets.gitlab-static.net/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png";gon.sprite_icons="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg";gon.sprite_file_icons="https://gitlab.com/assets/file_icons-7262fc6897e02f1ceaf8de43dc33afa5e4f9a2067f4f68ef77dcc87946575e9e.svg";gon.emoji_sprites_css_path="https://assets.gitlab-static.net/assets/emoji_sprites-289eccffb1183c188b630297431be837765d9ff4aed6130cf738586fb307c170.css";gon.test_env=false;gon.suggested_label_colors={"#0033CC":"UA blue","#428BCA":"Moderate blue","#44AD8E":"Lime green","#A8D695":"Feijoa","#5CB85C":"Slightly desaturated green","#69D100":"Bright green","#004E00":"Very dark lime green","#34495E":"Very dark desaturated blue","#7F8C8D":"Dark grayish cyan","#A295D6":"Slightly desaturated blue","#5843AD":"Dark moderate blue","#8E44AD":"Dark moderate violet","#FFECDB":"Very pale orange","#AD4363":"Dark moderate pink","#D10069":"Strong pink","#CC0033":"Strong red","#FF0000":"Pure red","#D9534F":"Soft red","#D1D100":"Strong yellow","#F0AD4E":"Soft orange","#AD8D43":"Dark moderate orange"};gon.first_day_of_week=0;gon.ee=true;gon.features={"suppressAjaxNavigationErrors":true,"privacyPolicyUpdateCallout":false};
+window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github-static.net/assets/no_avatar-849f9c04a3a0d0cea2424ae97b27447dc64a7dbfae83c036c45b403392f0e8ba.png";gon.max_file_size=10;gon.asset_host="https://assets.gitlab-static.net";gon.webpack_public_path="https://assets.gitlab-static.net/assets/webpack/";gon.relative_url_root="";gon.shortcuts_path="/help/shortcuts";gon.user_color_scheme="white";gon.sentry_dsn="https://526a2f38a53d44e3a8e69bfa001d1e8b@sentry.gitlab.net/15";gon.sentry_environment=null;gon.gitlab_url="https://gitlab.com";gon.revision="f79c1794977";gon.gitlab_logo="https://assets.gitlab-static.net/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png";gon.sprite_icons="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg";gon.sprite_file_icons="https://gitlab.com/assets/file_icons-7262fc6897e02f1ceaf8de43dc33afa5e4f9a2067f4f68ef77dcc87946575e9e.svg";gon.emoji_sprites_css_path="https://assets.gitlab-static.net/assets/emoji_sprites-289eccffb1183c188b630297431be837765d9ff4aed6130cf738586fb307c170.css";gon.test_env=false;gon.suggested_label_colors={"#0033CC":"UA blue","#428BCA":"Moderate blue","#44AD8E":"Lime green","#A8D695":"Feijoa","#5CB85C":"Slightly desaturated green","#69D100":"Bright green","#004E00":"Very dark lime green","#34495E":"Very dark desaturated blue","#7F8C8D":"Dark grayish cyan","#A295D6":"Slightly desaturated blue","#5843AD":"Dark moderate blue","#8E44AD":"Dark moderate violet","#FFECDB":"Very pale orange","#AD4363":"Dark moderate pink","#D10069":"Strong pink","#CC0033":"Strong red","#FF0000":"Pure red","#D9534F":"Soft red","#D1D100":"Strong yellow","#F0AD4E":"Soft orange","#AD8D43":"Dark moderate orange"};gon.first_day_of_week=0;gon.ee=true;gon.features={"suppressAjaxNavigationErrors":true,"privacyPolicyUpdateCallout":false};
 //]]>
 </script>
 
-<script src="https://assets.gitlab-static.net/assets/webpack/runtime.5728e69e.bundle.js" defer="defer"></script>
-<script src="https://assets.gitlab-static.net/assets/webpack/main.d418768d.chunk.js" defer="defer"></script>
-<script src="https://assets.gitlab-static.net/assets/webpack/raven.ad6d323b.chunk.js" defer="defer"></script>
-<script src="https://assets.gitlab-static.net/assets/webpack/commons~pages.admin.clusters~pages.admin.clusters.destroy~pages.admin.clusters.edit~pages.admin.clus~6f69515a.b16e04be.chunk.js" defer="defer"></script>
-<script src="https://assets.gitlab-static.net/assets/webpack/commons~pages.groups.epics.index~pages.groups.epics.show~pages.groups.milestones.edit~pages.groups.m~b7d7bc7f.b2d95487.chunk.js" defer="defer"></script>
-<script src="https://assets.gitlab-static.net/assets/webpack/pages.projects.blob.show.a08806fe.chunk.js" defer="defer"></script>
+<script src="https://assets.github-static.net/assets/webpack/runtime.5728e69e.bundle.js" defer="defer"></script>
+<script src="https://assets.github-static.net/assets/webpack/main.d418768d.chunk.js" defer="defer"></script>
+<script src="https://assets.github-static.net/assets/webpack/raven.ad6d323b.chunk.js" defer="defer"></script>
+<script src="https://assets.github-static.net/assets/webpack/commons~pages.admin.clusters~pages.admin.clusters.destroy~pages.admin.clusters.edit~pages.admin.clus~6f69515a.b16e04be.chunk.js" defer="defer"></script>
+<script src="https://assets.github-static.net/assets/webpack/commons~pages.groups.epics.index~pages.groups.epics.show~pages.groups.milestones.edit~pages.groups.m~b7d7bc7f.b2d95487.chunk.js" defer="defer"></script>
+<script src="https://assets.github-static.net/assets/webpack/pages.projects.blob.show.a08806fe.chunk.js" defer="defer"></script>
 
 <meta name="csrf-param" content="authenticity_token" />
 <meta name="csrf-token" content="0dNLlBKnN8nw+KxMAtEJgGpktYuadxKXILpdB9jOclVXLPqzeI1CHAonaJwQUh5fzKxvAgOOPF+DELFVcaVPtQ==" />
