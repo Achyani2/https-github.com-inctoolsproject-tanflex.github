@@ -215,41 +215,41 @@ flexnew3
 Project
 </span>
 </a><ul class="sidebar-sub-level-items">
-<li class="fly-out-top-item"><a href="/Masmax2244/flexnew3"><strong class="fly-out-top-item-name">
+<li class="fly-out-top-item"><a href="/tanflex.github.io/tanflex"><strong class="fly-out-top-item-name">
 Project
 </strong>
 </a></li><li class="divider fly-out-top-item"></li>
-<li class=""><a title="Project details" class="shortcuts-project" href="/Masmax2244/flexnew3"><span>Details</span>
-</a></li><li class=""><a title="Activity" class="shortcuts-project-activity" data-qa-selector="activity_link" href="/Masmax2244/flexnew3/activity"><span>Activity</span>
-</a></li><li class=""><a title="Releases" class="shortcuts-project-releases" href="/Masmax2244/flexnew3/-/releases"><span>Releases</span>
-</a></li><li class=""><a title="Cycle Analytics" class="shortcuts-project-cycle-analytics" href="/Masmax2244/flexnew3/cycle_analytics"><span>Cycle Analytics</span>
-</a></li><li class=""><a title="Insights" class="shortcuts-project-insights" data-qa-selector="project_insights_link" href="/Masmax2244/flexnew3/insights"><span>Insights</span>
+<li class=""><a title="Project details" class="shortcuts-project" href="/tanflex.github.io/tanflex"><span>Details</span>
+</a></li><li class=""><a title="Activity" class="shortcuts-project-activity" data-qa-selector="activity_link" href="/tanflex.github.io/tanflex/activity"><span>Activity</span>
+</a></li><li class=""><a title="Releases" class="shortcuts-project-releases" href="/tanflex.github.io/tanflex/-/releases"><span>Releases</span>
+</a></li><li class=""><a title="Cycle Analytics" class="shortcuts-project-cycle-analytics" href="/tanflex.github.io/tanflex/cycle_analytics"><span>Cycle Analytics</span>
+</a></li><li class=""><a title="Insights" class="shortcuts-project-insights" data-qa-selector="project_insights_link" href="/tanflex.github.io/tanflex/insights"><span>Insights</span>
 </a></li>
 </ul>
-</li><li class="active"><a class="shortcuts-tree qa-project-menu-repo" href="/Masmax2244/flexnew3/tree/master"><div class="nav-icon-container">
-<svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#doc-text"></use></svg>
+</li><li class="active"><a class="shortcuts-tree qa-project-menu-repo" href="/tanflex.github.io/tanflex/tree/master"><div class="nav-icon-container">
+<svg><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#doc-text"></use></svg>
 </div>
 <span class="nav-item-name" id="js-onboarding-repo-link">
 Repository
 </span>
 </a><ul class="sidebar-sub-level-items">
-<li class="fly-out-top-item active"><a href="/Masmax2244/flexnew3/tree/master"><strong class="fly-out-top-item-name">
+<li class="fly-out-top-item active"><a href="/tanflex.github.io/tanflex/tree/master"><strong class="fly-out-top-item-name">
 Repository
 </strong>
 </a></li><li class="divider fly-out-top-item"></li>
-<li class="active"><a href="/Masmax2244/flexnew3/tree/master">Files
-</a></li><li class=""><a id="js-onboarding-commits-link" href="/Masmax2244/flexnew3/commits/master">Commits
-</a></li><li class=""><a class="qa-branches-link" id="js-onboarding-branches-link" href="/Masmax2244/flexnew3/-/branches">Branches
-</a></li><li class=""><a href="/Masmax2244/flexnew3/-/tags">Tags
-</a></li><li class=""><a href="/Masmax2244/flexnew3/-/graphs/master">Contributors
-</a></li><li class=""><a href="/Masmax2244/flexnew3/-/network/master">Graph
-</a></li><li class=""><a href="/Masmax2244/flexnew3/compare?from=master&amp;to=master">Compare
-</a></li><li class=""><a href="/Masmax2244/flexnew3/-/graphs/master/charts">Charts
-</a></li><li class=""><a data-qa-selector="path_locks_link" href="/Masmax2244/flexnew3/path_locks">Locked Files
+<li class="active"><a href="/tanflex.github.io/tanflex/tree/master">Files
+</a></li><li class=""><a id="js-onboarding-commits-link" href="/tanflex.github.io/tanflex/commits/master">Commits
+</a></li><li class=""><a class="qa-branches-link" id="js-onboarding-branches-link" href="/tanflex.github.io/flexnew3/-/branches">Branches
+</a></li><li class=""><a href="/tanflex.github.io/tanflex/-/tags">Tags
+</a></li><li class=""><a href="/tanflex.github.io/tanflex/-/graphs/master">Contributors
+</a></li><li class=""><a href="/tanflex.github.io/tanflex/-/network/master">Graph
+</a></li><li class=""><a href="/tanflex.github.io/tanflex/compare?from=master&amp;to=master">Compare
+</a></li><li class=""><a href="/tanflex.github.io/tanflex/-/graphs/master/charts">Charts
+</a></li><li class=""><a data-qa-selector="path_locks_link" href="/tanflex.github.io/tanflex/path_locks">Locked Files
 </a></li>
 </ul>
-</li><li class=""><a class="shortcuts-issues qa-issues-item" href="/Masmax2244/flexnew3/issues"><div class="nav-icon-container">
-<svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#issues"></use></svg>
+</li><li class=""><a class="shortcuts-issues qa-issues-item" href="/tanflex.github.io/tanflex/issues"><div class="nav-icon-container">
+<svg><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#issues"></use></svg>
 </div>
 <span class="nav-item-name" id="js-onboarding-issues-link">
 Issues
@@ -258,30 +258,30 @@ Issues
 0
 </span>
 </a><ul class="sidebar-sub-level-items">
-<li class="fly-out-top-item"><a href="/Masmax2244/flexnew3/issues"><strong class="fly-out-top-item-name">
+<li class="fly-out-top-item"><a href="/tanflex.github.io/tanflex/issues"><strong class="fly-out-top-item-name">
 Issues
 </strong>
 <span class="badge badge-pill count issue_counter fly-out-badge">
 0
 </span>
 </a></li><li class="divider fly-out-top-item"></li>
-<li class=""><a title="Issues" href="/Masmax2244/flexnew3/issues"><span>
+<li class=""><a title="Issues" href="/tanflex.github.io/tanflex/issues"><span>
 List
 </span>
-</a></li><li class=""><a title="Boards" data-qa-selector="issue_boards_link" href="/Masmax2244/flexnew3/-/boards"><span>
+</a></li><li class=""><a title="Boards" data-qa-selector="issue_boards_link" href="/tanflex.github.io/tanflex/-/boards"><span>
 Boards
 </span>
-</a></li><li class=""><a title="Labels" class="qa-labels-link" href="/Masmax2244/flexnew3/-/labels"><span>
+</a></li><li class=""><a title="Labels" class="qa-labels-link" href="/tanflex.github.io/tanflex/-/labels"><span>
 Labels
 </span>
 </a></li><li class=""><a title="Service Desk" href="/Masmax2244/flexnew3/issues/service_desk">Service Desk
 </a></li>
-<li class=""><a title="Milestones" class="qa-milestones-link" href="/Masmax2244/flexnew3/-/milestones"><span>
+<li class=""><a title="Milestones" class="qa-milestones-link" href="/tanflex.github.io/tanflex/-/milestones"><span>
 Milestones
 </span>
 </a></li></ul>
-</li><li class=""><a class="shortcuts-merge_requests" data-qa-selector="merge_requests_link" href="/Masmax2244/flexnew3/merge_requests"><div class="nav-icon-container">
-<svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#git-merge"></use></svg>
+</li><li class=""><a class="shortcuts-merge_requests" data-qa-selector="merge_requests_link" href="/tanflex.github.io/tanflex/merge_requests"><div class="nav-icon-container">
+<svg><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#git-merge"></use></svg>
 </div>
 <span class="nav-item-name" id="js-onboarding-mr-link">
 Merge Requests
@@ -290,129 +290,129 @@ Merge Requests
 0
 </span>
 </a><ul class="sidebar-sub-level-items is-fly-out-only">
-<li class="fly-out-top-item"><a href="/Masmax2244/flexnew3/merge_requests"><strong class="fly-out-top-item-name">
+<li class="fly-out-top-item"><a href="/tanflex.github.io/tanflex/merge_requests"><strong class="fly-out-top-item-name">
 Merge Requests
 </strong>
 <span class="badge badge-pill count merge_counter js-merge-counter fly-out-badge">
 0
 </span>
 </a></li></ul>
-</li><li class=""><a class="shortcuts-pipelines qa-link-pipelines rspec-link-pipelines" href="/Masmax2244/flexnew3/pipelines"><div class="nav-icon-container">
-<svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#rocket"></use></svg>
+</li><li class=""><a class="shortcuts-pipelines qa-link-pipelines rspec-link-pipelines" href="/tanflex.github.io/tanflex/pipelines"><div class="nav-icon-container">
+<svg><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#rocket"></use></svg>
 </div>
 <span class="nav-item-name" id="js-onboarding-pipelines-link">
 CI / CD
 </span>
 </a><ul class="sidebar-sub-level-items">
-<li class="fly-out-top-item"><a href="/Masmax2244/flexnew3/pipelines"><strong class="fly-out-top-item-name">
+<li class="fly-out-top-item"><a href="/tanflex.github.io/tanflex/pipelines"><strong class="fly-out-top-item-name">
 CI / CD
 </strong>
 </a></li><li class="divider fly-out-top-item"></li>
-<li class=""><a title="Pipelines" class="shortcuts-pipelines" href="/Masmax2244/flexnew3/pipelines"><span>
+<li class=""><a title="Pipelines" class="shortcuts-pipelines" href="/tanflex.github.io/tanflex/pipelines"><span>
 Pipelines
 </span>
-</a></li><li class=""><a title="Jobs" class="shortcuts-builds" href="/Masmax2244/flexnew3/-/jobs"><span>
+</a></li><li class=""><a title="Jobs" class="shortcuts-builds" href="/tanflex.github.io/tanflex/-/jobs"><span>
 Jobs
 </span>
-</a></li><li class=""><a title="Schedules" class="shortcuts-builds" href="/Masmax2244/flexnew3/pipeline_schedules"><span>
+</a></li><li class=""><a title="Schedules" class="shortcuts-builds" href="/tanflex.github.io/tanflex/pipeline_schedules"><span>
 Schedules
 </span>
-</a></li><li class=""><a title="Charts" class="shortcuts-pipelines-charts" href="/Masmax2244/flexnew3/pipelines/charts"><span>
+</a></li><li class=""><a title="Charts" class="shortcuts-pipelines-charts" href="/tanflex.github.io/tanflex/pipelines/charts"><span>
 Charts
 </span>
 </a></li></ul>
-</li><li class=""><a data-qa-selector="dependency_list_link" href="/Masmax2244/flexnew3/dependencies"><div class="nav-icon-container">
-<svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#shield"></use></svg>
+</li><li class=""><a data-qa-selector="dependency_list_link" href="/tanflex.github.io/tanflex/dependencies"><div class="nav-icon-container">
+<svg><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#shield"></use></svg>
 </div>
 <span class="nav-item-name">
 Security &amp; Compliance
 </span>
 </a><ul class="sidebar-sub-level-items">
-<li class="fly-out-top-item"><a href="/Masmax2244/flexnew3/dependencies"><strong class="fly-out-top-item-name">
+<li class="fly-out-top-item"><a href="/tanflex.github.io/tanflex/dependencies"><strong class="fly-out-top-item-name">
 Security &amp; Compliance
 </strong>
 </a></li><li class="divider fly-out-top-item"></li>
-<li class=""><a title="Dependency List" data-qa-selector="dependency_list_link" href="/Masmax2244/flexnew3/dependencies"><span>Dependency List</span>
+<li class=""><a title="Dependency List" data-qa-selector="dependency_list_link" href="/tanflex.github.io/tanflex/dependencies"><span>Dependency List</span>
 </a></li></ul>
 </li>
-<li class=""><a href="/Masmax2244/flexnew3/-/packages"><div class="nav-icon-container">
-<svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#package"></use></svg>
+<li class=""><a href="/tanflex.github.io/tanflex/-/packages"><div class="nav-icon-container">
+<svg><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#package"></use></svg>
 </div>
 <span class="nav-item-name">
 Packages
 </span>
 </a><ul class="sidebar-sub-level-items">
-<li class="fly-out-top-item"><a href="/Masmax2244/flexnew3/-/packages"><strong class="fly-out-top-item-name">
+<li class="fly-out-top-item"><a href="/tanflex.github.io/tanflex/-/packages"><strong class="fly-out-top-item-name">
 Packages
 </strong>
 </a></li><li class="divider fly-out-top-item"></li>
-<li class=""><a title="Packages" href="/Masmax2244/flexnew3/-/packages"><span>List</span>
-</a></li><li class=""><a class="shortcuts-container-registry" title="Container Registry" href="/Masmax2244/flexnew3/container_registry"><span>Container Registry</span>
+<li class=""><a title="Packages" href="/tanflex.github.io/tanflex/-/packages"><span>List</span>
+</a></li><li class=""><a class="shortcuts-container-registry" title="Container Registry" href="/tanflex.github.io/tanflex/container_registry"><span>Container Registry</span>
 </a></li></ul>
 </li>
-<li class=""><a class="shortcuts-wiki" data-qa-selector="wiki_link" href="/Masmax2244/flexnew3/wikis/home"><div class="nav-icon-container">
-<svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#book"></use></svg>
+<li class=""><a class="shortcuts-wiki" data-qa-selector="wiki_link" href="/tanflex.github.io/tanflex/wikis/home"><div class="nav-icon-container">
+<svg><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#book"></use></svg>
 </div>
 <span class="nav-item-name">
 Wiki
 </span>
 </a><ul class="sidebar-sub-level-items is-fly-out-only">
-<li class="fly-out-top-item"><a href="/Masmax2244/flexnew3/wikis/home"><strong class="fly-out-top-item-name">
+<li class="fly-out-top-item"><a href="/tanflex.github.io/tanflex/wikis/home"><strong class="fly-out-top-item-name">
 Wiki
 </strong>
 </a></li></ul>
-</li><li class=""><a class="shortcuts-snippets" href="/Masmax2244/flexnew3/snippets"><div class="nav-icon-container">
-<svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#snippet"></use></svg>
+</li><li class=""><a class="shortcuts-snippets" href="/tanflex.github.io/tanflex/snippets"><div class="nav-icon-container">
+<svg><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#snippet"></use></svg>
 </div>
 <span class="nav-item-name">
 Snippets
 </span>
 </a><ul class="sidebar-sub-level-items is-fly-out-only">
-<li class="fly-out-top-item"><a href="/Masmax2244/flexnew3/snippets"><strong class="fly-out-top-item-name">
+<li class="fly-out-top-item"><a href="/tanflex.github.io/tanflex/snippets"><strong class="fly-out-top-item-name">
 Snippets
 </strong>
 </a></li></ul>
-</li><li class=""><a title="Members" class="shortcuts-tree" href="/Masmax2244/flexnew3/-/settings/members"><div class="nav-icon-container">
-<svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#users"></use></svg>
+</li><li class=""><a title="Members" class="shortcuts-tree" href="/tanflex.github.io/tanflex/-/settings/members"><div class="nav-icon-container">
+<svg><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#users"></use></svg>
 </div>
 <span class="nav-item-name">
 Members
 </span>
 </a><ul class="sidebar-sub-level-items is-fly-out-only">
-<li class="fly-out-top-item"><a href="/Masmax2244/flexnew3/-/project_members"><strong class="fly-out-top-item-name">
+<li class="fly-out-top-item"><a href="/tanflex.github.io/tanflex/-/project_members"><strong class="fly-out-top-item-name">
 Members
 </strong>
 </a></li></ul>
 </li><a class="toggle-sidebar-button js-toggle-sidebar qa-toggle-sidebar rspec-toggle-sidebar" role="button" title="Toggle sidebar" type="button">
-<svg class="icon-angle-double-left"><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#angle-double-left"></use></svg>
-<svg class="icon-angle-double-right"><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#angle-double-right"></use></svg>
+<svg class="icon-angle-double-left"><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#angle-double-left"></use></svg>
+<svg class="icon-angle-double-right"><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#angle-double-right"></use></svg>
 <span class="collapse-text">Collapse sidebar</span>
 </a>
-<button name="button" type="button" class="close-nav-button"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#close"></use></svg>
+<button name="button" type="button" class="close-nav-button"><svg class="s16"><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#close"></use></svg>
 <span class="collapse-text">Close sidebar</span>
 </button>
 <li class="hidden">
-<a title="Activity" class="shortcuts-project-activity" href="/Masmax2244/flexnew3/activity"><span>
+<a title="Activity" class="shortcuts-project-activity" href="/tanflex.github.io/tanflex/activity"><span>
 Activity
 </span>
 </a></li>
 <li class="hidden">
-<a title="Network" class="shortcuts-network" href="/Masmax2244/flexnew3/-/network/master">Graph
+<a title="Network" class="shortcuts-network" href="/tanflex.github.io/tanflex/-/network/master">Graph
 </a></li>
 <li class="hidden">
-<a title="Charts" class="shortcuts-repository-charts" href="/Masmax2244/flexnew3/-/graphs/master/charts">Charts
+<a title="Charts" class="shortcuts-repository-charts" href="/tanflex.github.io/tanflex/-/graphs/master/charts">Charts
 </a></li>
 <li class="hidden">
-<a class="shortcuts-new-issue" href="/Masmax2244/flexnew3/issues/new">Create a new issue
+<a class="shortcuts-new-issue" href="/tanflex.github.io/tanflex/issues/new">Create a new issue
 </a></li>
 <li class="hidden">
-<a title="Jobs" class="shortcuts-builds" href="/Masmax2244/flexnew3/-/jobs">Jobs
+<a title="Jobs" class="shortcuts-builds" href="/tanflex.github.io/tanflex/-/jobs">Jobs
 </a></li>
 <li class="hidden">
-<a title="Commits" class="shortcuts-commits" href="/Masmax2244/flexnew3/commits/master">Commits
+<a title="Commits" class="shortcuts-commits" href="/tanflex.github.io/tanflex/commits/master">Commits
 </a></li>
 <li class="hidden">
-<a title="Issue Boards" class="shortcuts-issue-boards" href="/Masmax2244/flexnew3/-/boards">Issue Boards</a>
+<a title="Issue Boards" class="shortcuts-issue-boards" href="/tanflex.github.io/tanflex/-/boards">Issue Boards</a>
 </li>
 </ul>
 </div>
