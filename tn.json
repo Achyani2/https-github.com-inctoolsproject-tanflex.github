@@ -429,7 +429,7 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github
         </details-menu>
       </details>
         <a class="social-count js-social-count"
-          href="/tanpattaya/linepy/watchers"
+          href="/tanpattaya/tanflex.github.io/watchers"
           aria-label="1 user is watching this repository">
           1
         </a>
@@ -622,7 +622,7 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github
 </details>
 
         <div class="BtnGroup flex-shrink-0 d-md-none">
-          <a href="/tanpattaya/linepy/find/master"
+          <a href="/tanpattaya/tanflex.github.io/find/master"
                 class="js-pjax-capture-input btn btn-sm BtnGroup-item"
                 data-pjax
                 data-hotkey="t">
@@ -638,7 +638,7 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github
       </h2>
 
       <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
-        <a href="/tanpattaya/linepy/find/master"
+        <a href="/tanpattaya/tanflex.github.io/find/master"
               class="js-pjax-capture-input btn btn-sm BtnGroup-item"
               data-pjax
               data-hotkey="t">
@@ -673,7 +673,7 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github
         <details-dialog
           class="Box Box--overlay d-flex flex-column anim-fade-in fast"
           aria-label="Users who have contributed to this file"
-          src="/tanpattaya/linepy/contributors/master/changes.atom/list" preload>
+          src="/tanpattaya/tanflex.github.io/contributors/master/changes.atom/list" preload>
           <div class="Box-header">
             <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
               <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
