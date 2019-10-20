@@ -506,7 +506,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "KLIK DISINI",
-                                    "uri": "line://ti/p/~denjaka-inexx"
+                                    "uri": "line://ti/p/~ptatan1983"
                                 },
                                 "style": "primary",
                                 "color": "#10CF08"
@@ -694,7 +694,7 @@
                         "action": {
                             "type": "uri",
                             "label": "inexbots",
-                            "uri": "http://line.me/ti/p/~denjaka-inexx"
+                            "uri": "http://line://ti/p/~ptatan1983"
                         },
                         "style": "primary",
                         "color": "#F7141F"
@@ -704,7 +704,7 @@
                         "action": {
                             "type": "uri",
                             "label": "XTC",
-                            "uri": "http://line.me/ti/p/~denjaka-inexx"
+                            "uri": "http://line://ti/p/~ptatan1983"
                         },
                         "style": "primary",
                         "color": "#00ff7f"
@@ -1558,7 +1558,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "HELP BOTS",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Help3"
+                                    "uri": "line://app/1626556804-ELKPkeAO?type=text&text=Help3"
                                 }
                             },
                             {
@@ -1575,7 +1575,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "HELP MENU",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Help1"
+                                    "uri": "line://app/1626556804-ELKPkeAO?type=text&text=Help1"
                                 }
                             },
                             {
@@ -1592,7 +1592,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "HELP MEDIA",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Help2"
+                                    "uri": "line://app/1626556804-ELKPkeAO?type=text&text=Help2"
                                 }
                             },
                             {
@@ -1609,7 +1609,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "GRUPLIST",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Gruplist"
+                                    "uri": "line://app/1626556804-ELKPkeAO?type=text&text=Gruplist"
                                 }
                             },
                             {
@@ -1626,7 +1626,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "MULTIMEDIA",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Listapp"
+                                    "uri": "line://app/1626556804-ELKPkeAO?type=text&text=Listapp"
                                 }
                             },
                             {
@@ -1643,7 +1643,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "GALERI",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Galeri"
+                                    "uri": "line://app/1626556804-ELKPkeAO?type=text&text=Galeri"
                                 }
                             },
                             {
@@ -1660,7 +1660,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "TAG ALL",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Inex"
+                                    "uri": "line://app/1626556804-ELKPkeAO?type=text&text=Inex"
                                 }
                             },
                             {
@@ -1677,7 +1677,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "KOSONG",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Assalamu'alaikum"
+                                    "uri": "line://app/1626556804-ELKPkeAO?type=text&text=Assalamu'alaikum"
                                 }
                             },
                             {
@@ -1694,7 +1694,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "KOSONG",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Crot @Tag"
+                                    "uri": "line://app/1626556804-bXk15pYd?type=text&text=Crot @Tag"
                                 }
                             },
                             {
@@ -1711,7 +1711,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "DAFTAR HARGA",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Price"
+                                    "uri": "line://app/1626556804-bXk15pYd?type=text&text=Price"
                                 }
                             },
                             {
@@ -1728,7 +1728,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "INFO GRUP",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Ginfo"
+                                    "uri": "line://app/1626556804-bXk15pYd?type=text&text=Ginfo"
                                 }
                             }
                         ]
@@ -1862,7 +1862,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "SIDER OFF",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=X off"
+                                    "uri": "line://app/1607143364-vAaxGxZ2?type=text&text=X off"
                                 }
                             },
                             {
@@ -1879,7 +1879,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "RESPON ASSIST BOT",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Ping"
+                                    "uri": "line://app/1607143364-vAaxGxZ2?type=text&text=Ping"
                                 }
                             },
                             {
@@ -1896,7 +1896,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "GANTI NAMA BOT",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=ketik Bot1name: / Jsname: "
+                                    "uri": "line://app/1607143364-vAaxGxZ2?type=text&text=ketik Bot1name: / Jsname: "
                                 }
                             },
                             {
@@ -1913,7 +1913,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "MASUK KELUAR BOT",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Masuk/./Keluar/,/"
+                                    "uri": "line://app/1607143364-vAaxGxZ2?type=text&text=Masuk/./Keluar/,/"
                                 }
                             },
                             {
@@ -1947,7 +1947,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "ANTIJS KELUAR/MASUK",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=G join/G bye"
+                                    "uri": "line://app/1607143364-vAaxGxZ2?type=text&text=G join/G bye"
                                 }
                             },
                             {
@@ -1964,7 +1964,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "DAFTAR HARGA",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Price"
+                                    "uri": "line://app/1607143364-vAaxGxZ2?type=text&text=Price"
                                 }
                             },
                             {
@@ -1981,7 +1981,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "ME",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Me"
+                                    "uri": "line:1607143364-vAaxGxZ2?type=text&text=Me"
                                 }
                             }
                         ]
@@ -2053,7 +2053,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "HELP MEDIA",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Helpmedia"
+                                    "uri": "line://app/?1607143364-vAaxGxZ2type=text&text=Helpmedia"
                                 }
                             },
                             {
@@ -2087,7 +2087,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "HELP GROUP",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Help2"
+                                    "uri": "line://app/1607143364-vAaxGxZ2?type=text&text=Help2"
                                 }
                             },
                             {
