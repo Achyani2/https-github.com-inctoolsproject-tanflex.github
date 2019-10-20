@@ -724,12 +724,430 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github
   </div>
 </div>
 
-
-  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-xml ">
+      
+   <div itemprop="text" class="Box-body p-0 blob-wrapper data type-xml ">
       
    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      
-
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line">&lt;?<span class="pl-ent">xml</span><span class="pl-e"> version</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>1.0<span class="pl-pds">&quot;</span></span><span class="pl-e"> encoding</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>UTF-8<span class="pl-pds">&quot;</span></span>?&gt;</td>
+      </tr>
+      <tr>
+        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">feed</span> <span class="pl-e">xmlns</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>http://www.w3.org/2005/Atom<span class="pl-pds">&quot;</span></span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">id</span>&gt;https://developer.github.com/&lt;/<span class="pl-ent">id</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">title</span>&gt;GitHub API Changes&lt;/<span class="pl-ent">title</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">updated</span>&gt;2019-10-03T07:00:00Z&lt;/<span class="pl-ent">updated</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>alternate<span class="pl-pds">&quot;</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>https://developer.github.com/<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>self<span class="pl-pds">&quot;</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>https://developer.github.com/changes.atom<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">author</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">name</span>&gt;hubot&lt;/<span class="pl-ent">name</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">uri</span>&gt;https://github.com/hubot&lt;/<span class="pl-ent">uri</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line">  &lt;/<span class="pl-ent">author</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">entry</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">id</span>&gt;tag:developer.github.com,2019-10-03:/changes/2019-10-03-multi-line-comments/&lt;/<span class="pl-ent">id</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">title</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>html<span class="pl-pds">&quot;</span></span>&gt;Multi-line comments&lt;/<span class="pl-ent">title</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">published</span>&gt;2019-10-03T07:00:00Z&lt;/<span class="pl-ent">published</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">updated</span>&gt;2019-10-03T07:00:00Z&lt;/<span class="pl-ent">updated</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>alternate<span class="pl-pds">&quot;</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>https://developer.github.com/changes/2019-10-03-multi-line-comments/<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">content</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>html<span class="pl-pds">&quot;</span></span>&gt;<span class="pl-c1">&amp;lt;</span>p<span class="pl-c1">&amp;gt;</span>Now you can create comments across multiple lines of code in a pull request diff using REST API or GraphQL.<span class="pl-c1">&amp;lt;</span>/p<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>p<span class="pl-c1">&amp;gt;</span>To create multi-line comments or see multi-line comments with the new supported fields when you fetch comment responses, you must provide a custom <span class="pl-c1">&amp;lt;</span>a href=&quot;/v3/media&quot;<span class="pl-c1">&amp;gt;</span>media type<span class="pl-c1">&amp;lt;</span>/a<span class="pl-c1">&amp;gt;</span> in the <span class="pl-c1">&amp;lt;</span>code<span class="pl-c1">&amp;gt;</span>Accept<span class="pl-c1">&amp;lt;</span>/code<span class="pl-c1">&amp;gt;</span> header:<span class="pl-c1">&amp;lt;</span>/p<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>pre<span class="pl-c1">&amp;gt;&amp;lt;</span>code<span class="pl-c1">&amp;gt;</span>application/vnd.github.comfort-fade-preview+json</td>
+      </tr>
+      <tr>
+        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>/code<span class="pl-c1">&amp;gt;&amp;lt;</span>/pre<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>p<span class="pl-c1">&amp;gt;</span>During the preview period, we may change aspects of these APIs based on developer feedback.<span class="pl-c1">&amp;lt;</span>/p<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>p<span class="pl-c1">&amp;gt;</span>If we do, we will announce the changes here on the developer blog, but we will not provide any advance notice.  If you have any questions or feedback, <span class="pl-c1">&amp;lt;</span>a href=&quot;https://support.github.com/contact?form%5Bsubject%5D=Feedback%3A+API+support+for+Multi-line+comments&quot;<span class="pl-c1">&amp;gt;</span>please let us know<span class="pl-c1">&amp;lt;</span>/a<span class="pl-c1">&amp;gt;</span>.<span class="pl-c1">&amp;lt;</span>/p<span class="pl-c1">&amp;gt;</span>&lt;/<span class="pl-ent">content</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line">  &lt;/<span class="pl-ent">entry</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">entry</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">id</span>&gt;tag:developer.github.com,2019-09-24:/changes/2019-09-24-team-sychronization-end-preview/&lt;/<span class="pl-ent">id</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">title</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>html<span class="pl-pds">&quot;</span></span>&gt;Team sychronization become an official part of REST API&lt;/<span class="pl-ent">title</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">published</span>&gt;2019-09-24T07:00:00Z&lt;/<span class="pl-ent">published</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">updated</span>&gt;2019-09-24T07:00:00Z&lt;/<span class="pl-ent">updated</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>alternate<span class="pl-pds">&quot;</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>https://developer.github.com/changes/2019-09-24-team-sychronization-end-preview/<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">content</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>html<span class="pl-pds">&quot;</span></span>&gt;<span class="pl-c1">&amp;lt;</span>p<span class="pl-c1">&amp;gt;</span>The features that are a part of the team sychronization <span class="pl-c1">&amp;lt;</span>code<span class="pl-c1">&amp;gt;</span>team-sync-preview<span class="pl-c1">&amp;lt;</span>/code<span class="pl-c1">&amp;gt;</span> are now available on GitHub.com. Going forward, the Team synchronization API endpoints will be available without a preview header.<span class="pl-c1">&amp;lt;</span>/p<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>h3<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>a id=&quot;preview-media-type-no-longer-needed&quot; class=&quot;anchor&quot; href=&quot;#preview-media-type-no-longer-needed&quot; aria-hidden=&quot;true&quot;<span class="pl-c1">&amp;gt;&amp;lt;</span>span aria-hidden=&quot;true&quot; class=&quot;octicon octicon-link&quot;<span class="pl-c1">&amp;gt;&amp;lt;</span>/span<span class="pl-c1">&amp;gt;&amp;lt;</span>/a<span class="pl-c1">&amp;gt;</span>Preview media type no longer needed<span class="pl-c1">&amp;lt;</span>/h3<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
+        <td id="LC40" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>p<span class="pl-c1">&amp;gt;</span>Now that the preview period has ended (first announced in <span class="pl-c1">&amp;lt;</span>a href=&quot;/changes/2019-06-12-team-sync/&quot;<span class="pl-c1">&amp;gt;</span>June 2019<span class="pl-c1">&amp;lt;</span>/a<span class="pl-c1">&amp;gt;</span>), you no longer need to pass the <span class="pl-c1">&amp;lt;</span>code<span class="pl-c1">&amp;gt;</span>team-sync-preview<span class="pl-c1">&amp;lt;</span>/code<span class="pl-c1">&amp;gt;</span> custom media type.<span class="pl-c1">&amp;lt;</span>/p<span class="pl-c1">&amp;gt;</span>&lt;/<span class="pl-ent">content</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
+        <td id="LC41" class="blob-code blob-code-inner js-file-line">  &lt;/<span class="pl-ent">entry</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
+        <td id="LC42" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">entry</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
+        <td id="LC43" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">id</span>&gt;tag:developer.github.com,2019-09-06:/changes/2019-09-06-more-check-annotations-shown-in-files-changed-tab/&lt;/<span class="pl-ent">id</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
+        <td id="LC44" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">title</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>html<span class="pl-pds">&quot;</span></span>&gt;More check annotations are now shown on the &quot;Files changed&quot; tab&lt;/<span class="pl-ent">title</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
+        <td id="LC45" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">published</span>&gt;2019-09-06T07:00:00Z&lt;/<span class="pl-ent">published</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
+        <td id="LC46" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">updated</span>&gt;2019-09-06T07:00:00Z&lt;/<span class="pl-ent">updated</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
+        <td id="LC47" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>alternate<span class="pl-pds">&quot;</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>https://developer.github.com/changes/2019-09-06-more-check-annotations-shown-in-files-changed-tab/<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
+        <td id="LC48" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">content</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>html<span class="pl-pds">&quot;</span></span>&gt;<span class="pl-c1">&amp;lt;</span>p<span class="pl-c1">&amp;gt;</span>In May of 2018, we <span class="pl-c1">&amp;lt;</span>a href=&quot;/changes/2018-05-07-new-checks-api-public-beta/&quot;<span class="pl-c1">&amp;gt;</span>announced the Checks API<span class="pl-c1">&amp;lt;</span>/a<span class="pl-c1">&amp;gt;</span>, which added many new capabilities for running checks on code. One of those new capabilities were check annotations, which let apps annotate specific lines of code as part of a check run.<span class="pl-c1">&amp;lt;</span>/p<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
+        <td id="LC49" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
+        <td id="LC50" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>p<span class="pl-c1">&amp;gt;&amp;lt;</span>img src=&quot;https://user-images.githubusercontent.com/7718702/60444186-9d121e00-9c14-11e9-9c51-d62791d5d317.png&quot; alt=&quot;demo-screenshot-of-unchanged-files-with-check-annotations&quot;<span class="pl-c1">&amp;gt;&amp;lt;</span>/p<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
+        <td id="LC51" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
+        <td id="LC52" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>p<span class="pl-c1">&amp;gt;</span>Check annotations point directly to those lines where a test failure or a lint error occurred, and they empower users to fix any kind of errors or warnings quickly so they can move forward with their pull requests.<span class="pl-c1">&amp;lt;</span>/p<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
+        <td id="LC53" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
+        <td id="LC54" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>p<span class="pl-c1">&amp;gt;&amp;lt;</span>img src=&quot;/assets/images/checks/checks_annotation.png&quot; alt=&quot;demo-screenshot-from-checks-api-blog-post&quot;<span class="pl-c1">&amp;gt;&amp;lt;</span>/p<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
+        <td id="LC55" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
+        <td id="LC56" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>p<span class="pl-c1">&amp;gt;</span>Today we&#39;re making check annotations even more powerful by bringing more of them to where you&#39;re already looking: the &quot;Files changed&quot; tab. Checks annotations created on lines or files that were <span class="pl-c1">&amp;lt;</span>strong<span class="pl-c1">&amp;gt;</span>not<span class="pl-c1">&amp;lt;</span>/strong<span class="pl-c1">&amp;gt;</span> modified as part of a pull request will now be prominently displayed alongside the diff.<span class="pl-c1">&amp;lt;</span>/p<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
+        <td id="LC57" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
+        <td id="LC58" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>p<span class="pl-c1">&amp;gt;</span>Internal testing has proven that surfacing unchanged files with check annotations has been especially beneficial to our workflows, because test failures can often happen on files that weren&#39;t modified as part of a pull request.<span class="pl-c1">&amp;lt;</span>/p<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
+        <td id="LC59" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
+        <td id="LC60" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>p<span class="pl-c1">&amp;gt;&amp;lt;</span>a href=&quot;https://github.com/wilhelmklopp/failing-test-annotation/pull/2/files&quot;<span class="pl-c1">&amp;gt;</span>Click here to see it in action!<span class="pl-c1">&amp;lt;</span>/a<span class="pl-c1">&amp;gt;&amp;lt;</span>/p<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
+        <td id="LC61" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
+        <td id="LC62" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>p<span class="pl-c1">&amp;gt;</span>The best part? The <span class="pl-c1">&amp;lt;</span>a href=&quot;/v3/checks/runs/#annotations-object&quot;<span class="pl-c1">&amp;gt;</span>API for creating check annotations<span class="pl-c1">&amp;lt;</span>/a<span class="pl-c1">&amp;gt;</span> has not changed. If you&#39;re already creating annotations on files or lines outside of the diff, then there&#39;s no need to modify any code to use this improvement.<span class="pl-c1">&amp;lt;</span>/p<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
+        <td id="LC63" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
+        <td id="LC64" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>p<span class="pl-c1">&amp;gt;</span>If you have any questions or feedback, please <span class="pl-c1">&amp;lt;</span>a href=&quot;https://github.com/contact?form%5Bsubject%5D=Feedback:+More+check+annotations+are+now+shown+on+the+Files+changed+tab&quot;<span class="pl-c1">&amp;gt;</span>let us know.<span class="pl-c1">&amp;lt;</span>/a<span class="pl-c1">&amp;gt;&amp;lt;</span>/p<span class="pl-c1">&amp;gt;</span>&lt;/<span class="pl-ent">content</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
+        <td id="LC65" class="blob-code blob-code-inner js-file-line">  &lt;/<span class="pl-ent">entry</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
+        <td id="LC66" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">entry</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
+        <td id="LC67" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">id</span>&gt;tag:developer.github.com,2019-09-05:/changes/2019-09-05-apps-protected-branches-api/&lt;/<span class="pl-ent">id</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L68" class="blob-num js-line-number" data-line-number="68"></td>
+        <td id="LC68" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">title</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>html<span class="pl-pds">&quot;</span></span>&gt;Grant GitHub Apps push access to protected branches&lt;/<span class="pl-ent">title</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L69" class="blob-num js-line-number" data-line-number="69"></td>
+        <td id="LC69" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">published</span>&gt;2019-09-05T07:00:00Z&lt;/<span class="pl-ent">published</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L70" class="blob-num js-line-number" data-line-number="70"></td>
+        <td id="LC70" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">updated</span>&gt;2019-09-05T07:00:00Z&lt;/<span class="pl-ent">updated</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L71" class="blob-num js-line-number" data-line-number="71"></td>
+        <td id="LC71" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>alternate<span class="pl-pds">&quot;</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>https://developer.github.com/changes/2019-09-05-apps-protected-branches-api/<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L72" class="blob-num js-line-number" data-line-number="72"></td>
+        <td id="LC72" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">content</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>html<span class="pl-pds">&quot;</span></span>&gt;<span class="pl-c1">&amp;lt;</span>p<span class="pl-c1">&amp;gt;</span>The <span class="pl-c1">&amp;lt;</span>a href=&quot;/v3/repos/branches/&quot;<span class="pl-c1">&amp;gt;</span>Protected Branches API<span class="pl-c1">&amp;lt;</span>/a<span class="pl-c1">&amp;gt;</span> now allows you to grant GitHub Apps push access to protected branches.<span class="pl-c1">&amp;lt;</span>/p<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
+        <td id="LC73" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
+        <td id="LC74" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>p<span class="pl-c1">&amp;gt;</span>You can only grant GitHub Apps push access to a protected branch if they have been installed with the repository contents <span class="pl-c1">&amp;lt;</span>code<span class="pl-c1">&amp;gt;</span>write<span class="pl-c1">&amp;lt;</span>/code<span class="pl-c1">&amp;gt;</span> permission.<span class="pl-c1">&amp;lt;</span>/p<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
+        <td id="LC75" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L76" class="blob-num js-line-number" data-line-number="76"></td>
+        <td id="LC76" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>p<span class="pl-c1">&amp;gt;</span>The Protected Branches API now includes the following endpoints:<span class="pl-c1">&amp;lt;</span>/p<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L77" class="blob-num js-line-number" data-line-number="77"></td>
+        <td id="LC77" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L78" class="blob-num js-line-number" data-line-number="78"></td>
+        <td id="LC78" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>ul<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L79" class="blob-num js-line-number" data-line-number="79"></td>
+        <td id="LC79" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>li<span class="pl-c1">&amp;gt;&amp;lt;</span>a href=&quot;/v3/repos/branches/#list-apps-with-access-to-protected-branch&quot;<span class="pl-c1">&amp;gt;&amp;lt;</span>code<span class="pl-c1">&amp;gt;</span>GET /repos/:owner/:repo/branches/:branch/protection/restrictions/apps<span class="pl-c1">&amp;lt;</span>/code<span class="pl-c1">&amp;gt;&amp;lt;</span>/a<span class="pl-c1">&amp;gt;&amp;lt;</span>/li<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L80" class="blob-num js-line-number" data-line-number="80"></td>
+        <td id="LC80" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>li<span class="pl-c1">&amp;gt;&amp;lt;</span>a href=&quot;/v3/repos/branches/#replace-app-restrictions-of-protected-branch&quot;<span class="pl-c1">&amp;gt;&amp;lt;</span>code<span class="pl-c1">&amp;gt;</span>PUT /repos/:owner/:repo/branches/:branch/protection/restrictions/apps<span class="pl-c1">&amp;lt;</span>/code<span class="pl-c1">&amp;gt;&amp;lt;</span>/a<span class="pl-c1">&amp;gt;&amp;lt;</span>/li<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L81" class="blob-num js-line-number" data-line-number="81"></td>
+        <td id="LC81" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>li<span class="pl-c1">&amp;gt;&amp;lt;</span>a href=&quot;/v3/repos/branches/#add-app-restrictions-of-protected-branch&quot;<span class="pl-c1">&amp;gt;&amp;lt;</span>code<span class="pl-c1">&amp;gt;</span>POST /repos/:owner/:repo/branches/:branch/protection/restrictions/apps<span class="pl-c1">&amp;lt;</span>/code<span class="pl-c1">&amp;gt;&amp;lt;</span>/a<span class="pl-c1">&amp;gt;&amp;lt;</span>/li<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L82" class="blob-num js-line-number" data-line-number="82"></td>
+        <td id="LC82" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>li<span class="pl-c1">&amp;gt;&amp;lt;</span>a href=&quot;/v3/repos/branches/#remove-app-restrictions-of-protected-branch&quot;<span class="pl-c1">&amp;gt;&amp;lt;</span>code<span class="pl-c1">&amp;gt;</span>DELETE /repos/:owner/:repo/branches/:branch/protection/restrictions/apps<span class="pl-c1">&amp;lt;</span>/code<span class="pl-c1">&amp;gt;&amp;lt;</span>/a<span class="pl-c1">&amp;gt;&amp;lt;</span>/li<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L83" class="blob-num js-line-number" data-line-number="83"></td>
+        <td id="LC83" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>/ul<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L84" class="blob-num js-line-number" data-line-number="84"></td>
+        <td id="LC84" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L85" class="blob-num js-line-number" data-line-number="85"></td>
+        <td id="LC85" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>p<span class="pl-c1">&amp;gt;</span>The existing endpoint to set branch protection now accepts app restrictions:<span class="pl-c1">&amp;lt;</span>/p<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L86" class="blob-num js-line-number" data-line-number="86"></td>
+        <td id="LC86" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L87" class="blob-num js-line-number" data-line-number="87"></td>
+        <td id="LC87" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>ul<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L88" class="blob-num js-line-number" data-line-number="88"></td>
+        <td id="LC88" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>li<span class="pl-c1">&amp;gt;&amp;lt;</span>a href=&quot;/v3/repos/branches/#update-branch-protection&quot;<span class="pl-c1">&amp;gt;&amp;lt;</span>code<span class="pl-c1">&amp;gt;</span>PUT /repos/:owner/:repo/branches/:branch/protection<span class="pl-c1">&amp;lt;</span>/code<span class="pl-c1">&amp;gt;&amp;lt;</span>/a<span class="pl-c1">&amp;gt;&amp;lt;</span>/li<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L89" class="blob-num js-line-number" data-line-number="89"></td>
+        <td id="LC89" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>/ul<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L90" class="blob-num js-line-number" data-line-number="90"></td>
+        <td id="LC90" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L91" class="blob-num js-line-number" data-line-number="91"></td>
+        <td id="LC91" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">&amp;lt;</span>p<span class="pl-c1">&amp;gt;</span>If you have any questions or feedback, please <span class="pl-c1">&amp;lt;</span>a href=&quot;https://github.com/contact?form%5Bsubject%5D=Apps+Protected+Branchess&quot;<span class="pl-c1">&amp;gt;</span>get in touch<span class="pl-c1">&amp;lt;</span>/a<span class="pl-c1">&amp;gt;</span>!<span class="pl-c1">&amp;lt;</span>/p<span class="pl-c1">&amp;gt;</span>&lt;/<span class="pl-ent">content</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L92" class="blob-num js-line-number" data-line-number="92"></td>
+        <td id="LC92" class="blob-code blob-code-inner js-file-line">  &lt;/<span class="pl-ent">entry</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L93" class="blob-num js-line-number" data-line-number="93"></td>
+        <td id="LC93" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">entry</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L94" class="blob-num js-line-number" data-line-number="94"></td>
+        <td id="LC94" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">id</span>&gt;tag:developer.github.com,2019-07-16:/changes/2019-07-16-repository-templates-api/&lt;/<span class="pl-ent">id</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L95" class="blob-num js-line-number" data-line-number="95"></td>
+        <td id="LC95" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">title</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>html<span class="pl-pds">&quot;</span></span>&gt;Create and use repository templates&lt;/<span class="pl-ent">title</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L96" class="blob-num js-line-number" data-line-number="96"></td>
+        <td id="LC96" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">published</span>&gt;2019-07-16T07:00:00Z&lt;/<span class="pl-ent">published</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L97" class="blob-num js-line-number" data-line-number="97"></td>
+        <td id="LC97" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">updated</span>&gt;2019-07-16T07:00:00Z&lt;/<span class="pl-ent">updated</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L98" class="blob-num js-line-number" data-line-number="98"></td>
+        <td id="LC98" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>alternate<span class="pl-pds">&quot;</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>https://developer.github.com/changes/2019-07-16-repository-templates-api/<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L99" class="blob-num js-line-number" data-line-number="99"></td>
+        <td id="LC99" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">content</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>html<span class="pl-pds">&quot;</span></span>&gt;<span class="pl-c1">&amp;lt;</span>p<span class="pl-c1">&amp;gt;</span>Repository templates enable you to create a new repository using an existing one that is marked <span class="pl-c1">&amp;lt;</span>code<span class="pl-c1">&amp;gt;</span>is_template<span class="pl-c1">&amp;lt;</span>/code<span class="pl-c1">&amp;gt;</span>. This only copies repository contents without copying the commit history.<span class="pl-c1">&amp;lt;</span>/p<span class="pl-c1">&amp;gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L100" class="blob-num js-line-number" data-line-number="100"></td>
+        <td id="LC100" class="blob-code blob-code-inner js-file-line">
+</td>
 
 <script nonce="q/CvEYhBEMu+TpmJ7wue5g==">
 
