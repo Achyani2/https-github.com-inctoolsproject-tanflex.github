@@ -62,14 +62,14 @@ p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(argum
 };p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
 n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","https://assets.gitlab-static.net/assets/snowplow/sp-e10fd598642f1a4dd3e9e0e026f6a1ffa3c31b8a40efd92db3f92d32873baed6.js","snowplow"));
 
-window.snowplowOptions = {"namespace":"gl","hostname":"snowplow.trx.gitlab.net","cookieDomain":".gitlab.com","appId":"gitlab","formTracking":true,"linkClickTracking":true}
+window.snowplowOptions = {"namespace":"gl","hostname":"snowplow.trx.github.net","cookieDomain":".github.com","appId":"github","formTracking":true,"linkClickTracking":true}
 
 
 
 </script>
 </head>
 
-<body class="ui-indigo  gl-browser-opera gl-platform-android" data-find-file="/Masmax2244/flexnew3/find_file/master" data-group="" data-page="projects:blob:show" data-project="flexnew3">
+<body class="ui-indigo  gl-browser-opera gl-platform-android" data-find-file="/tanflex.github.io/tanflex/find_file/master" data-group="" data-page="projects:blob:show" data-project="tanflex">
 
 <script nonce="q/CvEYhBEMu+TpmJ7wue5g==">
 
