@@ -2,20 +2,20 @@
 <html class="" lang="en">
 <head prefix="og: http://ogp.me/ns#">
 <meta charset="utf-8">
-<link href="https://assets.gitlab-static.net" rel="dns-prefetch">
+<link href="https://assets.github-static.net" rel="dns-prefetch">
 <link crossorigin="" href="https://assets.gitlab-static.net" rel="preconnnect">
 <meta content="IE=edge" http-equiv="X-UA-Compatible">
 <meta content="object" property="og:type">
-<meta content="GitLab" property="og:site_name">
+<meta content="Gihub" property="og:site_name">
 <meta content="errorLog.txt · master · Masmax / flexnew3" property="og:title">
-<meta content="GitLab.com" property="og:description">
-<meta content="https://assets.gitlab-static.net/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="og:image">
+<meta content="Github.com" property="og:description">
+<meta content="https://assets.github-static.net/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="og:image">
 <meta content="64" property="og:image:width">
 <meta content="64" property="og:image:height">
-<meta content="https://gitlab.com/Masmax2244/flexnew3/blob/master/errorLog.txt" property="og:url">
+<meta content="https://github.com/Masmax2244/flexnew3/blob/master/errorLog.txt" property="og:url">
 <meta content="summary" property="twitter:card">
 <meta content="errorLog.txt · master · Masmax / flexnew3" property="twitter:title">
-<meta content="GitLab.com" property="twitter:description">
+<meta content="Github.com" property="twitter:description">
 <meta content="https://assets.gitlab-static.net/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="twitter:image">
 
 <title>errorLog.txt · master · Masmax / flexnew3 · GitLab</title>
