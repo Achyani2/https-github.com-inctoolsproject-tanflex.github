@@ -164,11 +164,7 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github
     </span>
 
     
-    
-    
-
-
-          <header class="Header js-details-container Details flex-wrap flex-lg-nowrap p-responsive" role="banner">
+      <header class="Header js-details-container Details flex-wrap flex-lg-nowrap p-responsive" role="banner">
 
     <div class="Header-item d-none d-lg-flex">
       <a class="Header-link" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
@@ -605,13 +601,7 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github
   <div class="repository-content ">
 
     
-    
-
-
-  
-
-
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/tanpattaya/linepy/blob/da8092a05092c1f86fccbfd4fed4a18e8fe2895b/changes.atom">Permalink</a>
+     <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/tanpattaya/linepy/blob/da8092a05092c1f86fccbfd4fed4a18e8fe2895b/changes.atom">Permalink</a>
 
     <!-- blob contrib key: blob_contributors:v21:f426ca088c6fc1fa2a11ee31dabc3f42 -->
       
@@ -663,10 +653,7 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github
       </div>
     </div>
 
-
-
-    
-  <div class="Box Box--condensed d-flex flex-column flex-shrink-0">
+     <div class="Box Box--condensed d-flex flex-column flex-shrink-0">
       <div class="Box-body d-flex flex-justify-between bg-blue-light flex-column flex-md-row flex-items-start flex-md-items-center">
         <span class="pr-md-4 f6">
           <a rel="author" data-skip-pjax="true" href="/tanpattaya"><img class="avatar" skip_hovercard="20" src="https://avatars3.githubusercontent.com/u/52064201?s=40&amp;v=4" width="20" height="20" alt="@tanpattaya" /></a>
@@ -704,11 +691,7 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github
     </div>
   </div>
 
-
-
-
-
-    <div class="Box mt-3 position-relative">
+  <div class="Box mt-3 position-relative">
       
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
 
@@ -750,18 +733,13 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github
    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
       
 
-<script nonce="Ol/ZUPvU1Jq7GDzofgCnTA==">
+  <script nonce="
 
-;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
-p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
-};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
-n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","https://assets.gitlab-static.net/assets/snowplow/sp-e10fd598642f1a4dd3e9e0e026f6a1ffa3c31b8a40efd92db3f92d32873baed6.js","snowplow"));
+  n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","https://assets.gitlab-static.net/assets/snowplow/sp-e10fd598642f1a4dd3e9e0e026f6a1ffa3c31b8a40efd92db3f92d32873baed6.js","snowplow"));
 
-window.snowplowOptions = {"namespace":"gl","hostname":"snowplow.trx.github.net","cookieDomain":".github.com","appId":"github","formTracking":true,"linkClickTracking":true}
+  window.snowplowOptions = {"namespace":"gl","hostname":"snowplow.trx.github.net","cookieDomain":".github.com","appId":"github","formTracking":true,"linkClickTracking":true}
 
-
-
-</script>
+ </script>
 </head>
 
 <body class="ui-indigo  gl-browser-opera gl-platform-android" data-find-file="/tanflex.github.io/tanflex/find_file/master" data-group="" data-page="projects:blob:show" data-project="tanflex">
