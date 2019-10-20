@@ -442,16 +442,16 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github
       <input type="hidden" name="context" value="repository"></input>
       <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar tanpattaya/linepy" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:212721722,&quot;client_id&quot;:&quot;1744417443.1561598502&quot;,&quot;originating_request_id&quot;:&quot;B804:6079:176D60C:21EBD5D:5D9B38BB&quot;,&quot;originating_url&quot;:&quot;https://github.com/tanpattaya/linepy/blob/master/changes.atom&quot;,&quot;referrer&quot;:&quot;https://github.com/tanpattaya/linepy&quot;,&quot;user_id&quot;:52064201}}" data-hydro-click-hmac="204617a8b232ab2e3f2bc54dd41b776a1b52daa1b8d73e98a9744ab27ca11b0c" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
         Unstar
-</button>        <a class="social-count js-social-count" href="/tanpattaya/linepy/stargazers"
+</button>        <a class="social-count js-social-count" href="/tanpattaya/tanflex.github.io/stargazers"
            aria-label="0 users starred this repository">
            0
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/tanpattaya/linepy/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="YgW6KVTdsWwc5qMS12bcaohoqH8aVzHR9b3VGJtLdAYGzl2Y0OKNNvOtD55p8MzVid40Pij1yjl6Gp0kVoZ8Fw==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/tanpattaya/tanflex.github.io/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="YgW6KVTdsWwc5qMS12bcaohoqH8aVzHR9b3VGJtLdAYGzl2Y0OKNNvOtD55p8MzVid40Pij1yjl6Gp0kVoZ8Fw==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star tanpattaya/linepy" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:212721722,&quot;client_id&quot;:&quot;1744417443.1561598502&quot;,&quot;originating_request_id&quot;:&quot;B804:6079:176D60C:21EBD5D:5D9B38BB&quot;,&quot;originating_url&quot;:&quot;https://github.com/tanpattaya/linepy/blob/master/changes.atom&quot;,&quot;referrer&quot;:&quot;https://github.com/tanpattaya/linepy&quot;,&quot;user_id&quot;:52064201}}" data-hydro-click-hmac="38dfc205e4582fbdda5d7bdc3609a2d6c854243adb8ff207eada66ab2eb42317" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star tanpattaya/tanflex.github.io" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:212721722,&quot;client_id&quot;:&quot;1744417443.1561598502&quot;,&quot;originating_request_id&quot;:&quot;B804:6079:176D60C:21EBD5D:5D9B38BB&quot;,&quot;originating_url&quot;:&quot;https://github.com/tanpattaya/tanflex.github.io/blob/master/changes.atom&quot;,&quot;referrer&quot;:&quot;https://github.com/tanpattaya/tanflex.github.io&quot;,&quot;user_id&quot;:52064201}}" data-hydro-click-hmac="38dfc205e4582fbdda5d7bdc3609a2d6c854243adb8ff207eada66ab2eb42317" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
         Star
-</button>        <a class="social-count js-social-count" href="/tanpattaya/linepy/stargazers"
+</button>        <a class="social-count js-social-count" href="/tanpattaya/tanflex.github.io/stargazers"
            aria-label="0 users starred this repository">
           0
         </a>
@@ -464,7 +464,7 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github
           <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
           Fork
 </span>
-    <a href="/tanpattaya/linepy/network/members" class="social-count"
+    <a href="/tanpattaya/tanflex.github.io/network/members" class="social-count"
        aria-label="0 users forked this repository">
       0
     </a>
@@ -478,7 +478,7 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github
 
   <span class="author" itemprop="author"><a class="url fn" rel="author" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=52064201" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/tanpattaya">tanpattaya</a></span><!--
 --><span class="path-divider">/</span><!--
---><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/tanpattaya/linepy">linepy</a></strong>
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/tanpattaya/tanflex.github.io">tanflex.github.io</a></strong>
   <span class="Label Label--outline v-align-middle ">Template</span>
 
 </h1>
@@ -492,14 +492,14 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github
      data-pjax="#js-repo-pjax-container">
 
   <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /tanpattaya/linepy" href="/tanpattaya/linepy">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /tanpattaya/tanflex.github.io" href="/tanpattaya/tanflex.github.io">
       <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
       <span itemprop="name">Code</span>
       <meta itemprop="position" content="1">
 </a>  </span>
 
     <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /tanpattaya/linepy/issues" href="/tanpattaya/linepy/issues">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /tanpattaya/tanflex.github.io/issues" href="/tanpattaya/tanflex.github.io/issues">
         <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
         <span itemprop="name">Issues</span>
         <span class="Counter">0</span>
@@ -507,7 +507,7 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github
 </a>    </span>
 
   <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /tanpattaya/linepy/pulls" href="/tanpattaya/linepy/pulls">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /tanpattaya/tanflex.github.io/pulls" href="/tanpattaya/tanflex.github.io/pulls">
       <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
       <span itemprop="name">Pull requests</span>
       <span class="Counter">0</span>
@@ -515,25 +515,25 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github
 </a>  </span>
 
 
-    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /tanpattaya/linepy/projects" href="/tanpattaya/linepy/projects">
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /tanpattaya/tanflex.github.io/projects" href="/tanpattaya/tanflex.github.io/projects">
       <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
       Projects
       <span class="Counter" >0</span>
 </a>
 
-    <a class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /tanpattaya/linepy/wiki" href="/tanpattaya/linepy/wiki">
+    <a class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /tanpattaya/tanflex.github.io/wiki" href="/tanpattaya/tanflex.github.io/wiki">
       <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
       Wiki
 </a>
-    <a data-skip-pjax="true" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy code_scanning /tanpattaya/linepy/network/alerts" href="/tanpattaya/linepy/network/alerts">
+    <a data-skip-pjax="true" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy code_scanning /tanpattaya/tanflex.github.io/network/alerts" href="/tanpattaya/tanflex.github.io/network/alerts">
       <svg class="octicon octicon-shield" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 2l7-2 7 2v6.02C14 12.69 8.69 16 7 16c-1.69 0-7-3.31-7-7.98V2zm1 .75L7 1l6 1.75v5.268C13 12.104 8.449 15 7 15c-1.449 0-6-2.896-6-6.982V2.75zm1 .75L7 2v12c-1.207 0-5-2.482-5-5.985V3.5z"/></svg>
       Security
 </a>
-    <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse people /tanpattaya/linepy/pulse" href="/tanpattaya/linepy/pulse">
+    <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse people /tanpattaya/tanflex.github.io/pulse" href="/tanpattaya/tanflex.github.io/pulse">
       <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
       Insights
 </a>
-    <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_settings repo_branch_settings hooks integration_installations repo_keys_settings issue_template_editor secrets_settings key_links_settings /tanpattaya/linepy/settings" href="/tanpattaya/linepy/settings">
+    <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_settings repo_branch_settings hooks integration_installations repo_keys_settings issue_template_editor secrets_settings key_links_settings /tanpattaya/tanflex.github.io/settings" href="/tanpattaya/tanflex.github.io/settings">
       <svg class="octicon octicon-gear" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 8.77v-1.6l-1.94-.64-.45-1.09.88-1.84-1.13-1.13-1.81.91-1.09-.45-.69-1.92h-1.6l-.63 1.94-1.11.45-1.84-.88-1.13 1.13.91 1.81-.45 1.09L0 7.23v1.59l1.94.64.45 1.09-.88 1.84 1.13 1.13 1.81-.91 1.09.45.69 1.92h1.59l.63-1.94 1.11-.45 1.84.88 1.13-1.13-.92-1.81.47-1.09L14 8.75v.02zM7 11c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"/></svg>
       Settings
 </a>
@@ -545,47 +545,47 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github
        itemtype="http://schema.org/BreadcrumbList">
 
     <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-      <a class="js-selected-navigation-item selected reponav-item" itemprop="url" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /tanpattaya/linepy" href="/tanpattaya/linepy">
+      <a class="js-selected-navigation-item selected reponav-item" itemprop="url" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /tanpattaya/tanflex.github.io" href="/tanpattaya/tanflex.github.io">
         <span itemprop="name">Code</span>
         <meta itemprop="position" content="1">
 </a>    </span>
 
       <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /tanpattaya/linepy/issues" href="/tanpattaya/linepy/issues">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /tanpattaya/tanflex.github.io/issues" href="/tanpattaya/tanflex.github.io/issues">
           <span itemprop="name">Issues</span>
           <span class="Counter">0</span>
           <meta itemprop="position" content="2">
 </a>      </span>
 
     <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /tanpattaya/linepy/pulls" href="/tanpattaya/linepy/pulls">
+      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /tanpattaya/tanflex.github.io/pulls" href="/tanpattaya/tanflex.github.io/pulls">
         <span itemprop="name">Pull requests</span>
         <span class="Counter">0</span>
         <meta itemprop="position" content="3">
 </a>    </span>
 
       <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /tanpattaya/linepy/projects" href="/tanpattaya/linepy/projects">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /tanpattaya/tanflex.github.io/projects" href="/tanpattaya/tanflex.github.io/projects">
           <span itemprop="name">Projects</span>
           <span class="Counter">0</span>
           <meta itemprop="position" content="4">
 </a>      </span>
 
       <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_wiki /tanpattaya/linepy/wiki" href="/tanpattaya/linepy/wiki">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_wiki /tanpattaya/tanflex.github.io/wiki" href="/tanpattaya/tanflex.github.io/wiki">
           <span itemprop="name">Wiki</span>
           <meta itemprop="position" content="5">
 </a>      </span>
 
-      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy code_scanning /tanpattaya/linepy/network/alerts" href="/tanpattaya/linepy/network/alerts">
+      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy code_scanning /tanpattaya/linepy/network/alerts" href="/tanpattaya/tanflex.github.io/network/alerts">
         <span itemprop="name">Security</span>
         <meta itemprop="position" content="6">
 </a>
-      <a class="js-selected-navigation-item reponav-item" data-selected-links="pulse /tanpattaya/linepy/pulse" href="/tanpattaya/linepy/pulse">
+      <a class="js-selected-navigation-item reponav-item" data-selected-links="pulse /tanpattaya/tanflex.github.io/pulse" href="/tanpattaya/tanflex.github.io/pulse">
         Pulse
 </a>
       <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="community /tanpattaya/linepy/community" href="/tanpattaya/linepy/community">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="community /tanpattaya/linepy/community" href="/tanpattaya/tanflex.github.io/community">
           Community
 </a>      </span>
 
@@ -598,7 +598,7 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github
   <div class="repository-content ">
 
     
-     <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/tanpattaya/linepy/blob/da8092a05092c1f86fccbfd4fed4a18e8fe2895b/changes.atom">Permalink</a>
+     <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/tanpattaya/tanflex.github.io/blob/da8092a05092c1f86fccbfd4fed4a18e8fe2895b/changes.atom">Permalink</a>
 
     <!-- blob contrib key: blob_contributors:v21:f426ca088c6fc1fa2a11ee31dabc3f42 -->
       
@@ -614,7 +614,7 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github
     <span class="css-truncate-target" data-menu-button>master</span>
   </summary>
 
-  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/tanpattaya/linepy/ref-list/master/changes.atom?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/tanpattaya/tanflex.github.io/ref-list/master/changes.atom?source_action=show&amp;source_controller=blob" preload>
     <include-fragment class="select-menu-loading-overlay anim-pulse">
       <svg height="32" class="octicon octicon-octoface" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
     </include-fragment>
@@ -634,7 +634,7 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github
         </div>
       </span>
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/tanpattaya/linepy"><span>linepy</span></a></span></span><span class="separator">/</span><strong class="final-path">changes.atom</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/tanpattaya/tanflex.github.io"><span>tanflex.github.io</span></a></span></span><span class="separator">/</span><strong class="final-path">changes.atom</strong>
       </h2>
 
       <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
@@ -656,7 +656,7 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github
           <a rel="author" data-skip-pjax="true" href="/tanpattaya"><img class="avatar" skip_hovercard="20" src="https://avatars3.githubusercontent.com/u/52064201?s=40&amp;v=4" width="20" height="20" alt="@tanpattaya" /></a>
           <a class="text-bold link-gray-dark lh-default v-align-middle" rel="author" href="/tanpattaya">tanpattaya</a>
             <span class="lh-default v-align-middle">
-              <a data-pjax="true" title="Add files via upload" class="link-gray" href="/tanpattaya/linepy/commit/c190a2db72a4bbaf30b0ce8ad8feff346111a1a7">Add files via upload</a>
+              <a data-pjax="true" title="Add files via upload" class="link-gray" href="/tanpattaya/tanflex.github.io/commit/c190a2db72a4bbaf30b0ce8ad8feff346111a1a7">Add files via upload</a>
             </span>
         </span>
         <span class="d-inline-block flex-shrink-0 v-align-bottom f6 mt-2 mt-md-0">
@@ -709,7 +709,7 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github
 
     <div>
 
-            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/tanpattaya/linepy/edit/master/changes.atom" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="z74w1+maHjhua9bpVL9pPhQWhnWdtX5hsPndqZdE1pc5H6Pu2UrBQ8QVmROgK2Twrhe4zsq9gyvudfO1/ijTKA==" />
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/tanpattaya/tanflex.github.io/edit/master/changes.atom" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="z74w1+maHjhua9bpVL9pPhQWhnWdtX5hsPndqZdE1pc5H6Pu2UrBQ8QVmROgK2Twrhe4zsq9gyvudfO1/ijTKA==" />
               <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
                 aria-label="Edit this file" data-hotkey="e" data-disable-with>
                 <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
@@ -780,7 +780,7 @@ Next
 </a></li><li class=""><a title="Groups" class="dashboard-shortcuts-groups" href="/explore/groups">Groups
 </a></li><li class=""><a title="Snippets" class="dashboard-shortcuts-snippets" href="/explore/snippets">Snippets
 </a></li><li>
-<a title="About GitLab CE" href="/help">Help</a>
+<a title="About Github CE" href="/help">Help</a>
 </li>
 </ul>
 
