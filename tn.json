@@ -35,9 +35,7 @@
 
 <link rel="stylesheet" media="all" href="https://assets.github-static.net/assets/highlight/themes/white-3144068cf4f603d290f553b653926358ddcd02493b9728f62417682657fc58c0.css" />
 <script nonce="Ol/ZUPvU1Jq7GDzofgCnTA==">
-//<![ [
 window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github-static.net/assets/no_avatar-849f9c04a3a0d0cea2424ae97b27447dc64a7dbfae83c036c45b403392f0e8ba.png";gon.max_file_size=10;gon.asset_host="https://assets.gitlab-static.net";gon.webpack_public_path="https://assets.github-static.net/assets/webpack/";gon.relative_url_root="";gon.shortcuts_path="/help/shortcuts";gon.user_color_scheme="white";gon.sentry_dsn="https://526a2f38a53d44e3a8e69bfa001d1e8b@sentry.github.net/15";gon.sentry_environment=null;gon.github_url="https://github.com";gon.revision="f79c1794977";gon.github_logo="https://assets.github-static.net/assets/github_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png";gon.sprite_icons="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg";gon.sprite_file_icons="https://github.com/assets/file_icons-7262fc6897e02f1ceaf8de43dc33afa5e4f9a2067f4f68ef77dcc87946575e9e.svg";gon.emoji_sprites_css_path="https://assets.gitgub-static.net/assets/emoji_sprites-289eccffb1183c188b630297431be837765d9ff4aed6130cf738586fb307c170.css";gon.test_env=false;gon.suggested_label_colors={"#0033CC":"UA blue","#428BCA":"Moderate blue","#44AD8E":"Lime green","#A8D695":"Feijoa","#5CB85C":"Slightly desaturated green","#69D100":"Bright green","#004E00":"Very dark lime green","#34495E":"Very dark desaturated blue","#7F8C8D":"Dark grayish cyan","#A295D6":"Slightly desaturated blue","#5843AD":"Dark moderate blue","#8E44AD":"Dark moderate violet","#FFECDB":"Very pale orange","#AD4363":"Dark moderate pink","#D10069":"Strong pink","#CC0033":"Strong red","#FF0000":"Pure red","#D9534F":"Soft red","#D1D100":"Strong yellow","#F0AD4E":"Soft orange","#AD8D43":"Dark moderate orange"};gon.first_day_of_week=0;gon.ee=true;gon.features={"suppressAjaxNavigationErrors":true,"privacyPolicyUpdateCallout":false};
-//]]>
 </script>
 
 <script src="https://assets.github-static.net/assets/webpack/runtime.5728e69e.bundle.js" defer="defer"></script>
@@ -177,23 +175,21 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github
 
 
 <script nonce="Ol/ZUPvU1Jq7GDzofgCnTA==">
-//<![ [
-;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
-p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
-};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
-n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","https://assets.gitlab-static.net/assets/snowplow/sp-e10fd598642f1a4dd3e9e0e026f6a1ffa3c31b8a40efd92db3f92d32873baed6.js","snowplow"));
+;(function(p,l,o,w,i,n,g){if(p[]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+p.GlobalSnowplowNamespace.push();p[i]=function(){(p[].q=p[].q||[]).push(arguments)
+};p[].q=p[].q||[];n=l.createElement();g=l.getElementsByTagName()[];n.async=1;
+n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","https://assets.github-static.net/assets/snowplow/sp-e10fd598642f1a4dd3e9e0e026f6a1ffa3c31b8a40efd92db3f92d32873baed6.js","snowplow"));
 
-window.snowplowOptions = {"namespace":"gl","hostname":"snowplow.trx.gitlab.net","cookieDomain":".gitlab.com","appId":"gitlab","formTracking":true,"linkClickTracking":true}
+window.snowplowOptions = {"namespace":"gl","hostname":"snowplow.trx.github.net","cookieDomain":".github.com","appId":"github","formTracking":true,"linkClickTracking":true}
 
 
-//]]>
 </script>
 </head>
 
-<body class="ui-indigo  gl-browser-opera gl-platform-android" data-find-file="/Masmax2244/flexnew3/find_file/master" data-group="" data-page="projects:blob:show" data-project="flexnew3">
+//tanflex/find_file/master" data-group="" data-page="projects:blob:show" data-project="tanflex">
 
 <script nonce="Ol/ZUPvU1Jq7GDzofgCnTA==">
-//<![ [
+
 gl = window.gl || {};
 gl.client = {"isOpera":true,"isAndroid":true};
 
