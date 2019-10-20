@@ -87,10 +87,7 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github
   <link rel="sudo-modal" href="/sessions/sudo_modal">
   <meta name="request-id" content="B804:6079:176D60C:21EBD5D:5D9B38BB" data-pjax-transient>
 
-
-  
-
-  <meta name="selected-link" value="repo_source" data-pjax-transient>
+   <meta name="selected-link" value="repo_source" data-pjax-transient>
 
       <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
     <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
