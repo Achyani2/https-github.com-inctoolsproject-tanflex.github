@@ -19,7 +19,7 @@
                         {
                             "type": "uri",
                             "label": "CHANNEL APP",
-                            "uri": "line://app/1623679774-9GWpqpGw"
+                            "uri": "line://app/1626556804-ELKPkeAO"
                         },
                         {
                             "type": "uri",
@@ -35,13 +35,13 @@
                     "text": "khusu indo pakai vpn bukanya wkwkwk",
                     "defaultAction": {
                         "type": "uri",
-                        "uri": "line://app/1609524990-1jLXNPLN"
+                        "uri": "line://app/1626556804-ELKPkeAO"
                     },
                     "actions": [
                         {
                             "type": "uri",
                             "label": "OPEN OKEP",
-                            "uri": "line://app/1609524990-1jLXNPLN"
+                            "uri": "line://app/1626556804-ELKPkeAO"
                         },
                         {
                             "type": "uri",
@@ -57,18 +57,18 @@
                     "text": "aplikasi facebook lite",
                     "defaultAction": {
                         "type": "uri",
-                        "uri": "line://ti/p/~denjaka-inexx"
+                        "uri": "line://ti/p/~ptatan1983"
                     },
                     "actions": [
                         {
                             "type": "uri",
                             "label": "FACEBOOK",
-                            "uri": "line://app/1609524990-mpvZ5xv5"
+                            "uri": "line://app/1626556804-bXk15pYd"
                         },
                         {
                             "type": "uri",
                             "label": "REQUEST LIFF",
-                            "uri": "line://ti/p/~adiputra.95"
+                            "uri": "line://ti/p/~ptatan1983"
                         }
                     ]
                 },
@@ -79,18 +79,18 @@
                     "text": "klik disini",
                     "defaultAction": {
                         "type": "uri",
-                        "uri": "line://app/1623679774-qmmXPXJ5"
+                        "uri": "line://app/1626556804-ELKPkeAO"
                     },
                     "actions": [
                         {
                             "type": "uri",
                             "label": "GOOGLE PLAY",
-                            "uri": "line://app/1623679774-qmmXPXJ5"
+                            "uri": "line://app/1626556804-ELKPkeAO"
                         },
                         {
                             "type": "uri",
                             "label": "SOUNDCLOUD",
-                            "uri": "line://app/1623679774-lGOq9q3G"
+                            "uri": "line://app/1626556804-ELKPkeAO"
                         }
                     ]
                 },
@@ -101,18 +101,18 @@
                     "text": "add kontak di bawah ini guys",
                     "defaultAction": {
                         "type": "uri",
-                        "uri": "line://ti/p/~denjaka-inexx"
+                        "uri": "line://ti/p/~ptatan1983"
                     },
                     "actions": [
                         {
                             "type": "uri",
                             "label": "LINE ME",
-                            "uri": "line://ti/p/~denjaka-inexx"
+                            "uri": "line://ti/p/~ptatan1983"
                         },
                         {
                             "type": "uri",
                             "label": "OFFICIAL",
-                            "uri": "line://ti/p/~denjaka-inexx"
+                            "uri": "line://ti/p/~ptatan1983"
                         }
                     ]
                 }
@@ -132,18 +132,18 @@
                     "text": "game online gratis",
                     "defaultAction": {
                         "type": "uri",
-                        "uri": "line://app/1623679774-j4rZkZ51"
+                        "uri": "line://app/1626556804-bXk15pYd"
                     },
                     "actions": [
                         {
                             "type": "uri",
                             "label": "MAINKAN",
-                            "uri": "line://app/1623679774-j4rZkZ51"
+                            "uri": "line://app/1626556804-bXk15pYd"
                         },
                         {
                             "type": "uri",
                             "label": "GAME LAINYA",
-                            "uri": "line://app/1609524990-ODaJ0Va0"
+                            "uri": "line://app/1626556804-bXk15pYd"
                         }
                     ]
                 },
@@ -154,7 +154,7 @@
                     "text": "Sing! Smule",
                     "defaultAction": {
                         "type": "uri",
-                        "uri": "line://app/1623679774-rAvzDz16"
+                        "uri": "line://app/1626556804-bXk15pYd"
                     },
                     "actions": [
                         {
@@ -165,7 +165,7 @@
                         {
                             "type": "uri",
                             "label": "SMULE WEB",
-                            "uri": "line://app/1609524990-GgOweZOe"
+                            "uri": "line://app/1626556804-bXk15pYd"
                         }
                     ]
                 },
@@ -176,18 +176,18 @@
                     "text": "SOSIAL MEDIA",
                     "defaultAction": {
                         "type": "uri",
-                        "uri": "line://ti/p/~denjaka-inexx"
+                        "uri": "line://ti/p/~ptatan1983"
                     },
                     "actions": [
                         {
                             "type": "uri",
                             "label": "INSTAGRAM",
-                            "uri": "line://app/1609524990-2pakJ9aJ"
+                            "uri": "line://app/1626556804-KYN4RLAM"
                         },
                         {
                             "type": "uri",
                             "label": "TWITTER",
-                            "uri": "line://app/1609524990-P4ajo8ao"
+                            "uri": "line://app/1626556804-KYN4RLAM"
                         }
                     ]
                 },
@@ -198,18 +198,18 @@
                     "text": "klik disini untuk membuat",
                     "defaultAction": {
                         "type": "uri",
-                        "uri": "line://app/1609524990-pdlOGglG"
+                        "uri": "line://app/1607143364-vAaxGxZ2"
                     },
                     "actions": [
                         {
                             "type": "uri",
                             "label": "CREATE LOGO",
-                            "uri": "line://app/1609524990-pdlOGglG"
+                            "uri": "line://app/1607143364-vAaxGxZ2"
                         },
                         {
                             "type": "uri",
                             "label": "TEKS FANCY",
-                            "uri": "line://app/1609524990-gD4e2X42"
+                            "uri": "line://app/1607143364-vAaxGxZ2"
                         }
                     ]
                 },
@@ -220,18 +220,18 @@
                     "text": "LINE STICKER",
                     "defaultAction": {
                         "type": "uri",
-                        "uri": "line://ti/p/~denjaka-inexx"
+                        "uri": "line://ti/p/~ptatan1983"
                     },
                     "actions": [
                         {
                             "type": "uri",
                             "label": "GIF STICKER",
-                            "uri": "line://app/1623679774-k9nBDB6b?type=sticker&stk=anim&sid=36276468&pkg=3259824"
+                            "uri": "line://app/1626556804-bXk15pYd?type=sticker&stk=anim&sid=36276468&pkg=3259824"
                         },
                         {
                             "type": "uri",
                             "label": "IMG STICKER",
-                            "uri": "line://app/1623679774-k9nBDB6b?type=sticker&stk=noanim&sid=36276468&pkg=3259824"
+                            "uri": "line://app/1626556804-bXk15pYd?type=sticker&stk=noanim&sid=36276468&pkg=3259824"
                         }
                     ]
                 }
@@ -247,35 +247,35 @@
             "columns": [
                 {
                     "thumbnailImageUrl": "https://1.bp.blogspot.com/-0cJUYiIj9So/Wg_statUjsI/AAAAAAAAK1k/6L1sY5xJEIUfi-8hxW6KuKBSy6jiVoChQCLcBGAs/s1600/Casey_Youtube_GIF.0.gif",
-                    "title": "Ã¢ÂÂÃÂ°ÃÂÃÂ°ÃÂÃÂ°ÃÂÃÂ°Ã¢ÂÂÃÂ°ÃÂÃÂ°ÃÂ·ÃÂ°ÃÂÃÂ°ÃÂºÃÂ°ÃÂÃÂ°ÃÂ²ÃÂ°ÃÂÃÂ°Ã¢ÂÂÃÂ°ÃÂÃÂ°ÃÂÃÂ°ÃÂÃÂ°ÃÂÃÂ°ÃÂÃÂ°",
+                    "title": "꧁💓 @:꓄ꍏꈤᖘꍏ꓄꓄ꍏꌩ💓꧂",
                     "text": "REPOSITORY",
                     "actions": [
                         {
                             "type": "uri",
                             "label": "YOUTUBE",
-                            "uri": "line://app/1623679774-9GWpqpGw"
+                            "uri": "line://app/1626556804-KYN4RLAM"
                         },
                         {
                             "type": "uri",
                             "label": "OWNER",
-                            "uri": "http://line.me/ti/p/~denjaka-inexx"
+                            "uri": "http://line://ti/p/~ptatan1983"
                         }
                     ]
                 },
                 {
                     "thumbnailImageUrl": "https://preview.ibb.co/ksscEq/1541434980556.jpg",
-                    "title": "Ã¢ÂÂ°[RÃÂ¶TÃÂ¶BÃÂ¶] Ã¡ÂÂ¢Ã¡ÂÂ¬Ã¡ÂÂªÃ¡ÂÂ· Ã¡ÂÂ´Ã¡ÂÂ¾Ã¡ÂÂ¢Ã¡ÂÂÃ¢ÂÂ°",
+                    "title":"꧁💓 @:꓄ꍏꈤᖘꍏ꓄꓄ꍏꌩ💓꧂",
                     "text": "FARTHNER",
                     "actions": [
                         {
                             "type": "uri",
                             "label": "CREATOR",
-                            "uri": "http://line.me/ti/p/~denjaka-inexx"
+                            "uri": "http://line.me/ti/p/~ptatan1983"
                         },
                         {
                             "type": "uri",
                             "label": "PROFILE",
-                            "uri": "line://nv/profilePopup/mid=ua5b1fd053f5a6951349b912a8a7b6755"
+                            "uri": "line://nv/profilePopup/mid=udb43d62b8ab3d9390881ded66f8a037a"
                         }
                     ]
                 }
