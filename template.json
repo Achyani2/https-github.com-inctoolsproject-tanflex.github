@@ -1811,7 +1811,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "PROTECT GROUP",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Pro on"
+                                    "uri": "line://app/1626556804-GvDNyK69?type=text&text=Pro on"
                                 }
                             },
                             {
@@ -1828,7 +1828,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "PROTECT OFF GRUP",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Pro off"
+                                    "uri": "line://app/1626556804-GvDNyK69?type=text&text=Pro off"
                                 }
                             },
                             {
@@ -1845,7 +1845,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "SIDER GRUP",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=X on"
+                                    "uri": "line://app/1626556804-GvDNyK69?type=text&text=X on"
                                 }
                             },
                             {
@@ -1862,7 +1862,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "SIDER OFF",
-                                    "uri": "line://app/1607143364-vAaxGxZ2?type=text&text=X off"
+                                    "uri": "line://app/1626556804-GvDNyK69?type=text&text=X off"
                                 }
                             },
                             {
@@ -1879,7 +1879,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "RESPON ASSIST BOT",
-                                    "uri": "line://app/1607143364-vAaxGxZ2?type=text&text=Ping"
+                                    "uri": "line://app/1626556804-GvDNyK69?type=text&text=Ping"
                                 }
                             },
                             {
@@ -1896,7 +1896,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "GANTI NAMA BOT",
-                                    "uri": "line://app/1607143364-vAaxGxZ2?type=text&text=ketik Bot1name: / Jsname: "
+                                    "uri": "line://app/1626556804-GvDNyK69?type=text&text=ketik Bot1name: / Jsname: "
                                 }
                             },
                             {
@@ -1913,7 +1913,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "MASUK KELUAR BOT",
-                                    "uri": "line://app/1607143364-vAaxGxZ2?type=text&text=Masuk/./Keluar/,/"
+                                    "uri": "line://app/1626556804-GvDNyK69?type=text&text=Masuk/./Keluar/,/"
                                 }
                             },
                             {
@@ -1930,7 +1930,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "ANTIJS STAY",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Stay"
+                                    "uri": "line://app/1626556804-GvDNyK69?type=text&text=Stay"
                                 }
                             },
                             {
@@ -1947,7 +1947,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "ANTIJS KELUAR/MASUK",
-                                    "uri": "line://app/1607143364-vAaxGxZ2?type=text&text=G join/G bye"
+                                    "uri": "line://app/1626556804-GvDNyK69?type=text&text=G join/G bye"
                                 }
                             },
                             {
@@ -1964,7 +1964,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "DAFTAR HARGA",
-                                    "uri": "line://app/1607143364-vAaxGxZ2?type=text&text=Price"
+                                    "uri": "line://app/1626556804-GvDNyK69?type=text&text=Price"
                                 }
                             },
                             {
@@ -1981,7 +1981,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "ME",
-                                    "uri": "line:1607143364-vAaxGxZ2?type=text&text=Me"
+                                    "uri": "line://app/1626556804-GvDNyK69?type=text&text=Me"
                                 }
                             }
                         ]
@@ -2053,7 +2053,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "HELP MEDIA",
-                                    "uri": "line://app/?1607143364-vAaxGxZ2type=text&text=Helpmedia"
+                                    "uri": "line://app/1626556804-ELKPkeAO?type=text&text=Helpmedia"
                                 }
                             },
                             {
@@ -2070,7 +2070,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "HELP ME",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Key"
+                                    "uri": "line://app/1626556804-ELKPkeAO?type=text&text=Key"
                                 }
                             },
                             {
@@ -2087,7 +2087,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "HELP GROUP",
-                                    "uri": "line://app/1607143364-vAaxGxZ2?type=text&text=Help2"
+                                    "uri": "line://app/1626556804-ELKPkeAO?type=text&text=Help2"
                                 }
                             },
                             {
@@ -2104,7 +2104,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "GALERI",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Galeri"
+                                    "uri": "line://app/1626556804-ELKPkeAO?type=text&text=Galeri"
                                 }
                             },
                             {
@@ -2121,7 +2121,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "MULTIMEDIA",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Listapp"
+                                    "uri": "line://app/1626556804-ELKPkeAO?type=text&text=Listapp"
                                 }
                             },
                             {
@@ -2138,7 +2138,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "MEDIA",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Helpmedia"
+                                    "uri": "line://app/1626556804-ELKPkeAO?type=text&text=Helpmedia"
                                 }
                             },
                             {
@@ -2155,7 +2155,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "TOKENLIST",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Tokenlist"
+                                    "uri": "line://app/1626556804-ELKPkeAO?type=text&text=Tokenlist"
                                 }
                             },
                             {
@@ -2172,7 +2172,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "YOUTUBE",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Youtube"
+                                    "uri": "line://app/1626556804-ELKPkeAO?type=text&text=Youtube"
                                 }
                             },
                             {
@@ -2189,7 +2189,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "MUSIC / MP3",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Musik"
+                                    "uri": "line://app/1626556804-ELKPkeAO?type=text&text=Musik"
                                 }
                             },
                             {
@@ -2206,7 +2206,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "TV ONLINE",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Tipi"
+                                    "uri": "line://app/1626556804-ELKPkeAO?type=text&text=Tipi"
                                 }
                             },
                             {
@@ -2223,7 +2223,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "DAFTAR HARGA",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Price"
+                                    "uri": "line://app/1626556804-ELKPkeAO?type=text&text=Price"
                                  }
                             }
                         ]
@@ -2306,7 +2306,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "MASIH KOSONG",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Kosong"
+                                    "uri": "line://app/1626556804-ELKPkeAO?type=text&text=Kosong"
                                 }
                             },
                             {
@@ -2323,7 +2323,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "MASIH KOSONG",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Kosong"
+                                    "uri": "line://app/1626556804-ELKPkeAO?type=text&text=Kosong"
                                 }
                             },
                             {
@@ -2340,7 +2340,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "MASIH KOSONG",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Kosong"
+                                    "uri": "line://app/1626556804-ELKPkeAO?type=text&text=Kosong"
                                 }
                             },
                             {
@@ -2357,7 +2357,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "MASIH KOSONG",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Kosong"
+                                    "uri": "line://app/1626556804-ELKPkeAO?type=text&text=Kosong"
                                 }
                             },
                             {
@@ -2374,7 +2374,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "MASIH KOSONG",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Kosong"
+                                    "uri": "line://app/1626556804-ELKPkeAO?type=text&text=Kosong"
                                 }
                             },
                             {
@@ -2391,7 +2391,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "MASIH KOSONG",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Kosong"
+                                    "uri": "line://app/1626556804-ELKPkeAO?type=text&text=Kosong"
                                 }
                             },
                             {
@@ -2408,7 +2408,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "MASIH KOSONG",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Tag"
+                                    "uri": "line://app/1626556804-ELKPkeAO?type=text&text=Tag"
                                 }
                             },
                             {
@@ -2425,7 +2425,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "MASIH KOSONG",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=voice"
+                                    "uri": "line://app/1626556804-GvDNyK69?type=text&text=voice"
                                 }
                             },
                             {
@@ -2442,7 +2442,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "MASIH KOSONG",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Listapp"
+                                    "uri": "line://app/1626556804-GvDNyK69?type=text&text=Listapp"
                                 }
                             },
                             {
@@ -2459,7 +2459,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "MASIH KOSONG",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Price"
+                                    "uri": "line://app/1626556804-GvDNyK69?type=text&text=Price"
                                 }
                             },
                             {
@@ -2476,7 +2476,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "MASIH KOSONG",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Galeri"
+                                    "uri": "line://app/1626556804-GvDNyK69?type=text&text=Galeri"
                                 }
                             }
                         ]
@@ -2541,7 +2541,7 @@
                                 "gravity": "center",
                                 "action": {
                                     "type": "uri",
-                                    "uri": "http://line.me/ti/p/~denjaka-inexx"
+                                    "uri": "line://ti/p/~ptatan1983"
                                 }
                             },
                             {
@@ -2555,7 +2555,7 @@
                                 "gravity": "center",
                                 "action": {
                                     "type": "uri",
-                                    "uri": "http://line.me/ti/p/~denjaka-inexx"
+                                    "uri": "line://ti/p/~ptatan1983"
                                 }
                             }
                         ]
@@ -2641,7 +2641,7 @@
                 "aspectMode": "cover",
                 "action": {
                     "type": "uri",
-                    "uri": "https://line.me/ti/p/~denjaka-inexx"
+                    "uri": "https://line/ti/p/~ptatan1983"
                 }
             },
             "body": {
@@ -2677,8 +2677,8 @@
                                 "height": "sm",
                                 "action": {
                                    "type": "uri",
-                                   "label": "Ã°ÂÂÂ¼Ã°ÂÂÂÃ°ÂÂÂÃ°ÂÂÂ¸Ã°ÂÂÂºÃ°ÂÂÂ¹Ã°ÂÂÂ¾Ã°ÂÂÂ¾Ã°ÂÂÂ",
-                                   "uri": "line://app/1623679774-z6dOvOV9"
+                                   "label": "꧁💓 @:꓄ꍏꈤᖘꍏ꓄꓄ꍏꌩ💓꧂",
+                                   "uri": "line://app/1626556804-bXk15pYd"
                                 }
                             },
                             {
@@ -2710,8 +2710,8 @@
                                 "height": "sm",
                                 "action": {
                                    "type": "uri",
-                                   "label": "Ã°ÂÂÂ¿Ã°ÂÂÂ´Ã°ÂÂÂ½Ã°ÂÂÂ²Ã°ÂÂÂ°Ã°ÂÂÂÃ°ÂÂÂ¸Ã°ÂÂÂ°Ã°ÂÂÂ½",
-                                   "uri": "line://app/1623679774-3vDKkKaP"
+                                   "label": "꧁💓 @:꓄ꍏꈤᖘꍏ꓄꓄ꍏꌩ💓꧂",
+                                   "uri": "line://app/1626556804-bXk15pYd"
                                 }
                             },
                             {
@@ -2743,8 +2743,8 @@
                                 "height": "sm",
                                 "action": {
                                    "type": "uri",
-                                   "label": "Ã°ÂÂÂ»Ã°ÂÂÂ¸Ã°ÂÂÂÃ°ÂÂÂ¸Ã°ÂÂÂºÃ°ÂÂÂ»Ã°ÂÂÂ°Ã°ÂÂÂ¶Ã°ÂÂÂ",
-                                   "uri": "line://app/1623679774-oYnAvAdW"
+                                   "label": "꧁💓 @:꓄ꍏꈤᖘꍏ꓄꓄ꍏꌩ💓꧂",
+                                   "uri": "line://app/1626556804-bXk15pYd"
                                 }
                             },
                             {
@@ -2776,8 +2776,8 @@
                                 "height": "sm",
                                 "action": {
                                    "type": "uri",
-                                   "label": "Ã°ÂÂÂ´Ã°ÂÂÂ³Ã°ÂÂÂ¸Ã°ÂÂÂÃ°ÂÂÂµÃ°ÂÂÂ¾Ã°ÂÂÂÃ°ÂÂÂ¾",
-                                   "uri": "line://app/1623679774-1pKn8ngr"
+                                   "label": "꧁💓 @:꓄ꍏꈤᖘꍏ꓄꓄ꍏꌩ💓꧂",
+                                   "uri": "line://app/1626556804-bXk15pYd"
                                 }
                             },
                             {
@@ -2809,8 +2809,8 @@
                                 "height": "sm",
                                 "action": {
                                    "type": "uri",
-                                   "label": "Ã°ÂÂÂºÃ°ÂÂÂ°Ã°ÂÂÂ»Ã°ÂÂÂ´Ã°ÂÂÂ½Ã°ÂÂÂ³Ã°ÂÂÂ´Ã°ÂÂÂ",
-                                   "uri": "line://app/1623679774-YvdwxwV3"
+                                   "label": "꧁💓 @:꓄ꍏꈤᖘꍏ꓄꓄ꍏꌩ💓꧂",
+                                   "uri": "line://app/1626556804-KYN4RLAM"
                                 }
                             },
                             {
@@ -2842,8 +2842,8 @@
                                 "height": "sm",
                                 "action": {
                                    "type": "uri",
-                                   "label": "Ã°ÂÂÂ½Ã°ÂÂÂ¾Ã°ÂÂÂÃ°ÂÂÂ´Ã°ÂÂÂ¿Ã°ÂÂÂ°Ã°ÂÂÂ³",
-                                   "uri": "line://app/1623679774-pXJyQy1D"
+                                   "label": "꧁💓 @:꓄ꍏꈤᖘꍏ꓄꓄ꍏꌩ💓꧂",
+                                   "uri": "line://app/1626556804-KYN4RLAM"
                                 }
                             },
                             {
@@ -2876,8 +2876,8 @@
                                 "gravity": "top",
                                 "action": {
                                    "type": "uri",
-                                   "label": "Ã°ÂÂÂÃ°ÂÂÂÃ°ÂÂÂ¾Ã°ÂÂÂ½Ã°ÂÂÂ»Ã°ÂÂÂ¸Ã°ÂÂÂ½Ã°ÂÂÂ´",
-                                   "uri": "line://app/1623679774-WVajRjDn"
+                                   "label": "꧁💓 @:꓄ꍏꈤᖘꍏ꓄꓄ꍏꌩ💓꧂",
+                                   "uri": "line://app/1626556804-bXk15pYd"
                                 }
                             }
                         ]
@@ -2900,7 +2900,7 @@
                             "action": {
                                 "type": "uri",
                                 "label": "Ã°ÂÂÂ¼Ã°ÂÂÂÃ°ÂÂÂÃ°ÂÂÂÃ°ÂÂÂ±Ã°ÂÂÂ´",
-                                "uri": "https://bit.ly/2xbVxlh"
+                                "uri": "https://bit.l"
                             }
                         }
                     ]
