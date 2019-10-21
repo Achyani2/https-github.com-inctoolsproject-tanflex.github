@@ -298,7 +298,7 @@ Merge Requests
 </span>
 </a></li></ul>
 </li><li class=""><a class="shortcuts-pipelines qa-link-pipelines rspec-link-pipelines" href="/tanflex.github.io/tanflex/pipelines"><div class="nav-icon-container">
-<svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#rocket"></use></svg>
+<svg><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#rocket"></use></svg>
 </div>
 <span class="nav-item-name" id="js-onboarding-pipelines-link">
 CI / CD
@@ -328,30 +328,30 @@ Charts
 Security &amp; Compliance
 </span>
 </a><ul class="sidebar-sub-level-items">
-<li class="fly-out-top-item"><a href="/Masmax2244/flexnew3/dependencies"><strong class="fly-out-top-item-name">
+<li class="fly-out-top-item"><a href="/tanflex.github.io/tanflex/dependencies"><strong class="fly-out-top-item-name">
 Security &amp; Compliance
 </strong>
 </a></li><li class="divider fly-out-top-item"></li>
-<li class=""><a title="Dependency List" data-qa-selector="dependency_list_link" href="/Masmax2244/flexnew3/dependencies"><span>Dependency List</span>
+<li class=""><a title="Dependency List" data-qa-selector="dependency_list_link" href="/tanflex.github.io/tanflex/dependencies"><span>Dependency List</span>
 </a></li></ul>
 </li>
-<li class=""><a href="/Masmax2244/flexnew3/-/packages"><div class="nav-icon-container">
-<svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#package"></use></svg>
+<li class=""><a href="/tanflex.github.io/tanflex/-/packages"><div class="nav-icon-container">
+<svg><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#package"></use></svg>
 </div>
 <span class="nav-item-name">
 Packages
 </span>
 </a><ul class="sidebar-sub-level-items">
-<li class="fly-out-top-item"><a href="/Masmax2244/flexnew3/-/packages"><strong class="fly-out-top-item-name">
+<li class="fly-out-top-item"><a href="/tanflex.github.io/tanflex/-/packages"><strong class="fly-out-top-item-name">
 Packages
 </strong>
 </a></li><li class="divider fly-out-top-item"></li>
 <li class=""><a title="Packages" href="/Masmax2244/flexnew3/-/packages"><span>List</span>
-</a></li><li class=""><a class="shortcuts-container-registry" title="Container Registry" href="/Masmax2244/flexnew3/container_registry"><span>Container Registry</span>
+</a></li><li class=""><a class="shortcuts-container-registry" title="Container Registry" href="/tanflex.github.io/tanflex/container_registry"><span>Container Registry</span>
 </a></li></ul>
 </li>
-<li class=""><a class="shortcuts-wiki" data-qa-selector="wiki_link" href="/Masmax2244/flexnew3/wikis/home"><div class="nav-icon-container">
-<svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#book"></use></svg>
+<li class=""><a class="shortcuts-wiki" data-qa-selector="wiki_link" href="/tanflex.github.io/tanflex/wikis/home"><div class="nav-icon-container">
+<svg><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#book"></use></svg>
 </div>
 <span class="nav-item-name">
 Wiki
@@ -361,25 +361,25 @@ Wiki
 Wiki
 </strong>
 </a></li></ul>
-</li><li class=""><a class="shortcuts-snippets" href="/Masmax2244/flexnew3/snippets"><div class="nav-icon-container">
-<svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#snippet"></use></svg>
+</li><li class=""><a class="shortcuts-snippets" href="/tanflex.github.io/tanflex/snippets"><div class="nav-icon-container">
+<svg><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#snippet"></use></svg>
 </div>
 <span class="nav-item-name">
 Snippets
 </span>
 </a><ul class="sidebar-sub-level-items is-fly-out-only">
-<li class="fly-out-top-item"><a href="/Masmax2244/flexnew3/snippets"><strong class="fly-out-top-item-name">
+<li class="fly-out-top-item"><a href="/tanflex.github.io/tanflex/snippets"><strong class="fly-out-top-item-name">
 Snippets
 </strong>
 </a></li></ul>
-</li><li class=""><a title="Members" class="shortcuts-tree" href="/Masmax2244/flexnew3/-/settings/members"><div class="nav-icon-container">
-<svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#users"></use></svg>
+</li><li class=""><a title="Members" class="shortcuts-tree" href="/tanflex.github.io/tanflex/-/settings/members"><div class="nav-icon-container">
+<svg><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#users"></use></svg>
 </div>
 <span class="nav-item-name">
 Members
 </span>
 </a><ul class="sidebar-sub-level-items is-fly-out-only">
-<li class="fly-out-top-item"><a href="/Masmax2244/flexnew3/-/project_members"><strong class="fly-out-top-item-name">
+<li class="fly-out-top-item"><a href="/tanflex.github.io/tanflex/-/project_members"><strong class="fly-out-top-item-name">
 Members
 </strong>
 </a></li></ul>
@@ -397,22 +397,22 @@ Activity
 </span>
 </a></li>
 <li class="hidden">
-<a title="Network" class="shortcuts-network" href="/Masmax2244/flexnew3/-/network/master">Graph
+<a title="Network" class="shortcuts-network" href="/tanflex.github.io/flexnew3/-/network/master">Graph
 </a></li>
 <li class="hidden">
-<a title="Charts" class="shortcuts-repository-charts" href="/Masmax2244/flexnew3/-/graphs/master/charts">Charts
+<a title="Charts" class="shortcuts-repository-charts" href="/tanflex.github.io/tanflex/-/graphs/master/charts">Charts
 </a></li>
 <li class="hidden">
-<a class="shortcuts-new-issue" href="/Masmax2244/flexnew3/issues/new">Create a new issue
+<a class="shortcuts-new-issue" href="/tanflex.github.io/flexnew3/issues/new">Create a new issue
 </a></li>
 <li class="hidden">
-<a title="Jobs" class="shortcuts-builds" href="/Masmax2244/flexnew3/-/jobs">Jobs
+<a title="Jobs" class="shortcuts-builds" href="/tanflex.github.io/tanflex/-/jobs">Jobs
 </a></li>
 <li class="hidden">
-<a title="Commits" class="shortcuts-commits" href="/Masmax2244/flexnew3/commits/master">Commits
+<a title="Commits" class="shortcuts-commits" href="/tanflex.github.io/tanflex/commits/master">Commits
 </a></li>
 <li class="hidden">
-<a title="Issue Boards" class="shortcuts-issue-boards" href="/Masmax2244/flexnew3/-/boards">Issue Boards</a>
+<a title="Issue Boards" class="shortcuts-issue-boards" href="/tanflex.github.io/tanflex/-/boards">Issue Boards</a>
 </li>
 </ul>
 </div>
@@ -434,10 +434,10 @@ Activity
 <i aria-hidden="true" data-hidden="true" class="fa fa-bars"></i>
 </button><div class="breadcrumbs-links js-title-container">
 <ul class="list-unstyled breadcrumbs-list js-breadcrumbs-list">
-<li><a href="/Masmax2244">Masmax</a><svg class="s8 breadcrumbs-list-angle"><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#angle-right"></use></svg></li> <li><a href="/Masmax2244/flexnew3"><span class="breadcrumb-item-text js-breadcrumb-item-text">flexnew3</span></a><svg class="s8 breadcrumbs-list-angle"><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#angle-right"></use></svg></li>
+<li><a href="/tanflex.github.io">tanflex</a><svg class="s8 breadcrumbs-list-angle"><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#angle-right"></use></svg></li> <li><a href="/tanflex.github.io/tanflex"><span class="breadcrumb-item-text js-breadcrumb-item-text">tanflex</span></a><svg class="s8 breadcrumbs-list-angle"><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#angle-right"></use></svg></li>
 
 <li>
-<h2 class="breadcrumbs-sub-title"><a href="/Masmax2244/flexnew3/blob/master/mt.py.save">Repository</a></h2>
+<h2 class="breadcrumbs-sub-title"><a href="/tanflex.github.io/tanflex/blob/master/mt.py.save">Repository</a></h2>
 </li>
 </ul>
 </div>
@@ -453,16 +453,16 @@ Activity
 </div>
 
 
-<div class="js-signature-container" data-signatures-path="/Masmax2244/flexnew3/commits/545ebc49da45bfcd5cf8a78485dd258192009c05/signatures"></div>
+<div class="js-signature-container" data-signatures-path="/tanflex.github.io/flexnew3/commits/545ebc49da45bfcd5cf8a78485dd258192009c05/signatures"></div>
 
 <div class="tree-holder" id="tree-holder">
 <div class="nav-block">
 <div class="tree-ref-container">
 <div class="tree-ref-holder">
-<form class="project-refs-form" action="/Masmax2244/flexnew3/refs/switch" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="destination" id="destination" value="blob" />
+<form class="project-refs-form" action="/tanflex.github.io/tanflex/refs/switch" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="destination" id="destination" value="blob" />
 <input type="hidden" name="path" id="path" value="mt.py.save" />
 <div class="dropdown">
-<button class="dropdown-menu-toggle js-project-refs-dropdown qa-branches-select" type="button" data-toggle="dropdown" data-selected="master" data-ref="master" data-refs-url="/Masmax2244/flexnew3/refs?sort=updated_desc" data-field-name="ref" data-submit-form-on-click="true" data-visit="true"><span class="dropdown-toggle-text ">master</span><i aria-hidden="true" data-hidden="true" class="fa fa-chevron-down"></i></button>
+<button class="dropdown-menu-toggle js-project-refs-dropdown qa-branches-select" type="button" data-toggle="dropdown" data-selected="master" data-ref="master" data-refs-url="/tanflex.github.io/tanflex/refs?sort=updated_desc" data-field-name="ref" data-submit-form-on-click="true" data-visit="true"><span class="dropdown-toggle-text ">master</span><i aria-hidden="true" data-hidden="true" class="fa fa-chevron-down"></i></button>
 <div class="dropdown-menu dropdown-menu-paging dropdown-menu-selectable git-revision-dropdown qa-branches-dropdown">
 <div class="dropdown-page-one">
 <div class="dropdown-title"><span>Switch branch/tag</span><button class="dropdown-title-button dropdown-menu-close" aria-label="Close" type="button"><i aria-hidden="true" data-hidden="true" class="fa fa-times dropdown-menu-close-icon"></i></button></div>
@@ -476,18 +476,18 @@ Activity
 </div>
 <ul class="breadcrumb repo-breadcrumb">
 <li class="breadcrumb-item">
-<a href="/Masmax2244/flexnew3/tree/master">flexnew3
+<a href="/tanflex.github.io/tanflex/tree/master">flexnew3
 </a></li>
 <li class="breadcrumb-item">
-<a href="/Masmax2244/flexnew3/blob/master/mt.py.save"><strong>mt.py.save</strong>
+<a href="/tanflex.github.io/tanflex/blob/master/mt.py.save"><strong>mt.py.save</strong>
 </a></li>
 </ul>
 </div>
 <div class="tree-controls">
-<a class="btn shortcuts-find-file" rel="nofollow" href="/Masmax2244/flexnew3/find_file/master"><i aria-hidden="true" data-hidden="true" class="fa fa-search"></i>
+<a class="btn shortcuts-find-file" rel="nofollow" href="/tanflex.github.io/tanflex/find_file/master"><i aria-hidden="true" data-hidden="true" class="fa fa-search"></i>
 <span>Find file</span>
 </a>
-<div class="btn-group" role="group"><a class="btn js-blob-blame-link" href="/Masmax2244/flexnew3/blame/master/mt.py.save">Blame</a><a class="btn" href="/Masmax2244/flexnew3/commits/master/mt.py.save">History</a><a class="btn js-data-file-blob-permalink-url" href="/Masmax2244/flexnew3/blob/545ebc49da45bfcd5cf8a78485dd258192009c05/mt.py.save">Permalink</a></div>
+<div class="btn-group" role="group"><a class="btn js-blob-blame-link" href="/tanflex.github.io/tanflex/blame/master/mt.py.save">Blame</a><a class="btn" href="/tanflex.github.io/tanflex/commits/master/mt.py.save">History</a><a class="btn js-data-file-blob-permalink-url" href="/Masmax2244/flexnew3/blob/545ebc49da45bfcd5cf8a78485dd258192009c05/mt.py.save">Permalink</a></div>
 </div>
 </div>
 
@@ -496,28 +496,28 @@ Activity
 <ul class="blob-commit-info">
 <li class="commit flex-row js-toggle-container" id="commit-545ebc49">
 <div class="avatar-cell d-none d-sm-block">
-<a href="/Masmax2244"><img alt="Masmax&#39;s avatar" src="/uploads/-/system/user/avatar/3906916/avatar.png?width=40" class="avatar s40 d-none d-sm-inline-block" title="Masmax" /></a>
+<a href="/tanflex.github.io"><img alt="tanflex&#39;s avatar" src="/uploads/-/system/user/avatar/3906916/avatar.png?width=40" class="avatar s40 d-none d-sm-inline-block" title="tanflex" /></a>
 </div>
 <div class="commit-detail flex-list">
 <div class="commit-content qa-commit-content">
-<a class="commit-row-message item-title js-onboarding-commit-item" href="/Masmax2244/flexnew3/commit/545ebc49da45bfcd5cf8a78485dd258192009c05">Initial commit</a>
+<a class="commit-row-message item-title js-onboarding-commit-item" href="/tanflex.github.io/tanflex/commit/545ebc49da45bfcd5cf8a78485dd258192009c05">Initial commit</a>
 <span class="commit-row-message d-inline d-sm-none">
 &middot;
 545ebc49
 </span>
 <div class="committer">
-<a class="commit-author-link js-user-link" data-user-id="3906916" href="/Masmax2244">Masmax</a> authored <time class="js-timeago" title="Aug 10, 2019 8:14am" datetime="2019-08-10T08:14:28Z" data-toggle="tooltip" data-placement="bottom" data-container="body">Aug 10, 2019</time>
+<a class="commit-author-link js-user-link" data-user-id="3906916" href="/tanflex.github.io">tanflex</a> authored <time class="js-timeago" title="Aug 10, 2019 8:14am" datetime="2019-08-10T08:14:28Z" data-toggle="tooltip" data-placement="bottom" data-container="body">Aug 10, 2019</time>
 </div>
 
 </div>
 <div class="commit-actions flex-row">
 
-<div class="js-commit-pipeline-status" data-endpoint="/Masmax2244/flexnew3/commit/545ebc49da45bfcd5cf8a78485dd258192009c05/pipelines?ref=master"></div>
+<div class="js-commit-pipeline-status" data-endpoint="/tanflex.github.io/tanflex/commit/545ebc49da45bfcd5cf8a78485dd258192009c05/pipelines?ref=master"></div>
 <div class="commit-sha-group d-none d-sm-flex">
 <div class="label label-monospace monospace">
 545ebc49
 </div>
-<button class="btn btn btn-default" data-toggle="tooltip" data-placement="bottom" data-container="body" data-title="Copy commit SHA to clipboard" data-class="btn btn-default" data-clipboard-text="545ebc49da45bfcd5cf8a78485dd258192009c05" type="button" title="Copy commit SHA to clipboard" aria-label="Copy commit SHA to clipboard"><svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#duplicate"></use></svg></button>
+<button class="btn btn btn-default" data-toggle="tooltip" data-placement="bottom" data-container="body" data-title="Copy commit SHA to clipboard" data-class="btn btn-default" data-clipboard-text="545ebc49da45bfcd5cf8a78485dd258192009c05" type="button" title="Copy commit SHA to clipboard" aria-label="Copy commit SHA to clipboard"><svg><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#duplicate"></use></svg></button>
 
 </div>
 </div>
@@ -537,7 +537,7 @@ Activity
 <strong class="file-title-name qa-file-title-name">
 mt.py.save
 </strong>
-<button class="btn btn-clipboard btn-transparent" data-toggle="tooltip" data-placement="bottom" data-container="body" data-class="btn-clipboard btn-transparent" data-title="Copy file path to clipboard" data-clipboard-text="{&quot;text&quot;:&quot;mt.py.save&quot;,&quot;gfm&quot;:&quot;`mt.py.save`&quot;}" type="button" title="Copy file path to clipboard" aria-label="Copy file path to clipboard"><svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#duplicate"></use></svg></button>
+<button class="btn btn-clipboard btn-transparent" data-toggle="tooltip" data-placement="bottom" data-container="body" data-class="btn-clipboard btn-transparent" data-title="Copy file path to clipboard" data-clipboard-text="{&quot;text&quot;:&quot;mt.py.save&quot;,&quot;gfm&quot;:&quot;`mt.py.save`&quot;}" type="button" title="Copy file path to clipboard" aria-label="Copy file path to clipboard"><svg><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#duplicate"></use></svg></button>
 <small class="mr-1">
 52 KB
 </small>
@@ -547,12 +547,12 @@ mt.py.save
 
 <div class="btn-group" role="group"><button class="btn btn btn-sm js-copy-blob-source-btn" data-toggle="tooltip" data-placement="bottom" data-container="body" data-class="btn btn-sm js-copy-blob-source-btn" data-title="Copy source to clipboard" data-clipboard-target=".blob-content[data-blob-id=&#39;5d6ce9122190300c60440918afb5e4e2eeb4c3f2&#39;]" type="button" title="Copy source to clipboard" aria-label="Copy source to clipboard"><svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#duplicate"></use></svg></button><a class="btn btn-sm has-tooltip" target="_blank" rel="noopener noreferrer" title="Open raw" data-container="body" href="/Masmax2244/flexnew3/raw/master/mt.py.save"><i aria-hidden="true" data-hidden="true" class="fa fa-file-code-o"></i></a><a download="mt.py.save" class="btn btn-sm has-tooltip" target="_blank" rel="noopener noreferrer" title="Download" data-container="body" href="/Masmax2244/flexnew3/raw/master/mt.py.save?inline=false"><svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#download"></use></svg></a></div>
 <div class="btn-group" role="group">
-<a class="btn js-edit-blob  btn-sm" href="/Masmax2244/flexnew3/edit/master/mt.py.save">Edit</a><a class="btn btn-default btn-sm" href="/-/ide/project/Masmax2244/flexnew3/edit/master/-/mt.py.save">Web IDE</a></div>
+<a class="btn js-edit-blob  btn-sm" href="/tanflex.github.io/tanflex/edit/master/mt.py.save">Edit</a><a class="btn btn-default btn-sm" href="/-/ide/project/Masmax2244/flexnew3/edit/master/-/mt.py.save">Web IDE</a></div>
 </div>
 </div>
 
 <script id="js-file-lock" type="application/json">
-{"path":"mt.py.save","toggle_path":"/Masmax2244/flexnew3/path_locks/toggle"}
+{"path":"mt.py.save","toggle_path":"/tanflex.github.io/tanflex/path_locks/toggle"}
 </script>
 
 
