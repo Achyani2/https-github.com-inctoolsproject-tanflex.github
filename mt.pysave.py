@@ -7,37 +7,37 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible">
 <meta content="object" property="og:type">
 <meta content="Github" property="og:site_name">
-<meta content="mt.py.save · master · Masmax / flexnew3" property="og:title">
+<meta content="mt.py.save · master · tanflex.github.io / tanflex" property="og:title">
 <meta content="Github.com" property="og:description">
-<meta content="https://assets.gitlab-static.net/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="og:image">
+<meta content="https://assets.gitlab-static.net/assets/github_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="og:image">
 <meta content="64" property="og:image:width">
 <meta content="64" property="og:image:height">
-<meta content="https://github.com/Masmax2244/flexnew3/blob/master/mt.py.save" property="og:url">
+<meta content="https://github.com/tanflex.github.io/tanflex/blob/master/mt.py.save" property="og:url">
 <meta content="summary" property="twitter:card">
-<meta content="mt.py.save · master · Masmax / flexnew3" property="twitter:title">
+<meta content="mt.py.save · master · tanflex.github.io / tanflex" property="twitter:title">
 <meta content="Github.com" property="twitter:description">
 <meta content="https://assets.gitlab-static.net/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="twitter:image">
 
-<title>mt.py.save · master · Masmax / flexnew3 · GitLab</title>
+<title>mt.py.save · master · tanflex.github.io / tanflex · Github</title>
 <meta content="Github.com" name="description">
-<link rel="shortcut icon" type="image/png" href="https://gitlab.com/assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png" id="favicon" data-original-href="https://gitlab.com/assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png" />
-<link rel="stylesheet" media="all" href="https://assets.gitlab-static.net/assets/application-1da73cad58989dc461966410eb529707f1e373c27ba32853a1f8e5613bb7dc7f.css" />
-<link rel="stylesheet" media="print" href="https://assets.gitlab-static.net/assets/print-74c3df10dad473d66660c828e3aa54ca3bfeac6d8bb708643331403fe7211e60.css" />
+<link rel="shortcut icon" type="image/png" href="https://github.com/assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png" id="favicon" data-original-href="https://github.com/assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png" />
+<link rel="stylesheet" media="all" href="https://assets.github-static.net/assets/application-1da73cad58989dc461966410eb529707f1e373c27ba32853a1f8e5613bb7dc7f.css" />
+<link rel="stylesheet" media="print" href="https://assets.github-static.net/assets/print-74c3df10dad473d66660c828e3aa54ca3bfeac6d8bb708643331403fe7211e60.css" />
 
 
-<link rel="stylesheet" media="all" href="https://assets.gitlab-static.net/assets/highlight/themes/white-3144068cf4f603d290f553b653926358ddcd02493b9728f62417682657fc58c0.css" />
+<link rel="stylesheet" media="all" href="https://assets.github-static.net/assets/highlight/themes/white-3144068cf4f603d290f553b653926358ddcd02493b9728f62417682657fc58c0.css" />
 <script nonce="ZYjMmFryiLdl0BlHpVWWTA==">
 //<![CDATA[
-window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.gitlab-static.net/assets/no_avatar-849f9c04a3a0d0cea2424ae97b27447dc64a7dbfae83c036c45b403392f0e8ba.png";gon.max_file_size=10;gon.asset_host="https://assets.gitlab-static.net";gon.webpack_public_path="https://assets.gitlab-static.net/assets/webpack/";gon.relative_url_root="";gon.shortcuts_path="/help/shortcuts";gon.user_color_scheme="white";gon.sentry_dsn="https://526a2f38a53d44e3a8e69bfa001d1e8b@sentry.gitlab.net/15";gon.sentry_environment=null;gon.gitlab_url="https://gitlab.com";gon.revision="f79c1794977";gon.gitlab_logo="https://assets.gitlab-static.net/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png";gon.sprite_icons="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg";gon.sprite_file_icons="https://gitlab.com/assets/file_icons-7262fc6897e02f1ceaf8de43dc33afa5e4f9a2067f4f68ef77dcc87946575e9e.svg";gon.emoji_sprites_css_path="https://assets.gitlab-static.net/assets/emoji_sprites-289eccffb1183c188b630297431be837765d9ff4aed6130cf738586fb307c170.css";gon.test_env=false;gon.suggested_label_colors={"#0033CC":"UA blue","#428BCA":"Moderate blue","#44AD8E":"Lime green","#A8D695":"Feijoa","#5CB85C":"Slightly desaturated green","#69D100":"Bright green","#004E00":"Very dark lime green","#34495E":"Very dark desaturated blue","#7F8C8D":"Dark grayish cyan","#A295D6":"Slightly desaturated blue","#5843AD":"Dark moderate blue","#8E44AD":"Dark moderate violet","#FFECDB":"Very pale orange","#AD4363":"Dark moderate pink","#D10069":"Strong pink","#CC0033":"Strong red","#FF0000":"Pure red","#D9534F":"Soft red","#D1D100":"Strong yellow","#F0AD4E":"Soft orange","#AD8D43":"Dark moderate orange"};gon.first_day_of_week=0;gon.ee=true;gon.features={"suppressAjaxNavigationErrors":true,"privacyPolicyUpdateCallout":false};
+window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.github-static.net/assets/no_avatar-849f9c04a3a0d0cea2424ae97b27447dc64a7dbfae83c036c45b403392f0e8ba.png";gon.max_file_size=10;gon.asset_host="https://assets.gitlab-static.net";gon.webpack_public_path="https://assets.gitlab-static.net/assets/webpack/";gon.relative_url_root="";gon.shortcuts_path="/help/shortcuts";gon.user_color_scheme="white";gon.sentry_dsn="https://526a2f38a53d44e3a8e69bfa001d1e8b@sentry.gitlab.net/15";gon.sentry_environment=null;gon.gitlab_url="https://gitlab.com";gon.revision="f79c1794977";gon.gitlab_logo="https://assets.gitlab-static.net/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png";gon.sprite_icons="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg";gon.sprite_file_icons="https://gitlab.com/assets/file_icons-7262fc6897e02f1ceaf8de43dc33afa5e4f9a2067f4f68ef77dcc87946575e9e.svg";gon.emoji_sprites_css_path="https://assets.gitlab-static.net/assets/emoji_sprites-289eccffb1183c188b630297431be837765d9ff4aed6130cf738586fb307c170.css";gon.test_env=false;gon.suggested_label_colors={"#0033CC":"UA blue","#428BCA":"Moderate blue","#44AD8E":"Lime green","#A8D695":"Feijoa","#5CB85C":"Slightly desaturated green","#69D100":"Bright green","#004E00":"Very dark lime green","#34495E":"Very dark desaturated blue","#7F8C8D":"Dark grayish cyan","#A295D6":"Slightly desaturated blue","#5843AD":"Dark moderate blue","#8E44AD":"Dark moderate violet","#FFECDB":"Very pale orange","#AD4363":"Dark moderate pink","#D10069":"Strong pink","#CC0033":"Strong red","#FF0000":"Pure red","#D9534F":"Soft red","#D1D100":"Strong yellow","#F0AD4E":"Soft orange","#AD8D43":"Dark moderate orange"};gon.first_day_of_week=0;gon.ee=true;gon.features={"suppressAjaxNavigationErrors":true,"privacyPolicyUpdateCallout":false};
 //]]>
 </script>
 
-<script src="https://assets.gitlab-static.net/assets/webpack/runtime.5728e69e.bundle.js" defer="defer"></script>
-<script src="https://assets.gitlab-static.net/assets/webpack/main.d418768d.chunk.js" defer="defer"></script>
-<script src="https://assets.gitlab-static.net/assets/webpack/raven.ad6d323b.chunk.js" defer="defer"></script>
-<script src="https://assets.gitlab-static.net/assets/webpack/commons~pages.admin.clusters~pages.admin.clusters.destroy~pages.admin.clusters.edit~pages.admin.clus~6f69515a.b16e04be.chunk.js" defer="defer"></script>
-<script src="https://assets.gitlab-static.net/assets/webpack/commons~pages.groups.epics.index~pages.groups.epics.show~pages.groups.milestones.edit~pages.groups.m~b7d7bc7f.b2d95487.chunk.js" defer="defer"></script>
-<script src="https://assets.gitlab-static.net/assets/webpack/pages.projects.blob.show.a08806fe.chunk.js" defer="defer"></script>
+<script src="https://assets.github-static.net/assets/webpack/runtime.5728e69e.bundle.js" defer="defer"></script>
+<script src="https://assets.github-static.net/assets/webpack/main.d418768d.chunk.js" defer="defer"></script>
+<script src="https://assets.github-static.net/assets/webpack/raven.ad6d323b.chunk.js" defer="defer"></script>
+<script src="https://assets.github-static.net/assets/webpack/commons~pages.admin.clusters~pages.admin.clusters.destroy~pages.admin.clusters.edit~pages.admin.clus~6f69515a.b16e04be.chunk.js" defer="defer"></script>
+<script src="https://assets.github-static.net/assets/webpack/commons~pages.groups.epics.index~pages.groups.epics.show~pages.groups.milestones.edit~pages.groups.m~b7d7bc7f.b2d95487.chunk.js" defer="defer"></script>
+<script src="https://assets.github-static.net/assets/webpack/pages.projects.blob.show.a08806fe.chunk.js" defer="defer"></script>
 
 <meta name="csrf-param" content="authenticity_token" />
 <meta name="csrf-token" content="bSFTu//zEQ8MN+SNeTEAMRfWlDj1qTcldS8N5qU8q5Lr3uKcldlk2vboIF1rshfusR5OsWxQGe3WheG0DFeWcg==" />
@@ -45,12 +45,12 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.gitlab
 <meta content="origin-when-cross-origin" name="referrer">
 <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
 <meta content="#474D57" name="theme-color">
-<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.gitlab-static.net/assets/touch-icon-iphone-5a9cee0e8a51212e70b90c87c12f382c428870c0ff67d1eb034d884b78d2dae7.png" />
-<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.gitlab-static.net/assets/touch-icon-ipad-a6eec6aeb9da138e507593b464fdac213047e49d3093fc30e90d9a995df83ba3.png" sizes="76x76" />
-<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.gitlab-static.net/assets/touch-icon-iphone-retina-72e2aadf86513a56e050e7f0f2355deaa19cc17ed97bbe5147847f2748e5a3e3.png" sizes="120x120" />
-<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.gitlab-static.net/assets/touch-icon-ipad-retina-8ebe416f5313483d9c1bc772b5bbe03ecad52a54eba443e5215a22caed2a16a2.png" sizes="152x152" />
-<link color="rgb(226, 67, 41)" href="https://assets.gitlab-static.net/assets/logo-d36b5212042cebc89b96df4bf6ac24e43db316143e89926c0db839ff694d2de4.svg" rel="mask-icon">
-<meta content="https://assets.gitlab-static.net/assets/msapplication-tile-1196ec67452f618d39cdd85e2e3a542f76574c071051ae7effbfde01710eb17d.png" name="msapplication-TileImage">
+<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.github-static.net/assets/touch-icon-iphone-5a9cee0e8a51212e70b90c87c12f382c428870c0ff67d1eb034d884b78d2dae7.png" />
+<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.github-static.net/assets/touch-icon-ipad-a6eec6aeb9da138e507593b464fdac213047e49d3093fc30e90d9a995df83ba3.png" sizes="76x76" />
+<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.github-static.net/assets/touch-icon-iphone-retina-72e2aadf86513a56e050e7f0f2355deaa19cc17ed97bbe5147847f2748e5a3e3.png" sizes="120x120" />
+<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.github-static.net/assets/touch-icon-ipad-retina-8ebe416f5313483d9c1bc772b5bbe03ecad52a54eba443e5215a22caed2a16a2.png" sizes="152x152" />
+<link color="rgb(226, 67, 41)" href="https://assets.github-static.net/assets/logo-d36b5212042cebc89b96df4bf6ac24e43db316143e89926c0db839ff694d2de4.svg" rel="mask-icon">
+<meta content="https://assets.github-static.net/assets/msapplication-tile-1196ec67452f618d39cdd85e2e3a542f76574c071051ae7effbfde01710eb17d.png" name="msapplication-TileImage">
 <meta content="#30353E" name="msapplication-TileColor">
 
 
@@ -60,16 +60,16 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.gitlab
 ;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
 p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
 };p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
-n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","https://assets.gitlab-static.net/assets/snowplow/sp-e10fd598642f1a4dd3e9e0e026f6a1ffa3c31b8a40efd92db3f92d32873baed6.js","snowplow"));
+n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","https://assets.github-static.net/assets/snowplow/sp-e10fd598642f1a4dd3e9e0e026f6a1ffa3c31b8a40efd92db3f92d32873baed6.js","snowplow"));
 
-window.snowplowOptions = {"namespace":"gl","hostname":"snowplow.trx.gitlab.net","cookieDomain":".gitlab.com","appId":"gitlab","formTracking":true,"linkClickTracking":true}
+window.snowplowOptions = {"namespace":"gl","hostname":"snowplow.trx.github.net","cookieDomain":".github.com","appId":"gitlab","formTracking":true,"linkClickTracking":true}
 
 
 //]]>
 </script>
 </head>
 
-<body class="ui-indigo  gl-browser-opera gl-platform-android" data-find-file="/Masmax2244/flexnew3/find_file/master" data-group="" data-page="projects:blob:show" data-project="flexnew3">
+<body class="ui-indigo  gl-browser-opera gl-platform-android" data-find-file="/tanflex.github.io/tanflex/find_file/master" data-group="" data-page="projects:blob:show" data-project="flexnew3">
 
 <script nonce="ZYjMmFryiLdl0BlHpVWWTA==">
 //<![CDATA[
@@ -81,7 +81,7 @@ gl.client = {"isOpera":true,"isAndroid":true};
 </script>
 
 
-<header class="navbar navbar-gitlab navbar-expand-sm js-navbar" data-qa-selector="navbar">
+<header class="navbar navbar-github navbar-expand-sm js-navbar" data-qa-selector="navbar">
 <a class="sr-only gl-accessibility" href="#content-body" tabindex="1">Skip to content</a>
 <div class="container-fluid">
 <div class="header-content">
@@ -101,7 +101,7 @@ gl.client = {"isOpera":true,"isAndroid":true};
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 617 169"><path d="M315.26 2.97h-21.8l.1 162.5h88.3v-20.1h-66.5l-.1-142.4M465.89 136.95c-5.5 5.7-14.6 11.4-27 11.4-16.6 0-23.3-8.2-23.3-18.9 0-16.1 11.2-23.8 35-23.8 4.5 0 11.7.5 15.4 1.2v30.1h-.1m-22.6-98.5c-17.6 0-33.8 6.2-46.4 16.7l7.7 13.4c8.9-5.2 19.8-10.4 35.5-10.4 17.9 0 25.8 9.2 25.8 24.6v7.9c-3.5-.7-10.7-1.2-15.1-1.2-38.2 0-57.6 13.4-57.6 41.4 0 25.1 15.4 37.7 38.7 37.7 15.7 0 30.8-7.2 36-18.9l4 15.9h15.4v-83.2c-.1-26.3-11.5-43.9-44-43.9M557.63 149.1c-8.2 0-15.4-1-20.8-3.5V70.5c7.4-6.2 16.6-10.7 28.3-10.7 21.1 0 29.2 14.9 29.2 39 0 34.2-13.1 50.3-36.7 50.3m9.2-110.6c-19.5 0-30 13.3-30 13.3v-21l-.1-27.8h-21.3l.1 158.5c10.7 4.5 25.3 6.9 41.2 6.9 40.7 0 60.3-26 60.3-70.9-.1-35.5-18.2-59-50.2-59M77.9 20.6c19.3 0 31.8 6.4 39.9 12.9l9.4-16.3C114.5 6 97.3 0 78.9 0 32.5 0 0 28.3 0 85.4c0 59.8 35.1 83.1 75.2 83.1 20.1 0 37.2-4.7 48.4-9.4l-.5-63.9V75.1H63.6v20.1h38l.5 48.5c-5 2.5-13.6 4.5-25.3 4.5-32.2 0-53.8-20.3-53.8-63-.1-43.5 22.2-64.6 54.9-64.6M231.43 2.95h-21.3l.1 27.3v94.3c0 26.3 11.4 43.9 43.9 43.9 4.5 0 8.9-.4 13.1-1.2v-19.1c-3.1.5-6.4.7-9.9.7-17.9 0-25.8-9.2-25.8-24.6v-65h35.7v-17.8h-35.7l-.1-38.5M155.96 165.47h21.3v-124h-21.3v124M155.96 24.37h21.3V3.07h-21.3v21.3"/></svg>
 
 </span>
-</a><a class="label-link js-canary-badge canary-badge bg-transparent hidden" target="_blank" href="https://next.gitlab.com"><span class="color-label has-tooltip badge badge-pill green-badge">
+</a><a class="label-link js-canary-badge canary-badge bg-transparent hidden" target="_blank" href="https://next.github.com"><span class="color-label has-tooltip badge badge-pill green-badge">
 Next
 </span>
 </a></h1>
@@ -134,13 +134,13 @@ Loading...
 </ul>
 </div><div class="dropdown-loading"><i aria-hidden="true" data-hidden="true" class="fa fa-spinner fa-spin"></i></div>
 </div>
-<svg class="s16 search-icon"><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#search"></use></svg>
-<svg class="s16 clear-icon js-clear-input"><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#close"></use></svg>
+<svg class="s16 search-icon"><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#search"></use></svg>
+<svg class="s16 clear-icon js-clear-input"><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#close"></use></svg>
 </div>
 </div>
 </div>
 <input type="hidden" name="group_id" id="group_id" class="js-search-group-options" />
-<input type="hidden" name="project_id" id="search_project_id" value="13751126" class="js-search-project-options" data-project-path="flexnew3" data-name="flexnew3" data-issues-path="/Masmax2244/flexnew3/issues" data-mr-path="/Masmax2244/flexnew3/merge_requests" data-issues-disabled="false" />
+<input type="hidden" name="project_id" id="search_project_id" value="13751126" class="js-search-project-options" data-project-path="tanflex" data-name="tanflex" data-issues-path="/tanflex.github.io/tanflex/issues" data-mr-path="/tanflex.github.io/tanflex/merge_requests" data-issues-disabled="false" />
 <input type="hidden" name="search_code" id="search_code" value="true" />
 <input type="hidden" name="repository_ref" id="repository_ref" value="master" />
 <input type="hidden" name="nav_source" id="nav_source" value="navbar" />
@@ -149,32 +149,32 @@ Loading...
 
 </li>
 <li class="nav-item d-inline-block d-lg-none">
-<a title="Search" aria-label="Search" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/search?project_id=13751126"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#search"></use></svg>
+<a title="Search" aria-label="Search" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/search?project_id=13751126"><svg class="s16"><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#search"></use></svg>
 </a></li>
 <li class="nav-item header-help dropdown d-none d-md-block">
-<a class="header-help-dropdown-toggle" data-toggle="dropdown" href="/help"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#question"></use></svg>
-<svg class="caret-down"><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#angle-down"></use></svg>
+<a class="header-help-dropdown-toggle" data-toggle="dropdown" href="/help"><svg class="s16"><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#question"></use></svg>
+<svg class="caret-down"><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#angle-down"></use></svg>
 </a><div class="dropdown-menu dropdown-menu-right">
 <ul>
 <li>
 <a href="/help">Help</a>
 </li>
 <li>
-<a href="https://about.gitlab.com/getting-help/">Support</a>
+<a href="https://about.github.com/getting-help/">Support</a>
 </li>
 
 <li class="divider"></li>
 <li>
-<a href="https://about.gitlab.com/submit-feedback">Submit feedback</a>
+<a href="https://about.github.com/submit-feedback">Submit feedback</a>
 </li>
 <li>
-<a target="_blank" class="text-nowrap" href="https://about.gitlab.com/contributing">Contribute to GitLab
+<a target="_blank" class="text-nowrap" href="https://about.github.com/contributing">Contribute to Github
 </a></li>
 
 
 
 <li class="js-canary-link">
-<a href="https://next.gitlab.com/">Switch to GitLab Next</a>
+<a href="https://next.github.com/">Switch to Github Next</a>
 </li>
 </ul>
 
@@ -189,8 +189,8 @@ Loading...
 </div>
 <button class="navbar-toggler d-block d-sm-none" type="button">
 <span class="sr-only">Toggle navigation</span>
-<svg class="s12 more-icon js-navbar-toggle-right"><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#ellipsis_h"></use></svg>
-<svg class="s12 close-icon js-navbar-toggle-left"><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#close"></use></svg>
+<svg class="s12 more-icon js-navbar-toggle-right"><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#ellipsis_h"></use></svg>
+<svg class="s12 close-icon js-navbar-toggle-left"><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#close"></use></svg>
 </button>
 </div>
 </div>
