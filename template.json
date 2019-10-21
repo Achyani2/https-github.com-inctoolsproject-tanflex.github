@@ -182,7 +182,7 @@
                         {
                             "type": "uri",
                             "label": "INSTAGRAM",
-                            "uri": "line://app/1626556804-KYN4RLAM"
+                            "uri": "line://app/1626556804-ELKPkeAO"
                         },
                         {
                             "type": "uri",
@@ -198,18 +198,18 @@
                     "text": "klik disini untuk membuat",
                     "defaultAction": {
                         "type": "uri",
-                        "uri": "line://app/1607143364-vAaxGxZ2"
+                        "uri": "line://app/1626556804-ELKPkeAO"
                     },
                     "actions": [
                         {
                             "type": "uri",
                             "label": "CREATE LOGO",
-                            "uri": "line://app/1607143364-vAaxGxZ2"
+                            "uri": "line://app/1626556804-ELKPkeAO"
                         },
                         {
                             "type": "uri",
                             "label": "TEKS FANCY",
-                            "uri": "line://app/1607143364-vAaxGxZ2"
+                            "uri": "line://app/1626556804-ELKPkeAO"
                         }
                     ]
                 },
