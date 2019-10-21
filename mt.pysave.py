@@ -2,24 +2,24 @@
 <html class="" lang="en">
 <head prefix="og: http://ogp.me/ns#">
 <meta charset="utf-8">
-<link href="https://assets.gitlab-static.net" rel="dns-prefetch">
-<link crossorigin="" href="https://assets.gitlab-static.net" rel="preconnnect">
+<link href="https://assets.github-static.net" rel="dns-prefetch">
+<link crossorigin="" href="https://assets.github-static.net" rel="preconnnect">
 <meta content="IE=edge" http-equiv="X-UA-Compatible">
 <meta content="object" property="og:type">
-<meta content="GitLab" property="og:site_name">
+<meta content="Github" property="og:site_name">
 <meta content="mt.py.save · master · Masmax / flexnew3" property="og:title">
-<meta content="GitLab.com" property="og:description">
+<meta content="Github.com" property="og:description">
 <meta content="https://assets.gitlab-static.net/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="og:image">
 <meta content="64" property="og:image:width">
 <meta content="64" property="og:image:height">
-<meta content="https://gitlab.com/Masmax2244/flexnew3/blob/master/mt.py.save" property="og:url">
+<meta content="https://github.com/Masmax2244/flexnew3/blob/master/mt.py.save" property="og:url">
 <meta content="summary" property="twitter:card">
 <meta content="mt.py.save · master · Masmax / flexnew3" property="twitter:title">
-<meta content="GitLab.com" property="twitter:description">
+<meta content="Github.com" property="twitter:description">
 <meta content="https://assets.gitlab-static.net/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="twitter:image">
 
 <title>mt.py.save · master · Masmax / flexnew3 · GitLab</title>
-<meta content="GitLab.com" name="description">
+<meta content="Github.com" name="description">
 <link rel="shortcut icon" type="image/png" href="https://gitlab.com/assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png" id="favicon" data-original-href="https://gitlab.com/assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png" />
 <link rel="stylesheet" media="all" href="https://assets.gitlab-static.net/assets/application-1da73cad58989dc461966410eb529707f1e373c27ba32853a1f8e5613bb7dc7f.css" />
 <link rel="stylesheet" media="print" href="https://assets.gitlab-static.net/assets/print-74c3df10dad473d66660c828e3aa54ca3bfeac6d8bb708643331403fe7211e60.css" />
