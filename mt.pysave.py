@@ -545,9 +545,9 @@ mt.py.save
 
 <div class="file-actions">
 
-<div class="btn-group" role="group"><button class="btn btn btn-sm js-copy-blob-source-btn" data-toggle="tooltip" data-placement="bottom" data-container="body" data-class="btn btn-sm js-copy-blob-source-btn" data-title="Copy source to clipboard" data-clipboard-target=".blob-content[data-blob-id=&#39;5d6ce9122190300c60440918afb5e4e2eeb4c3f2&#39;]" type="button" title="Copy source to clipboard" aria-label="Copy source to clipboard"><svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#duplicate"></use></svg></button><a class="btn btn-sm has-tooltip" target="_blank" rel="noopener noreferrer" title="Open raw" data-container="body" href="/Masmax2244/flexnew3/raw/master/mt.py.save"><i aria-hidden="true" data-hidden="true" class="fa fa-file-code-o"></i></a><a download="mt.py.save" class="btn btn-sm has-tooltip" target="_blank" rel="noopener noreferrer" title="Download" data-container="body" href="/Masmax2244/flexnew3/raw/master/mt.py.save?inline=false"><svg><use xlink:href="https://gitlab.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#download"></use></svg></a></div>
+<div class="btn-group" role="group"><button class="btn btn btn-sm js-copy-blob-source-btn" data-toggle="tooltip" data-placement="bottom" data-container="body" data-class="btn btn-sm js-copy-blob-source-btn" data-title="Copy source to clipboard" data-clipboard-target=".blob-content[data-blob-id=&#39;5d6ce9122190300c60440918afb5e4e2eeb4c3f2&#39;]" type="button" title="Copy source to clipboard" aria-label="Copy source to clipboard"><svg><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#duplicate"></use></svg></button><a class="btn btn-sm has-tooltip" target="_blank" rel="noopener noreferrer" title="Open raw" data-container="body" href="/tanflex.github.io/tanflex/raw/master/mt.py.save"><i aria-hidden="true" data-hidden="true" class="fa fa-file-code-o"></i></a><a download="mt.py.save" class="btn btn-sm has-tooltip" target="_blank" rel="noopener noreferrer" title="Download" data-container="body" href="/tanflex.github.io/tanflex/raw/master/mt.py.save?inline=false"><svg><use xlink:href="https://github.com/assets/icons-4e4ddd6727ec3b15b78b2b0b2af243cd5610247056df947952e93781e43f098c.svg#download"></use></svg></a></div>
 <div class="btn-group" role="group">
-<a class="btn js-edit-blob  btn-sm" href="/tanflex.github.io/tanflex/edit/master/mt.py.save">Edit</a><a class="btn btn-default btn-sm" href="/-/ide/project/Masmax2244/flexnew3/edit/master/-/mt.py.save">Web IDE</a></div>
+<a class="btn js-edit-blob  btn-sm" href="/tanflex.github.io/tanflex/edit/master/mt.py.save">Edit</a><a class="btn btn-default btn-sm" href="/-/ide/project/tanflex.github.io/tanflex/edit/master/-/mt.py.save">Web IDE</a></div>
 </div>
 </div>
 
@@ -556,7 +556,7 @@ mt.py.save
 </script>
 
 
-<div class="blob-viewer" data-type="simple" data-url="/Masmax2244/flexnew3/blob/master/mt.py.save?format=json&amp;viewer=simple">
+<div class="blob-viewer" data-type="simple" data-url="/tanflex.github.io/tanflex/blob/master/mt.py.save?format=json&amp;viewer=simple">
 <div class="text-center prepend-top-default append-bottom-default">
 <i aria-hidden="true" aria-label="Loading content…" class="fa fa-spinner fa-spin fa-2x qa-spinner"></i>
 </div>
@@ -577,7 +577,7 @@ mt.py.save
 </button>
 </div>
 <div class="modal-body">
-<form class="js-quick-submit js-upload-blob-form" data-method="put" action="/Masmax2244/flexnew3/update/master/mt.py.save" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="etXIMCdYqIJEkLUUU6ezl9Cmg0QuAOGt4AmEngLtfSH8KnkXTXLdV75PccRBJKRIdm5Zzbf5z2VDo2jMq4ZAwQ==" /><div class="dropzone">
+<form class="js-quick-submit js-upload-blob-form" data-method="put" action="/tanflex.github.io/tanflex/update/master/mt.py.save" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="etXIMCdYqIJEkLUUU6ezl9Cmg0QuAOGt4AmEngLtfSH8KnkXTXLdV75PccRBJKRIdm5Zzbf5z2VDo2jMq4ZAwQ==" /><div class="dropzone">
 <div class="dropzone-previews blob-upload-dropzone-previews">
 <p class="dz-message light">
 Attach a file by drag &amp; drop or <a class="markdown-selector" href="#">click to upload</a>
