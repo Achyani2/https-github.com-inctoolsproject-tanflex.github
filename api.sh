@@ -1,4 +1,4 @@
-This XML file does not appear to have any style information associated with it. The document tree is shown below.
+
 <freeStyleBuild _class="hudson.model.FreeStyleBuild">
 <action _class="hudson.model.CauseAction">
 <cause _class="hudson.model.Cause$UpstreamCause">
