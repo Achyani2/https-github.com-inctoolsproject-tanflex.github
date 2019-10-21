@@ -19,7 +19,7 @@
                         {
                             "type": "uri",
                             "label": "CHANNEL APP",
-                            "uri": "line://app/1626556804-ELKPkeAO"
+                            "uri": "line://app/1626556804-bXk15pYd"
                         },
                         {
                             "type": "uri",
@@ -35,13 +35,13 @@
                     "text": "khusu indo pakai vpn bukanya wkwkwk",
                     "defaultAction": {
                         "type": "uri",
-                        "uri": "line://app/1626556804-ELKPkeAO"
+                        "uri": "line://app/1626556804-bXk15pYd"
                     },
                     "actions": [
                         {
                             "type": "uri",
                             "label": "OPEN OKEP",
-                            "uri": "line://app/1626556804-ELKPkeAO"
+                            "uri": "line://app/1626556804-bXk15pYd"
                         },
                         {
                             "type": "uri",
@@ -63,7 +63,7 @@
                         {
                             "type": "uri",
                             "label": "FACEBOOK",
-                            "uri": "line://app/1626556804-bXk15pYd"
+                            "uri": "line://app/1626556804-ELKPkeAO"
                         },
                         {
                             "type": "uri",
@@ -132,18 +132,18 @@
                     "text": "game online gratis",
                     "defaultAction": {
                         "type": "uri",
-                        "uri": "line://app/1626556804-bXk15pYd"
+                        "uri": "line://app/1626556804-GvDNyK69"
                     },
                     "actions": [
                         {
                             "type": "uri",
                             "label": "MAINKAN",
-                            "uri": "line://app/1626556804-bXk15pYd"
+                            "uri": "line://app/1626556804-GvDNyK69"
                         },
                         {
                             "type": "uri",
                             "label": "GAME LAINYA",
-                            "uri": "line://app/1626556804-bXk15pYd"
+                            "uri": "line://app/1626556804-GvDNyK69"
                         }
                     ]
                 },
@@ -154,7 +154,7 @@
                     "text": "Sing! Smule",
                     "defaultAction": {
                         "type": "uri",
-                        "uri": "line://app/1626556804-bXk15pYd"
+                        "uri": "line://app/1626556804-GvDNyK69"
                     },
                     "actions": [
                         {
@@ -165,7 +165,7 @@
                         {
                             "type": "uri",
                             "label": "SMULE WEB",
-                            "uri": "line://app/1626556804-bXk15pYd"
+                            "uri": "line://app/1626556804-GvDNyK69"
                         }
                     ]
                 },
