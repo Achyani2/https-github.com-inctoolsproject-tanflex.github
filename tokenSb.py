@@ -28,14 +28,14 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>SelfBots_AJS/tokenSb.txt at master · InexBots/SelfBots_AJS</title>
-    <meta name="description" content="Selfbot + Antijs flexs. Contribute to InexBots/SelfBots_AJS development by creating an account on GitHub.">
+  <title>tanflex.github.io/tokenSb.txt at master · indexBots/versionbot.js/title>
+    <meta name="description" content="tanflex + Antijs flexs. Contribute to indexBots/versionbot.js development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
   <meta property="fb:app_id" content="1401488693436528">
 
-    <meta name="twitter:image:src" content="https://avatars3.githubusercontent.com/u/43498952?s=400&amp;v=4" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="InexBots/SelfBots_AJS" /><meta name="twitter:description" content="Selfbot + Antijs flexs. Contribute to InexBots/SelfBots_AJS development by creating an account on GitHub." />
-    <meta property="og:image" content="https://avatars3.githubusercontent.com/u/43498952?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="InexBots/SelfBots_AJS" /><meta property="og:url" content="https://github.com/InexBots/SelfBots_AJS" /><meta property="og:description" content="Selfbot + Antijs flexs. Contribute to InexBots/SelfBots_AJS development by creating an account on GitHub." />
+    <meta name="twitter:image:src" content="https://avatars3.githubusercontent.com/u/43498952?s=400&amp;v=4" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="indexBots/versionbot.js" /><meta name="twitter:description" content="tanflex + Antijs flexs. Contribute to indexBots/versionbot.js development by creating an account on GitHub." />
+    <meta property="og:image" content="https://avatars3.githubusercontent.com/u/43498952?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="indexBots/versionbot.js" /><meta property="og:url" content="https://github.com/indexBots/versionbot.js" /><meta property="og:description" content="Selfbot + Antijs flexs. Contribute to indexBots/versionbot.js development by creating an account on GitHub." />
 
   <link rel="assets" href="https://github.githubassets.com/">
   <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDQxNTI5MjUzOmZmZTk4NGZhMzc5ZDY4NmMzOTRjYjg5MTAzMmQ2NTExOWY1ZjJiZjJjM2EzOWRiMDRmZmU4YjBkNzVlMTAxYWU=--b31fbe5b03ddf371590269996a87e49ced3b1b96">
@@ -81,14 +81,14 @@
   <meta http-equiv="x-pjax-version" content="cd7a3cbd24effb2f933ee1fb847867b1">
   
 
-      <link href="https://github.com/InexBots/SelfBots_AJS/commits/master.atom" rel="alternate" title="Recent Commits to SelfBots_AJS:master" type="application/atom+xml">
+      <link href="https://github.com/indexBots/versionbot.js/commits/master.atom" rel="alternate" title="Recent Commits to tanflex.github.io:master" type="application/atom+xml">
 
-  <meta name="go-import" content="github.com/InexBots/SelfBots_AJS git https://github.com/InexBots/SelfBots_AJS.git">
+  <meta name="go-import" content="github.com/indexBots/versionbot.js git https://github.com/indexBots/versionbot.js.git">
 
   <meta name="octolytics-dimension-user_id" content="43498952" /><meta name="octolytics-dimension-user_login" content="InexBots" /><meta name="octolytics-dimension-repository_id" content="198204439" /><meta name="octolytics-dimension-repository_nwo" content="InexBots/SelfBots_AJS" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="198204439" /><meta name="octolytics-dimension-repository_network_root_nwo" content="InexBots/SelfBots_AJS" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/InexBots/SelfBots_AJS/blob/master/tokenSb.txt" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/indexBots/tanflex.github.io/blob/master/tokenSb.txt" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -144,7 +144,7 @@
   <div class="position-relative">
     <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="198204439" data-scoped-search-url="/InexBots/SelfBots_AJS/search" data-unscoped-search-url="/search" action="/InexBots/SelfBots_AJS/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
       <label class="form-control input-sm header-search-wrapper p-0  js-chromeless-input-container">
-            <a class="header-search-scope no-underline" href="/InexBots/SelfBots_AJS/blob/master/tokenSb.txt">This repository</a>
+            <a class="header-search-scope no-underline" href="/indexBots/tanflex.github.io/blob/master/tokenSb.txt">This repository</a>
         <input type="text"
           class="form-control input-sm header-search-input  js-site-search-focus js-site-search-field is-clearable"
           data-hotkey="s,/"
