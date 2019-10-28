@@ -33,7 +33,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>tanflex.github.io/tokenSb.txt at master · tanflex.github.io/versionbot.js/title>
+  <title>tanflex.github.io/tokenSb.txt at master · tanpattaya/versionbot.js/title>
     <meta name="description" content="tanflex + Antijs flexs. Contribute to tanflex.github.io/versionbot.js development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
