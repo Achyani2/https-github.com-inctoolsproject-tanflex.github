@@ -252,7 +252,7 @@
 
   <div role="none" class="dropdown-divider"></div>
   <div class="dropdown-header">
-    <span title="InexBots/SelfBots_AJS">This repository</span>
+    <span title="tanflex.github.io/versionbot.js">This repository</span>
   </div>
     <a role="menuitem" class="dropdown-item" href="/tanflex.github.io/versionbot.js/issues/new" data-ga-click="Header, create new issue" data-skip-pjax>
       New issue
