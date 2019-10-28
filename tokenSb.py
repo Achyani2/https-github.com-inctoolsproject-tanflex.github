@@ -33,14 +33,14 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>tanflex.github.io/tokenSb.txt at master · indexBots/versionbot.js/title>
-    <meta name="description" content="tanflex + Antijs flexs. Contribute to indexBots/versionbot.js development by creating an account on GitHub.">
+  <title>tanflex.github.io/tokenSb.txt at master · tanflex.github.io/versionbot.js/title>
+    <meta name="description" content="tanflex + Antijs flexs. Contribute to tanflex.github.io/versionbot.js development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
   <meta property="fb:app_id" content="1401488693436528">
 
-    <meta name="twitter:image:src" content="https://avatars3.githubusercontent.com/u/43498952?s=400&amp;v=4" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="indexBots/versionbot.js" /><meta name="twitter:description" content="tanflex + Antijs flexs. Contribute to indexBots/versionbot.js development by creating an account on GitHub." />
-    <meta property="og:image" content="https://avatars3.githubusercontent.com/u/43498952?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="indexBots/versionbot.js" /><meta property="og:url" content="https://github.com/indexBots/versionbot.js" /><meta property="og:description" content="Selfbot + Antijs flexs. Contribute to indexBots/versionbot.js development by creating an account on GitHub." />
+    <meta name="twitter:image:src" content="https://avatars3.githubusercontent.com/u/43498952?s=400&amp;v=4" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="tanflex.github.io/versionbot.js" /><meta name="twitter:description" content="tanflex + Antijs flexs. Contribute to tanflex.github.io/versionbot.js development by creating an account on GitHub." />
+    <meta property="og:image" content="https://avatars3.githubusercontent.com/u/43498952?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="tanflex.github.io/versionbot.js" /><meta property="og:url" content="https://github.com/tanflex.github.io/versionbot.js" /><meta property="og:description" content="Selfbot + Antijs flexs. Contribute to tanflex.github.io/versionbot.js development by creating an account on GitHub." />
 
   <link rel="assets" href="https://github.githubassets.com/">
   <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDQxNTI5MjUzOmZmZTk4NGZhMzc5ZDY4NmMzOTRjYjg5MTAzMmQ2NTExOWY1ZjJiZjJjM2EzOWRiMDRmZmU4YjBkNzVlMTAxYWU=--b31fbe5b03ddf371590269996a87e49ced3b1b96">
@@ -90,7 +90,7 @@
 
   <meta name="go-import" content="github.com/indexBots/versionbot.js git https://github.com/indexBots/versionbot.js.git">
 
-  <meta name="octolytics-dimension-user_id" content="43498952" /><meta name="octolytics-dimension-user_login" content="InexBots" /><meta name="octolytics-dimension-repository_id" content="198204439" /><meta name="octolytics-dimension-repository_nwo" content="InexBots/SelfBots_AJS" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="198204439" /><meta name="octolytics-dimension-repository_network_root_nwo" content="InexBots/SelfBots_AJS" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+  <meta name="octolytics-dimension-user_id" content="43498952" /><meta name="octolytics-dimension-user_login" content="tanflex.github.io" /><meta name="octolytics-dimension-repository_id" content="198204439" /><meta name="octolytics-dimension-repository_nwo" content="tanflex.github.io/versionbot.js" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="198204439" /><meta name="octolytics-dimension-repository_network_root_nwo" content="tanflex.github.io/versionbot.js" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
     <link rel="canonical" href="https://github.com/indexBots/tanflex.github.io/blob/master/tokenSb.txt" data-pjax-transient>
@@ -147,7 +147,7 @@
   role="search"
 >
   <div class="position-relative">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="198204439" data-scoped-search-url="/InexBots/SelfBots_AJS/search" data-unscoped-search-url="/search" action="/InexBots/SelfBots_AJS/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="198204439" data-scoped-search-url="/tanflex.github.io/versionbot.js/search" data-unscoped-search-url="/search" action="/tanflex.github.io/versionbot.js/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
       <label class="form-control input-sm header-search-wrapper p-0  js-chromeless-input-container">
             <a class="header-search-scope no-underline" href="/indexBots/tanflex.github.io/blob/master/tokenSb.txt">This repository</a>
         <input type="text"
@@ -254,7 +254,7 @@
   <div class="dropdown-header">
     <span title="InexBots/SelfBots_AJS">This repository</span>
   </div>
-    <a role="menuitem" class="dropdown-item" href="/InexBots/SelfBots_AJS/issues/new" data-ga-click="Header, create new issue" data-skip-pjax>
+    <a role="menuitem" class="dropdown-item" href="/tanflex.github.io/versionbot.js/issues/new" data-ga-click="Header, create new issue" data-skip-pjax>
       New issue
     </a>
 
@@ -348,7 +348,7 @@
     <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Xs8CKOjrr4HLuJOy6nqjPc4m9UmkQQPp6BeyKN82wuli04/6oHIx2Wf8+ItoIDWz4xILC02T74K4PVYSylFZFw==" />      <input type="hidden" name="repository_id" value="198204439">
 
       <details class="details-reset details-overlay select-menu float-left">
-        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:198204439,&quot;client_id&quot;:&quot;1744417443.1561598502&quot;,&quot;originating_request_id&quot;:&quot;B08C:7788:96FAD1:D7B906:5D767BB3&quot;,&quot;originating_url&quot;:&quot;https://github.com/InexBots/SelfBots_AJS/blob/master/tokenSb.txt&quot;,&quot;referrer&quot;:&quot;https://github.com/InexBots/SelfBots_AJS&quot;,&quot;user_id&quot;:52064201}}" data-hydro-click-hmac="20d0a4ac424939486a9309d21c8223a10afd4867ba5bbbefa7c54c4d6515a30b" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:198204439,&quot;client_id&quot;:&quot;1744417443.1561598502&quot;,&quot;originating_request_id&quot;:&quot;B08C:7788:96FAD1:D7B906:5D767BB3&quot;,&quot;originating_url&quot;:&quot;https://github.com/tanflex.github.io/versionbot.js/blob/master/tokenSb.txt&quot;,&quot;referrer&quot;:&quot;https://github.com/tanflex.github.io/versionbot.js&quot;,&quot;user_id&quot;:52064201}}" data-hydro-click-hmac="20d0a4ac424939486a9309d21c8223a10afd4867ba5bbbefa7c54c4d6515a30b" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
               Watch
           </span>
@@ -419,20 +419,20 @@
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/InexBots/SelfBots_AJS/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="NJ+B/kFqaFXNrZdXE++56w4nIlN7eej1IYH8L3jtPWaR5HRQPVApW9p/38kmlbyzg1fQ57QT1lOsK71zmVRG1g==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/tanflex.github.io/versionbot.js/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="NJ+B/kFqaFXNrZdXE++56w4nIlN7eej1IYH8L3jtPWaR5HRQPVApW9p/38kmlbyzg1fQ57QT1lOsK71zmVRG1g==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar InexBots/SelfBots_AJS" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:198204439,&quot;client_id&quot;:&quot;1744417443.1561598502&quot;,&quot;originating_request_id&quot;:&quot;B08C:7788:96FAD1:D7B906:5D767BB3&quot;,&quot;originating_url&quot;:&quot;https://github.com/InexBots/SelfBots_AJS/blob/master/tokenSb.txt&quot;,&quot;referrer&quot;:&quot;https://github.com/InexBots/SelfBots_AJS&quot;,&quot;user_id&quot;:52064201}}" data-hydro-click-hmac="e32bf2ede4557e0df4ae7b3412f66957aa135273a66f1634c56ed4cd93ef8735" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar tanflex.github.io/versionbot.js" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:198204439,&quot;client_id&quot;:&quot;1744417443.1561598502&quot;,&quot;originating_request_id&quot;:&quot;B08C:7788:96FAD1:D7B906:5D767BB3&quot;,&quot;originating_url&quot;:&quot;https://github.com/InexBots/SelfBots_AJS/blob/master/tokenSb.txt&quot;,&quot;referrer&quot;:&quot;https://github.com/InexBots/SelfBots_AJS&quot;,&quot;user_id&quot;:52064201}}" data-hydro-click-hmac="e32bf2ede4557e0df4ae7b3412f66957aa135273a66f1634c56ed4cd93ef8735" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
         Unstar
-</button>        <a class="social-count js-social-count" href="/InexBots/SelfBots_AJS/stargazers"
+</button>        <a class="social-count js-social-count" href="/tanflex.github.io/versionbot.js/stargazers"
            aria-label="1 user starred this repository">
            1
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/InexBots/SelfBots_AJS/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="vox4i4djDdxI4jtYmWefVGTooEc7H/rPs+Mqt3GDd77+6x204APQ/nfExeZ07xfrx4d3N6EJRGPm3bqoFSlihw==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/tanflex.github.io/versionbot.js/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="vox4i4djDdxI4jtYmWefVGTooEc7H/rPs+Mqt3GDd77+6x204APQ/nfExeZ07xfrx4d3N6EJRGPm3bqoFSlihw==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star InexBots/SelfBots_AJS" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:198204439,&quot;client_id&quot;:&quot;1744417443.1561598502&quot;,&quot;originating_request_id&quot;:&quot;B08C:7788:96FAD1:D7B906:5D767BB3&quot;,&quot;originating_url&quot;:&quot;https://github.com/InexBots/SelfBots_AJS/blob/master/tokenSb.txt&quot;,&quot;referrer&quot;:&quot;https://github.com/InexBots/SelfBots_AJS&quot;,&quot;user_id&quot;:52064201}}" data-hydro-click-hmac="937cf0696d9047a89c4d17ce4ef8b40e4492f8df7dfbc5a92fcb4b0ad5d3ff32" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star tanflex.github.io/versionbot.js" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:198204439,&quot;client_id&quot;:&quot;1744417443.1561598502&quot;,&quot;originating_request_id&quot;:&quot;B08C:7788:96FAD1:D7B906:5D767BB3&quot;,&quot;originating_url&quot;:&quot;https://github.com/InexBots/SelfBots_AJS/blob/master/tokenSb.txt&quot;,&quot;referrer&quot;:&quot;https://github.com/InexBots/SelfBots_AJS&quot;,&quot;user_id&quot;:52064201}}" data-hydro-click-hmac="937cf0696d9047a89c4d17ce4ef8b40e4492f8df7dfbc5a92fcb4b0ad5d3ff32" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
         Star
-</button>        <a class="social-count js-social-count" href="/InexBots/SelfBots_AJS/stargazers"
+</button>        <a class="social-count js-social-count" href="/tanflex.github.io/versionbot.js/stargazers"
            aria-label="1 user starred this repository">
           1
         </a>
@@ -445,7 +445,7 @@
             <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:198204439,&quot;client_id&quot;:&quot;1744417443.1561598502&quot;,&quot;originating_request_id&quot;:&quot;B08C:7788:96FAD1:D7B906:5D767BB3&quot;,&quot;originating_url&quot;:&quot;https://github.com/InexBots/SelfBots_AJS/blob/master/tokenSb.txt&quot;,&quot;referrer&quot;:&quot;https://github.com/InexBots/SelfBots_AJS&quot;,&quot;user_id&quot;:52064201}}" data-hydro-click-hmac="95f39c18a0f1fac836ed8cce65a1e6ced4a440c34e1caa628359e28298800ebd" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of InexBots/SelfBots_AJS to your account" aria-label="Fork your own copy of InexBots/SelfBots_AJS to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
               Fork
 </button></form>
-    <a href="/InexBots/SelfBots_AJS/network/members" class="social-count"
+    <a href="/tanflex.github.io/versionbot.js/network/members" class="social-count"
        aria-label="2 users forked this repository">
       2
     </a>
@@ -454,9 +454,9 @@
 
       <h1 class="public ">
     <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
-  <span class="author" itemprop="author"><a class="url fn" rel="author" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=43498952" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/InexBots">InexBots</a></span><!--
+  <span class="author" itemprop="author"><a class="url fn" rel="author" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=43498952" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="tanflex.github.io">versionbot.js</a></span><!--
 --><span class="path-divider">/</span><!--
---><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/InexBots/SelfBots_AJS">SelfBots_AJS</a></strong>
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/tanflex.github.io/versionbot.js">versionbot.js</a></strong>
   
 
 </h1>
@@ -470,14 +470,14 @@
      data-pjax="#js-repo-pjax-container">
 
   <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /InexBots/SelfBots_AJS" href="/InexBots/SelfBots_AJS">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /tanflex.github.io" href="/tanflex.github.io/versionbot.js">
       <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
       <span itemprop="name">Code</span>
       <meta itemprop="position" content="1">
 </a>  </span>
 
     <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /InexBots/SelfBots_AJS/issues" href="/InexBots/SelfBots_AJS/issues">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /tanflex.github.io/versionbot.js/issues" href="/tanflex.github.io/versionbot.js/issues">
         <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
         <span itemprop="name">Issues</span>
         <span class="Counter">0</span>
@@ -485,7 +485,7 @@
 </a>    </span>
 
   <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /InexBots/SelfBots_AJS/pulls" href="/InexBots/SelfBots_AJS/pulls">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /tanflex.github.io/versionbot.js/pulls" href="/tanflex.github.io/versionbot.js/pulls">
       <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
       <span itemprop="name">Pull requests</span>
       <span class="Counter">0</span>
@@ -493,21 +493,21 @@
 </a>  </span>
 
 
-    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /InexBots/SelfBots_AJS/projects" href="/InexBots/SelfBots_AJS/projects">
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /InexBots/SelfBots_AJS/projects" href="/tanflex.github.io/versionbot.js/projects">
       <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
       Projects
       <span class="Counter" >0</span>
 </a>
 
-    <a class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /InexBots/SelfBots_AJS/wiki" href="/InexBots/SelfBots_AJS/wiki">
+    <a class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /InexBots/SelfBots_AJS/wiki" href="/tanflex.github.io/versionbot.js/wiki">
       <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
       Wiki
 </a>
-    <a data-skip-pjax="true" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy code_scanning /InexBots/SelfBots_AJS/security/advisories" href="/InexBots/SelfBots_AJS/security/advisories">
+    <a data-skip-pjax="true" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy code_scanning /tanflex.github.io/versionbot.js/security/advisories" href="/tanflex.github.io/versionbot.js/security/advisories">
       <svg class="octicon octicon-shield" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 2l7-2 7 2v6.02C14 12.69 8.69 16 7 16c-1.69 0-7-3.31-7-7.98V2zm1 .75L7 1l6 1.75v5.268C13 12.104 8.449 15 7 15c-1.449 0-6-2.896-6-6.982V2.75zm1 .75L7 2v12c-1.207 0-5-2.482-5-5.985V3.5z"/></svg>
       Security
 </a>
-    <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse people /InexBots/SelfBots_AJS/pulse" href="/InexBots/SelfBots_AJS/pulse">
+    <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse people /tanflex.github.io/versionbot.js/pulse" href="/tanflex.github.io/versionbot.js/pulse">
       <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
       Insights
 </a>
