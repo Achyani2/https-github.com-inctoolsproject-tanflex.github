@@ -86,14 +86,14 @@
   <meta http-equiv="x-pjax-version" content="cd7a3cbd24effb2f933ee1fb847867b1">
   
 
-      <link href="https://github.com/indexBots/versionbot.js/commits/master.atom" rel="alternate" title="Recent Commits to tanflex.github.io:master" type="application/atom+xml">
+      <link href="https://github.com/tanflex.github.io/versionbot.js/commits/master.atom" rel="alternate" title="Recent Commits to tanflex.github.io:master" type="application/atom+xml">
 
-  <meta name="go-import" content="github.com/indexBots/versionbot.js git https://github.com/indexBots/versionbot.js.git">
+  <meta name="go-import" content="github.com/tanflex.github.io/versionbot.js git https://github.com/tanflex.github.io/versionbot.js.git">
 
   <meta name="octolytics-dimension-user_id" content="43498952" /><meta name="octolytics-dimension-user_login" content="tanflex.github.io" /><meta name="octolytics-dimension-repository_id" content="198204439" /><meta name="octolytics-dimension-repository_nwo" content="tanflex.github.io/versionbot.js" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="198204439" /><meta name="octolytics-dimension-repository_network_root_nwo" content="tanflex.github.io/versionbot.js" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/indexBots/tanflex.github.io/blob/master/tokenSb.txt" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/tanflex.github.io/versionbot.js/blob/master/tokenSb.txt" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
