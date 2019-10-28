@@ -8,6 +8,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+     *from Owner client import=utf-8"
+     <"xml version="1.0" encoding="UTF-8"?>
+   <feed xmlns="http://www.w3.org/2005/Atom"><title>plugin-log-level-bazel-stable-2.16 all builds</title><link rel="alternate" type="text/html" href="https://gerrit-ci.gerritforge.com/job/plugin-log-level-bazel-stable-2.16/"/><updated>2019-10-16T19:54:42Z</updated><author><name>Jenkins Server</name></author><id>urn:uuid:903deee0-7bfa-11db-9fe1-0800200c9a66</id><entry><title>plugin-log-level-bazel-stable-2.16 #25 (stable)</title><link rel="alternate" type="text/html" href="https://gerrit-ci.gerritforge.com/job/plugin-log-level-bazel-stable-2.16/25/"/><id>tag:hudson.dev.java.net,2019:plugin-log-level-bazel-stable-2.16:25</id><published>2019-10-16T19:54:42Z</published><updated>2019-10-16T19:54:42Z</updated></entry><entry><title>plugin-log-level-bazel-stable-2.16 #24 (stable)</title><link rel="alternate" type="text/html" href="https://gerrit-ci.gerritforge.com/job/plugin-log-level-bazel-stable-2.16/24/"/><id>tag:hudson.dev.java.net,2019:plugin-log-level-bazel-stable-2.16:24</id><published>2019-10-11T06:55:47Z</published><updated>2019-10-11T06:55:47Z</updated></entry></feed>
+    <"xml version="1.0" encoding="UTF-8"?>
+  <feed xmlns="http://www.w3.org/2005/Atom"><title>plugin-log-level-bazel-stable-2.16 failed builds</title><link rel="alternate" type="text/html" href="https://gerrit-ci.gerritforge.com/job/plugin-log-level-bazel-stable-2.16/"/><updated>2001-01-01T00:00:00Z</updated><author><name>Jenkins Server</name></author><id>urn:uuid:903deee0-7bfa-11db-9fe1-0800200c9a66</id></feed>
   <link rel="dns-prefetch" href="https://github.githubassets.com">
   <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
   <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
