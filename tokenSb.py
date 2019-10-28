@@ -520,47 +520,47 @@
        itemtype="http://schema.org/BreadcrumbList">
 
     <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-      <a class="js-selected-navigation-item selected reponav-item" itemprop="url" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /InexBots/SelfBots_AJS" href="/InexBots/SelfBots_AJS">
+      <a class="js-selected-navigation-item selected reponav-item" itemprop="url" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /tanflex.github.io/versionbot.js" href="/tanflex.github.io/versionbot.js">
         <span itemprop="name">Code</span>
         <meta itemprop="position" content="1">
 </a>    </span>
 
       <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /InexBots/SelfBots_AJS/issues" href="/InexBots/SelfBots_AJS/issues">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /tanflex.github.io/versionbot.js/issues" href="/tanflex.github.io/versionbot.js/issues">
           <span itemprop="name">Issues</span>
           <span class="Counter">0</span>
           <meta itemprop="position" content="2">
 </a>      </span>
 
     <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /InexBots/SelfBots_AJS/pulls" href="/InexBots/SelfBots_AJS/pulls">
+      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /tanflex.github.io/versionbot.js/pulls" href="/tanflex.github.io/versionbot.js/pulls">
         <span itemprop="name">Pull requests</span>
         <span class="Counter">0</span>
         <meta itemprop="position" content="3">
 </a>    </span>
 
       <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /InexBots/SelfBots_AJS/projects" href="/InexBots/SelfBots_AJS/projects">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /tanflex.github.io/versionbot.js/projects" href="/tanflex.github.io/versionbot.js/projects">
           <span itemprop="name">Projects</span>
           <span class="Counter">0</span>
           <meta itemprop="position" content="4">
 </a>      </span>
 
       <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_wiki /InexBots/SelfBots_AJS/wiki" href="/InexBots/SelfBots_AJS/wiki">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_wiki /InexBots/SelfBots_AJS/wiki" href="/tanflex.github.io/versionbot.js/wiki">
           <span itemprop="name">Wiki</span>
           <meta itemprop="position" content="5">
 </a>      </span>
 
-      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy code_scanning /InexBots/SelfBots_AJS/security/advisories" href="/InexBots/SelfBots_AJS/security/advisories">
+      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy code_scanning /tanflex.github.io/versionbot.js/security/advisories" href="/tanflex.github.io/versionbot.js/security/advisories">
         <span itemprop="name">Security</span>
         <meta itemprop="position" content="6">
 </a>
-      <a class="js-selected-navigation-item reponav-item" data-selected-links="pulse /InexBots/SelfBots_AJS/pulse" href="/InexBots/SelfBots_AJS/pulse">
+      <a class="js-selected-navigation-item reponav-item" data-selected-links="pulse /tanflex.github.io/versionbot.js/pulse" href="/tanflex.github.io/versionbot.js/pulse">
         Pulse
 </a>
       <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="community /InexBots/SelfBots_AJS/community" href="/InexBots/SelfBots_AJS/community">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="community /tanflex.github.io/versionbot.js/community" href="/tanflex.github.io/versionbot.js/community">
           Community
 </a>      </span>
 
@@ -579,7 +579,7 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/InexBots/SelfBots_AJS/blob/bf43e814011e896f625d4d62c303cb1676c8ae4c/tokenSb.txt">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/tanflex.github.io/versionbot.js/blob/bf43e814011e896f625d4d62c303cb1676c8ae4c/tokenSb.txt">Permalink</a>
 
     <!-- blob contrib key: blob_contributors:v21:fd6898155e06590a3941e8a93b2e1527 -->
       
@@ -595,7 +595,7 @@
     <span class="css-truncate-target" data-menu-button>master</span>
   </summary>
 
-  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/InexBots/SelfBots_AJS/ref-list/master/tokenSb.txt?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/tanflex.github.io/versionbot.js/ref-list/master/tokenSb.txt?source_action=show&amp;source_controller=blob" preload>
     <include-fragment class="select-menu-loading-overlay anim-pulse">
       <svg height="32" class="octicon octicon-octoface" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
     </include-fragment>
@@ -603,7 +603,7 @@
 </details>
 
         <div class="BtnGroup flex-shrink-0 d-md-none">
-          <a href="/InexBots/SelfBots_AJS/find/master"
+          <a href="/tanflex.github.io/versionbot.js/find/master"
                 class="js-pjax-capture-input btn btn-sm BtnGroup-item"
                 data-pjax
                 data-hotkey="t">
@@ -615,11 +615,11 @@
         </div>
       </span>
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/InexBots/SelfBots_AJS"><span>SelfBots_AJS</span></a></span></span><span class="separator">/</span><strong class="final-path">tokenSb.txt</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/tanflex.github.io/versionbot.js"><span>versionbot.js</span></a></span></span><span class="separator">/</span><strong class="final-path">tokenSb.txt</strong>
       </h2>
 
       <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
-        <a href="/InexBots/SelfBots_AJS/find/master"
+        <a href="/tanflex.github.io/versionbot.js/find/master"
               class="js-pjax-capture-input btn btn-sm BtnGroup-item"
               data-pjax
               data-hotkey="t">
@@ -633,7 +633,7 @@
 
 
 
-    <include-fragment src="/InexBots/SelfBots_AJS/contributors/master/tokenSb.txt" class="Box Box--condensed commit-loader">
+    <include-fragment src="/tanflex.github.io/versionbot.js/contributors/master/tokenSb.txt" class="Box Box--condensed commit-loader">
       <div class="Box-body bg-blue-light f6">
         Fetching contributors&hellip;
       </div>
@@ -660,21 +660,21 @@
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/InexBots/SelfBots_AJS/raw/master/tokenSb.txt">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/InexBots/SelfBots_AJS/blame/master/tokenSb.txt">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/InexBots/SelfBots_AJS/commits/master/tokenSb.txt">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/tanflex.github.io/versionbot.js/raw/master/tokenSb.txt">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/tanflex.github.io/versionbot.js/blame/master/tokenSb.txt">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/tanflex.github.io/versionbot.js/commits/master/tokenSb.txt">History</a>
     </div>
 
 
     <div>
 
-            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/InexBots/SelfBots_AJS/edit/master/tokenSb.txt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="VfP+kUfKMXNx3JkdRO0lBnHiM5dwSFAdkuh/j3Dp4lLCM1HQ0oXVvaCk3jxms/etDDbzp3lgNjwaJ4frLD2tOQ==" />
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/tanflex.github.io/versionbot.js/edit/master/tokenSb.txt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="VfP+kUfKMXNx3JkdRO0lBnHiM5dwSFAdkuh/j3Dp4lLCM1HQ0oXVvaCk3jxms/etDDbzp3lgNjwaJ4frLD2tOQ==" />
               <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
                 aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
                 <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
               </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/InexBots/SelfBots_AJS/delete/master/tokenSb.txt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="5zRwHSiucD8QnpoB0YjiPavCoIHIOMZyoGJ7UxNAPdqvxd5ifJj6ZpVJk/IYAWlhXWrs0mG4l7gkIxqlXHUm1A==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/tanflex.github.io/versionbot.js/delete/master/tokenSb.txt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="5zRwHSiucD8QnpoB0YjiPavCoIHIOMZyoGJ7UxNAPdqvxd5ifJj6ZpVJk/IYAWlhXWrs0mG4l7gkIxqlXHUm1A==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and delete the file" data-disable-with>
               <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -707,7 +707,7 @@
         <li><clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;" data-original-text="Copy lines">Copy lines</clipboard-copy></li>
         <li><clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;" data-original-text="Copy permalink">Copy permalink</clipboard-copy></li>
         <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/InexBots/SelfBots_AJS/blame/bf43e814011e896f625d4d62c303cb1676c8ae4c/tokenSb.txt">View git blame</a></li>
-          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/InexBots/SelfBots_AJS/issues/new">Reference in new issue</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/tanflex.github.io/versionbot.js/issues/new">Reference in new issue</a></li>
       </ul>
     </details-menu>
   </details>
