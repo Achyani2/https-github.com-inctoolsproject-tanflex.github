@@ -30,7 +30,7 @@ except ImportError:
     import urllib2
 #==============================================================================#
 
-maxgie = LINE('')
+maxgie = LINE("tanpattaya2499@gmail.com","https://line.me/R/ti/p/~ptatan1983")
 maxgie.log("Auth Token : " + str(maxgie.authToken))
 maxgie.log("Timeline Token : " + str(maxgie.tl.channelAccessToken))
 
