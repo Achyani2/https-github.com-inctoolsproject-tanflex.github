@@ -33,3 +33,13 @@
       git clone https://github.com/tanpattaya/tanflex.github
       cd tanflex.github
       python3 tanflex.py
+[![TrioPekokBots](line_sm.png?s=460&v=4)]( )
+#  linepr          
+         <https://line.me/R/ti/p/%40642xtzwc>
+         <https://line.me/R/ti/p/~ptatan1983>
+                  
+
+
+#  CHAT ME
+ 
+<a href="https://line.me/R/ti/p/%40642xtzwc"><img height="36" border="0" alt="Add Friend" src="https://scdn.line-apps.com/n/line_add_friends/btn/en.png"></a>
