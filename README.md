@@ -43,3 +43,10 @@
 #  CHAT ME
  
 <a href="https://line.me/R/ti/p/%40642xtzwc"><img height="36" border="0" alt="Add Friend" src="https://scdn.line-apps.com/n/line_add_friends/btn/en.png"></a>
+# python3
+   `https://line.me/R/ti/p/~ptatan1983` 
+   `https://line.me/R/ti/p/%40642xtzwc`
+## Author
+   /[@pratan-naimjoi](https://www.linkedin.com/in/pratan-naimjoi)
+
+    ꧁💓 @:꓄ꍏꈤᖘꍏ꓄꓄ꍏꌩ💓꧂   
