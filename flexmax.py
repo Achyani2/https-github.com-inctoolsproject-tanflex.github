@@ -33,9 +33,16 @@ except ImportError:
 maxgie = LINE("")
 maxgie.log("Auth Token : " + str(maxgie.authToken))
 maxgie.log("Timeline Token : " + str(maxgie.tl.channelAccessToken))
-
-waitOpen = codecs.open("Max2.json","r","utf-8")
-settingsOpen = codecs.open("max.json","r","utf-8")
+Setbot1 = codecs.open ( " setting.json " , " r " , " utf-8 " )
+Setmain = json.load (Setbot1)
+Setbot2 = codecs.open ( " settings.json " , " r " , " utf-8 " )
+settings = json.load (Setbot2)
+Setbot3 = codecs.open ( " wait.json " , " r " , " utf-8 " )
+wait = json.load (Setbot3)
+Setbot4 = codecs.open ( " read.json " , " r " , " utf-8 " )
+read = json.load (Setbot4)
+waitOpen = codecs.open("wait.json","r","utf-8")
+settingsOpen = codecs.open("settings.json","r","utf-8")
 imagesOpen = codecs.open("image.json","r","utf-8")
 stickersOpen = codecs.open("sticker.json","r","utf-8")
 wait = json.load(waitOpen)
@@ -205,11 +212,11 @@ ProfileMe["pictureStatus"] = maxgieProfile.pictureStatus
 coverId = maxgie.getProfileDetail()["result"]["objectId"]
 ProfileMe["coverId"] = coverId
 #=====================================================================
-with open("max.json", "r", encoding="utf_8_sig") as f:
+with open("with.json", "r", encoding="utf_8_sig") as f:
     anu = json.loads(f.read())
     anu.update(settings)
     settings = anu
-with open("Max2.json", "r", encoding="utf_8_sig") as f:
+with open("settings.json", "r", encoding="utf_8_sig") as f:
     itu = json.loads(f.read())
     itu.update(wait)
     wait = itu
