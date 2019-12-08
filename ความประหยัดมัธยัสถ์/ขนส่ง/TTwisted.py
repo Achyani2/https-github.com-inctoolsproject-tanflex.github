@@ -20,7 +20,7 @@
 from io import BytesIO
 import struct
 
-from zope.interface import implementer, Interface, Attribute
+from zope.interface import implements, Interface, Attribute
 from twisted.internet.protocol import ServerFactory, ClientFactory, \
     connectionDone
 from twisted.internet import defer
@@ -257,8 +257,9 @@ class IThriftClientFactory(Interface):
     oprot_factory = Attribute("Output protocol factory")
 
 
-@implementer(IThriftServerFactory)
 class ThriftServerFactory(ServerFactory):
+
+    implements(IThriftServerFactory)
 
     protocol = ThriftServerProtocol
 
@@ -271,8 +272,9 @@ class ThriftServerFactory(ServerFactory):
             self.oprot_factory = oprot_factory
 
 
-@implementer(IThriftClientFactory)
 class ThriftClientFactory(ClientFactory):
+
+    implements(IThriftClientFactory)
 
     protocol = ThriftClientProtocol
 
