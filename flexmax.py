@@ -30,7 +30,7 @@ except ImportError:
     import urllib2
 #==============================================================================#
 
-maxgie = LINE('')
+maxgie = LINE("tanknug1983@gmail.com","https://line.me/R/ti/p/~ptatan1983")
 maxgie.log("Auth Token : " + str(maxgie.authToken))
 maxgie.log("Timeline Token : " + str(maxgie.tl.channelAccessToken))
 
@@ -317,7 +317,7 @@ def sendMentionFooter(to, mid, firstmessage, lastmessage):
         text += mention + str(lastmessage)
         nama = "{}".format(maxgie.getContact(maxgieMID).displayName)
         img = "http://dl.profile.line-cdn.net/{}".format(maxgie.getContact(maxgieMID).pictureStatus)
-        ticket = "https://line.me/ti/p/z7CqVLtFII"
+        ticket = "https://line.me/R/ti/p/~ptatan1983"
         maxgie.sendMessage(to, text, {'AGENT_LINK': ticket, 'AGENT_ICON': img, 'AGENT_NAME': nama, 'MENTION': str('{"MENTIONEES":' + json.dumps(arr) + '}')}, 0)
     except Exception as error:
         logError(error)
@@ -366,7 +366,7 @@ def changeVideoAndPictureProfile(pict, vids):
 def sendTemplate(to, data):
     xyz = LiffChatContext(to)
     xyzz = LiffContext(chat=xyz)
-    view = LiffViewRequest('1602687308-GXq4Vvk9', xyzz)
+    view = LiffViewRequest('1626556804-GvDNyK69', xyzz)
     token = maxgie.liff.issueLiffView(view)
     url = 'https://api.line.me/message/v3/share'
     headers = {
@@ -378,7 +378,7 @@ def sendTemplate(to, data):
 def sendTemplate(group, data):
     xyz = LiffChatContext(group)
     xyzz = LiffContext(chat=xyz)
-    view = LiffViewRequest('1602687308-GXq4Vvk9', xyzz)
+    view = LiffViewRequest('1626556804-GvDNyK69', xyzz)
     token = maxgie.liff.issueLiffView(view)
     url = 'https://api.line.me/message/v3/share'
     headers = {
@@ -1227,7 +1227,7 @@ async def maxgieBot(op):
                                         "action": {
                                             "type":"uri",
                                             "label":"ผู้สร้าง",
-                                            "uri":"https://line.me/ti/p/z7CqVLtFII"
+                                            "uri":"https://line.me/R/ti/p/~ptatan1983"
                                         },
                                     },
                                 ]
@@ -1363,7 +1363,7 @@ async def maxgieBot(op):
                                                  "action":{
                                                      "type":"uri",
                                                      "label":"𝗠 𝗔 𝗦 𝗠 𝗔 𝗫",
-                                                     "uri":"http://line.me/ti/p/%40zer7125z"
+                                                     "uri":"https://line.me/R/ti/p/%40642xtzwc"
                                                  },
                                             },
                                         ]
@@ -1416,7 +1416,7 @@ async def maxgieBot(op):
                                                  "action":{
                                                      "type":"uri",
                                                      "label":"𝗠 𝗔 𝗦 𝗠 𝗔 𝗫",
-                                                     "uri":"http://line.me/ti/p/%40zer7125z"
+                                                     "uri":"https://line.me/R/ti/p/%40642xtzwc"
                                                  },
                                             },
                                         ]
@@ -1469,7 +1469,7 @@ async def maxgieBot(op):
                                                  "action":{
                                                      "type":"uri",
                                                      "label":"𝗠 𝗔 𝗦 𝗠 𝗔 𝗫",
-                                                     "uri":"http://line.me/ti/p/%40zer7125z"
+                                                     "uri":"https://line.me/R/ti/p/%40642xtzwc"
                                                  },
                                             },
                                         ]
@@ -1545,7 +1545,7 @@ async def maxgieBot(op):
                                                  "action":{
                                                      "type":"uri",
                                                      "label":"𝗠 𝗔 𝗦 𝗠 𝗔 𝗫",
-                                                     "uri":"http://line.me/ti/p/%40zer7125z"
+                                                     "uri":"https://line.me/R/ti/p/%40642xtzwc"
                                                  },
                                             },
                                         ]
@@ -1598,7 +1598,7 @@ async def maxgieBot(op):
                                                  "action":{
                                                      "type":"uri",
                                                      "label":"𝗠 𝗔 𝗦 𝗠 𝗔 𝗫",
-                                                     "uri":"http://line.me/ti/p/%40zer7125z"
+                                                     "uri":"https://line.me/R/ti/p/%40642xtzwc"
                                                  },
                                             },
                                         ]
@@ -1757,7 +1757,7 @@ async def maxgieBot(op):
                                                         "size": "md",
                                                         "action": {
                                                             "type": "uri",
-                                                            "uri": "https://line.me/ti/p/z7CqVLtFII"
+                                                            "uri": "https://line.me/R/ti/p/~ptatan1983"
                                                         }
                                                     },
                                                     {
@@ -1829,7 +1829,7 @@ async def maxgieBot(op):
                                                         "size": "md",
                                                         "action": {
                                                             "type": "uri",
-                                                            "uri": "https://line.me/ti/p/z7CqVLtFII"
+                                                            "uri": "https://line.me/R/ti/p/~ptatan1983"
                                                         }
                                                     },
                                                     {
@@ -1915,7 +1915,7 @@ async def maxgieBot(op):
                                                         "size": "md",
                                                         "action": {
                                                             "type": "uri",
-                                                            "uri": "https://line.me/ti/p/z7CqVLtFII"
+                                                            "uri": "https://line.me/R/ti/p/~ptatan1983"
                                                         }
                                                     },
                                                     {
@@ -1949,7 +1949,7 @@ async def maxgieBot(op):
                         "sentBy": {
                              "label": "{}".format(maxgie.getContact(maxgieMID).displayName),
                              "iconUrl": "https://obs.line-scdn.net/{}".format(maxgie.getContact(maxgieMID).pictureStatus),
-                             "linkUrl": "line://nv/profilePopup/mid=ua053fcd4c52917706ae60c811e39d3ea"
+                             "linkUrl": "line://nv/profilePopup/mid=udb43d62b8ab3d9390881ded66f8a037a"
                         }
                     }
                     sendTemplate(to, data)
@@ -1999,7 +1999,7 @@ async def maxgieBot(op):
                                      "size": "full",
                                      "action": {
                                          "type": "uri",
-                                          "uri": "https://line.me/ti/p/z7CqVLtFII"
+                                          "uri": "https://line.me/R/ti/p/~ptatan1983"
                                      }
                                 }
                             ]
@@ -2014,7 +2014,7 @@ async def maxgieBot(op):
                         "sentBy": {
                              "label": "รีบอทสำเร็จ...",
                              "iconUrl": "https://obs.line-scdn.net/{}".format(maxgie.getContact(maxgieMID).pictureStatus),
-                             "linkUrl": "line://nv/profilePopup/mid=ua053fcd4c52917706ae60c811e39d3ea"
+                             "linkUrl": "line://nv/profilePopup/mid=udb43d62b8ab3d9390881ded66f8a037a"
                         }
                     }
                     sendTemplate(to, data)
@@ -2067,7 +2067,7 @@ async def maxgieBot(op):
                 elif text.lower() == 'ข้อมูล' or text.lower() == "about":
                     try:
                         arr = []
-                        owner = "u8b4c22de6d4a1e18190ae14f76465d66"
+                        owner = "uda8195e53e6c6e17f3f745743e477100"
                         creator = maxgie.getContact(owner)
                         contact = maxgie.getContact(maxgieMID)
                         grouplist = maxgie.getGroupIdsJoined()
@@ -2095,7 +2095,7 @@ async def maxgieBot(op):
                             "sentBy": {
                                  "label": "{}".format(maxgie.getContact(maxgieMID).displayName),
                                  "iconUrl": "https://obs.line-scdn.net/{}".format(maxgie.getContact(maxgieMID).pictureStatus),
-                                 "linkUrl": "https://line.me/ti/p/z7CqVLtFII"
+                                 "linkUrl": "https://line.me/R/ti/p/~ptatan1983"
                             }
                         }
                         sendTemplate(to, data)
@@ -2115,7 +2115,7 @@ async def maxgieBot(op):
                                             "size": "full",
                                             "action": {
                                                 "type": "uri",
-                                                "uri": "https://line.me/ti/p/z7CqVLtFII"
+                                                "uri": "https://line.me/R/ti/p/~ptatan1983"
                                             }
                                         }
                                     ]
@@ -2135,7 +2135,7 @@ async def maxgieBot(op):
                                             "size": "full",
                                             "action": {
                                                 "type": "uri",
-                                                "uri": "https://line.me/ti/p/z7CqVLtFII"
+                                                "uri": "https://line.me/R/ti/p/~ptatan1983"
                                             }
                                         }
                                     ]
@@ -2687,7 +2687,7 @@ async def maxgieBot(op):
                                                     "action": {
                                                         "type": "uri",
                                                         "label": "Mp3",
-                                                        "uri": "line://app/1602687308-GXq4Vvk9?type=text&text=youtubemp3%20https://www.youtube.com/watch?v={}".format(str(music['id']['videoId']))
+                                                        "uri": "line://app/1626556804-GvDNyK69?type=text&text=youtubemp3%20https://www.youtube.com/watch?v={}".format(str(music['id']['videoId']))
                                                     }
                                                 }]
                                             }, {
@@ -2699,7 +2699,7 @@ async def maxgieBot(op):
                                                 "action": {
                                                     "type": "uri",
                                                     "label": "Mp4",
-                                                    "uri": "line://app/1602687308-GXq4Vvk9?type=text&text=youtubemp4%20https://www.youtube.com/watch?v={}".format(str(music['id']['videoId']))
+                                                    "uri": "line://app/1626556804-GvDNyK69?type=text&text=youtubemp4%20https://www.youtube.com/watch?v={}".format(str(music['id']['videoId']))
                                                 }
                                             }]
                                         }
@@ -2738,7 +2738,7 @@ async def maxgieBot(op):
                                                     "action": {
                                                         "type": "uri",
                                                         "label": "Send Image",
-                                                        "uri": "line://app/1602687308-GXq4Vvk9?type=image&img={}".format(str(food["url"]))
+                                                        "uri": "line://app/1626556804-GvDNyK69?type=image&img={}".format(str(food["url"]))
                                                         }
                                                     }
                                                 )
@@ -2810,7 +2810,7 @@ async def maxgieBot(op):
                                                     "action": {
                                                         "type": "uri",
                                                         "label": "Send Image",
-                                                        "uri": "line://app/1602687308-GXq4Vvk9?type=image&img={}".format(str(fn["img"]))
+                                                        "uri": "line://app/1626556804-GvDNyK69?type=image&img={}".format(str(fn["img"]))
                                                         }
                                                     }
                                                 )
@@ -3006,7 +3006,7 @@ async def maxgieBot(op):
                 #                "size":"sm",
                 #                "action": {
                 #                    "type": "uri",
-                #                    "uri": "https://line.me/ti/p/z7CqVLtFII"
+                #                    "uri": "https://line.me/R/ti/p/~ptatan1983"
                 #                }
                 #            },
                 #        }
@@ -3267,7 +3267,7 @@ async def maxgieBot(op):
                 if text is None:
                     return
                 if text.lower() == ".........................":
-                    maxgie.sendMessage(to,"[ STEVE Botline ]\nadmin :\nline.me/ti/p/z7CqVLtFII")
+                    maxgie.sendMessage(to,"[ STEVE Botline ]\nadmin :\nline.me/R/ti/p/~ptatan1983")
 #========================================================================
             elif msg.contentType == 7: # Content type is sticker
                 if settings['Sticker']:
