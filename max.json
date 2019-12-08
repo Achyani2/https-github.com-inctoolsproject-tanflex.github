@@ -23,7 +23,7 @@
         "status": false
     },
     "admin": [
-        "uda8195e53e6c6e17f3f745743e477100"
+        "udf060a89ebb2af83af77edddb767c329"
     ],
     "ani_guess": [
         "c9a9f741633543d70449a7d9801cbbd28"
@@ -134,7 +134,7 @@
     "setKey": false,
     "tag": false,
     "timeRestart": 43200,
-    "ttt": "line://app/1626556804-GvDNyK69?type=text&text=",
+    "ttt": "line://app/1602687308-GXq4Vvk9?type=text&text=",
     "unsendMessage": false,
     "userAgent": [
         "Mozilla/5.0 (X11; U; Linux i586; de; rv:5.0) Gecko/20100101 Firefox/5.0",
