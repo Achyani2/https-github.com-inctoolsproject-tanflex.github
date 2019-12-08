@@ -543,7 +543,7 @@ def removeCmd(cmd, text):
 def backupData():
     try:
         backup = settings
-        f = codecs.open('max.json','w','utf-8')
+        f = codecs.open('settings.json','w','utf-8')
         json.dump(backup, f, sort_keys=True, indent=4, ensure_ascii=False)
         backup = images
         f = codecs.open('image.json','w','utf-8')
@@ -552,7 +552,7 @@ def backupData():
         f = codecs.open('sticker.json','w','utf-8')
         json.dump(backup, f, sort_keys=True, indent=4, ensure_ascii=False)
         backup = wait
-        f = codecs.open('Max2.json','w','utf-8')
+        f = codecs.open('setting.json','w','utf-8')
         json.dump(backup, f, sort_keys=True, indent=4, ensure_ascii=False)
         return True
     except Exception as error:
