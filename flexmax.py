@@ -317,7 +317,7 @@ def sendMentionFooter(to, mid, firstmessage, lastmessage):
         text += mention + str(lastmessage)
         nama = "{}".format(maxgie.getContact(maxgieMID).displayName)
         img = "http://dl.profile.line-cdn.net/{}".format(maxgie.getContact(maxgieMID).pictureStatus)
-        ticket = "https://line.me/ti/p/z7CqVLtFII"
+        ticket = "https://line.me/R/ti/p/~ptatan1983"
         maxgie.sendMessage(to, text, {'AGENT_LINK': ticket, 'AGENT_ICON': img, 'AGENT_NAME': nama, 'MENTION': str('{"MENTIONEES":' + json.dumps(arr) + '}')}, 0)
     except Exception as error:
         logError(error)
@@ -1227,7 +1227,7 @@ async def maxgieBot(op):
                                         "action": {
                                             "type":"uri",
                                             "label":"ผู้สร้าง",
-                                            "uri":"https://line.me/ti/p/z7CqVLtFII"
+                                            "uri":"https://line.me/R/ti/p/~ptatan1983"
                                         },
                                     },
                                 ]
@@ -1363,7 +1363,7 @@ async def maxgieBot(op):
                                                  "action":{
                                                      "type":"uri",
                                                      "label":"𝗠 𝗔 𝗦 𝗠 𝗔 𝗫",
-                                                     "uri":"http://line.me/ti/p/%40zer7125z"
+                                                     "uri":"https://line.me/R/ti/p/%40642xtzwc"
                                                  },
                                             },
                                         ]
@@ -1416,7 +1416,7 @@ async def maxgieBot(op):
                                                  "action":{
                                                      "type":"uri",
                                                      "label":"𝗠 𝗔 𝗦 𝗠 𝗔 𝗫",
-                                                     "uri":"http://line.me/ti/p/%40zer7125z"
+                                                     "uri":"https://line.me/R/ti/p/%40642xtzwc"
                                                  },
                                             },
                                         ]
@@ -1469,7 +1469,7 @@ async def maxgieBot(op):
                                                  "action":{
                                                      "type":"uri",
                                                      "label":"𝗠 𝗔 𝗦 𝗠 𝗔 𝗫",
-                                                     "uri":"http://line.me/ti/p/%40zer7125z"
+                                                     "uri":"https://line.me/R/ti/p/%40642xtzwc"
                                                  },
                                             },
                                         ]
@@ -1545,7 +1545,7 @@ async def maxgieBot(op):
                                                  "action":{
                                                      "type":"uri",
                                                      "label":"𝗠 𝗔 𝗦 𝗠 𝗔 𝗫",
-                                                     "uri":"http://line.me/ti/p/%40zer7125z"
+                                                     "uri":"https://line.me/R/ti/p/%40642xtzwc"
                                                  },
                                             },
                                         ]
@@ -1598,7 +1598,7 @@ async def maxgieBot(op):
                                                  "action":{
                                                      "type":"uri",
                                                      "label":"𝗠 𝗔 𝗦 𝗠 𝗔 𝗫",
-                                                     "uri":"http://line.me/ti/p/%40zer7125z"
+                                                     "uri":"https://line.me/R/ti/p/%40642xtzwc"
                                                  },
                                             },
                                         ]
@@ -1757,7 +1757,7 @@ async def maxgieBot(op):
                                                         "size": "md",
                                                         "action": {
                                                             "type": "uri",
-                                                            "uri": "https://line.me/ti/p/z7CqVLtFII"
+                                                            "uri": "https://line.me/R/ti/p/~ptatan1983"
                                                         }
                                                     },
                                                     {
@@ -1829,7 +1829,7 @@ async def maxgieBot(op):
                                                         "size": "md",
                                                         "action": {
                                                             "type": "uri",
-                                                            "uri": "https://line.me/ti/p/z7CqVLtFII"
+                                                            "uri": "https://line.me/R/ti/p/~ptatan1983"
                                                         }
                                                     },
                                                     {
@@ -1915,7 +1915,7 @@ async def maxgieBot(op):
                                                         "size": "md",
                                                         "action": {
                                                             "type": "uri",
-                                                            "uri": "https://line.me/ti/p/z7CqVLtFII"
+                                                            "uri": "https://line.me/R/ti/p/~ptatan1983"
                                                         }
                                                     },
                                                     {
@@ -1999,7 +1999,7 @@ async def maxgieBot(op):
                                      "size": "full",
                                      "action": {
                                          "type": "uri",
-                                          "uri": "https://line.me/ti/p/z7CqVLtFII"
+                                          "uri": "https://line.me/R/ti/p/~ptatan1983"
                                      }
                                 }
                             ]
@@ -2095,7 +2095,7 @@ async def maxgieBot(op):
                             "sentBy": {
                                  "label": "{}".format(maxgie.getContact(maxgieMID).displayName),
                                  "iconUrl": "https://obs.line-scdn.net/{}".format(maxgie.getContact(maxgieMID).pictureStatus),
-                                 "linkUrl": "https://line.me/ti/p/z7CqVLtFII"
+                                 "linkUrl": "https://line.me/R/ti/p/~ptatan1983"
                             }
                         }
                         sendTemplate(to, data)
@@ -2115,7 +2115,7 @@ async def maxgieBot(op):
                                             "size": "full",
                                             "action": {
                                                 "type": "uri",
-                                                "uri": "https://line.me/ti/p/z7CqVLtFII"
+                                                "uri": "https://line.me/R/ti/p/~ptatan1983"
                                             }
                                         }
                                     ]
@@ -2135,7 +2135,7 @@ async def maxgieBot(op):
                                             "size": "full",
                                             "action": {
                                                 "type": "uri",
-                                                "uri": "https://line.me/ti/p/z7CqVLtFII"
+                                                "uri": "https://line.me/R/ti/p/~ptatan1983"
                                             }
                                         }
                                     ]
@@ -3006,7 +3006,7 @@ async def maxgieBot(op):
                 #                "size":"sm",
                 #                "action": {
                 #                    "type": "uri",
-                #                    "uri": "https://line.me/ti/p/z7CqVLtFII"
+                #                    "uri": "https://line.me/R/ti/p/~ptatan1983"
                 #                }
                 #            },
                 #        }
@@ -3267,7 +3267,7 @@ async def maxgieBot(op):
                 if text is None:
                     return
                 if text.lower() == ".........................":
-                    maxgie.sendMessage(to,"[ STEVE Botline ]\nadmin :\nline.me/ti/p/z7CqVLtFII")
+                    maxgie.sendMessage(to,"[ STEVE Botline ]\nadmin :\nline.me/R/ti/p/~ptatan1983")
 #========================================================================
             elif msg.contentType == 7: # Content type is sticker
                 if settings['Sticker']:
