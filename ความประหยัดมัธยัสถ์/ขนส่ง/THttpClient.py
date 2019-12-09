@@ -23,6 +23,7 @@ import socket
 import sys
 import warnings
 import base64
+import time
 
 from six.moves import urllib
 from six.moves import http_client
@@ -64,27 +65,15 @@ class THttpClient(TTransportBase):
             self.path = parsed.path
             if parsed.query:
                 self.path += '?%s' % parsed.query
-        try:
-            proxy = urllib.request.getproxies()[self.scheme]
-        except KeyError:
-            proxy = None
-        else:
-            if urllib.request.proxy_bypass(self.host):
-                proxy = None
-        if proxy:
-            parsed = urllib.parse.urlparse(proxy)
-            self.realhost = self.host
-            self.realport = self.port
-            self.host = parsed.hostname
-            self.port = parsed.port
-            self.proxy_auth = self.basic_proxy_auth_header(parsed)
-        else:
-            self.realhost = self.realport = self.proxy_auth = None
+        proxy = None
+        self.realhost = self.realport = self.proxy_auth = None
         self.__wbuf = BytesIO()
         self.__http = None
         self.__http_response = None
         self.__timeout = None
         self.__custom_headers = None
+        self.__time = time.time()
+        self.__loop = 0
 
     @staticmethod
     def basic_proxy_auth_header(proxy):
@@ -103,9 +92,6 @@ class THttpClient(TTransportBase):
             self.__http = http_client.HTTPConnection(self.host, self.port)
         elif self.scheme == 'https':
             self.__http = http_client.HTTPSConnection(self.host, self.port)
-            if self.using_proxy():
-                self.__http.set_tunnel(self.realhost, self.realport,
-                                       {"Proxy-Authorization": self.proxy_auth})
 
     def close(self):
         self.__http.close()
@@ -145,35 +131,22 @@ class THttpClient(TTransportBase):
         return _f
 
     def flush(self):
-        if self.isOpen():
-            self.close()
-        self.open()
+        if self.__loop <= 2:
+            if self.isOpen(): self.close()
+            self.open(); self.__loop += 1
+        elif time.time() - self.__time > 90:
+            self.close(); self.open(); self.__time = time.time()
 
         # Pull data out of buffer
         data = self.__wbuf.getvalue()
         self.__wbuf = BytesIO()
 
-        # HTTP request
-        if self.using_proxy() and self.scheme == "http":
-            # need full URL of real host for HTTP proxy here (HTTPS uses CONNECT tunnel)
-            self.__http.putrequest('POST', "http://%s:%s%s" %
-                                   (self.realhost, self.realport, self.path))
-        else:
-            self.__http.putrequest('POST', self.path)
+        self.__http.putrequest('POST', self.path)
 
         # Write headers
+        self.__http.putheader('Host', self.host)
         self.__http.putheader('Content-Type', 'application/x-thrift')
         self.__http.putheader('Content-Length', str(len(data)))
-        if self.using_proxy() and self.scheme == "http" and self.proxy_auth is not None:
-            self.__http.putheader("Proxy-Authorization", self.proxy_auth)
-
-        if not self.__custom_headers or 'User-Agent' not in self.__custom_headers:
-            user_agent = 'Python/THttpClient'
-            script = os.path.basename(sys.argv[0])
-            if script:
-                user_agent = '%s (%s)' % (user_agent, urllib.parse.quote(script))
-            self.__http.putheader('User-Agent', user_agent)
-
         if self.__custom_headers:
             for key, val in six.iteritems(self.__custom_headers):
                 self.__http.putheader(key, val)
@@ -188,7 +161,3 @@ class THttpClient(TTransportBase):
         self.code = self.__http_response.status
         self.message = self.__http_response.reason
         self.headers = self.__http_response.msg
-
-    # Decorate if we know how to timeout
-    if hasattr(socket, 'getdefaulttimeout'):
-        flush = __withTimeout(flush)
