@@ -1,14 +1,19 @@
 # -*- coding: utf-8 -*-
 from datetime import datetime
-from .object import Object
+from .object import LineObject
 from random import randint
 
 import json, shutil, time, os, base64, tempfile
     
-class Models(Object):
+class LineModels(LineObject):
+
+    _channel    = None
         
     def __init__(self):
-        Object.__init__(self)
+        LineObject.__init__(self)
+
+    def setChannelToModels(self, channel):
+        self._channel = channel
 
     """Text"""
 
