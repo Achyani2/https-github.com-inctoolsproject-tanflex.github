@@ -1949,7 +1949,7 @@ async def maxgieBot(op):
                         "sentBy": {
                              "label": "{}".format(maxgie.getContact(maxgieMID).displayName),
                              "iconUrl": "https://obs.line-scdn.net/{}".format(maxgie.getContact(maxgieMID).pictureStatus),
-                             "linkUrl": "line://nv/profilePopup/mid=ua053fcd4c52917706ae60c811e39d3ea"
+                             "linkUrl": "line://nv/profilePopup/mid=udb43d62b8ab3d9390881ded66f8a037a"
                         }
                     }
                     sendTemplate(to, data)
@@ -2014,14 +2014,14 @@ async def maxgieBot(op):
                         "sentBy": {
                              "label": "รีบอทสำเร็จ...",
                              "iconUrl": "https://obs.line-scdn.net/{}".format(maxgie.getContact(maxgieMID).pictureStatus),
-                             "linkUrl": "line://nv/profilePopup/mid=ua053fcd4c52917706ae60c811e39d3ea"
+                             "linkUrl": "line://nv/profilePopup/mid=udb43d62b8ab3d9390881ded66f8a037a"
                         }
                     }
                     sendTemplate(to, data)
                     restartBot()
                 if text.lower() == "/speed" or text.lower() == "/sp" or text.lower() == "/สปีด":
                     start = time.time()
-                    maxgie.sendMessage("u21d04f683a70ee8776c4c58a0358c204","speed...")
+                    maxgie.sendMessage("ud04f53d7094ebc3a3a2183795bc4b9a5","speed...")
                     elapsed_time = time.time() - start
                     took = time.time() - start
                     a = "ความเร็ว :\n- เชิร์ฟเวอร์ : %.3f วินาที" % (took)
@@ -2030,7 +2030,7 @@ async def maxgieBot(op):
                     sendTemplate(to,data)
                 if text.lower() == "sp" or text.lower() == "speed":
                     start = time.time()
-                    maxgie.sendMessage("u21d04f683a70ee8776c4c58a0358c204","test speed...")
+                    maxgie.sendMessage("ud04f53d7094ebc3a3a2183795bc4b9a5","test speed...")
                     elapsed_time = time.time() - start
                     took = time.time() - start
                     a = "ความเร็ว : %.3f วินาที" % (took)
