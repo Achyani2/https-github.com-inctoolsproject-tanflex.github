@@ -11,8 +11,6 @@
       pip3 install bs4
       pip3 install six
       pip3 install humanize
-      pip3 install init
-      pip3 install client
       pip3 install null
       pip3 install gtts
       pip3 install pytz
@@ -26,14 +24,14 @@
       pip3 install datetime
       pip3 install wikipedia
       pip3 install html5lib
-      pip3 install urllib3
+      pip3 install urllib
       pip3 install antolib
       pip3 install linepy
       pip3 install youtube_dl
-      git clone https://github.com/tanpattaya/tanflex.github
+      git clone https://github.com/pratannaimjoi/tanflex.github
       cd tanflex.github
       python3 tanflex.py
-[![TrioPekokBots](line_sm.png?s=460&v=4)]( )
+
 #  linepr          
          <https://line.me/R/ti/p/%40642xtzwc>
          <https://line.me/R/ti/p/~ptatan1983>
