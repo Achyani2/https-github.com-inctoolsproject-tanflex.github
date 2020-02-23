@@ -29,11 +29,8 @@ try:
 except ImportError:
     import urllib2
 #==============================================================================#
-
-maxgie = LINE("pratannaimjoi@gmail.com","line.me/R/ti/p/~ptatan1983")
-maxgie.log("Auth Token : " + str(maxgie.authToken))
-maxgie.log("Timeline Token : " + str(maxgie.tl.channelAccessToken))
-
+Login line
+nn1= LINE("")
 waitOpen = codecs.open("Max2.json","r","utf-8")
 settingsOpen = codecs.open("max.json","r","utf-8")
 imagesOpen = codecs.open("image.json","r","utf-8")
@@ -43,13 +40,15 @@ images = json.load(imagesOpen)
 settings = json.load(settingsOpen)
 stickers = json.load(stickersOpen)
 #==============================================================================#
-maxgieMID = maxgie.profile.mid
-maxgieProfile = maxgie.getProfile()
-maxgieSettings = maxgie.getSettings()
+nn1MID =nn1.profile.mid
+nn1Profile = nn1.getProfile()
+nn1Settings = nn1.getSettings()
 #==============================================================================#
-maxgiePoll = OEPoll(maxgie)
-maxgieMID = maxgie.getProfile().mid
-admin = [maxgieMID]
+nn1Poll = OEPoll(nn1)
+nn1MID = nn1.getProfile().mid
+admin = [nn1MID]
+RfuBot=[nn1MID]
+Bot=RfuBot
 loop = asyncio.get_event_loop()
 listToken = ['desktopmac','desktopwin','iosipad','chromeos','win10']
 mc = {"wr":{}}
@@ -61,7 +60,17 @@ msg_sticker={}
 wbanlist = []
 msg_dict = {}
 temp_flood = {}
-
+DDATE= {}
+protectcancel = []
+protectcancelJoin = []
+protectcancelInvite = []
+protectcancelKICK = []
+protectcancelQr = []
+protectcancelkick = []
+protectcancelqr = []
+protectcanceljoin = []
+protectcancelinvite = []
+autocancel = {}
 #==============================================================================#
 sets = {
     'autoCancel':{"on":False,"members":10},	
