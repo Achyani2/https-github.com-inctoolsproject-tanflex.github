@@ -1,5 +1,6 @@
 from linepy import *
 from liff.ttypes import LiffChatContext, LiffContext, LiffSquareChatContext, LiffNoneContext, LiffViewRequest
+from akad.ttypes import ChatRoomAnnouncementContents, OpType, MediaType, ContentType, ApplicationType, TalkException, ErrorCode
 from akad.ttypes import Message
 from akad.ttypes import ContentType as Type
 from akad.ttypes import TalkException
@@ -29,8 +30,8 @@ try:
 except ImportError:
     import urllib2
 #==============================================================================#
-Login line
-nn1= LINE("")
+# Login line
+nn1 = LINE('')
 waitOpen = codecs.open("Max2.json","r","utf-8")
 settingsOpen = codecs.open("max.json","r","utf-8")
 imagesOpen = codecs.open("image.json","r","utf-8")
@@ -40,7 +41,7 @@ images = json.load(imagesOpen)
 settings = json.load(settingsOpen)
 stickers = json.load(stickersOpen)
 #==============================================================================#
-nn1MID =nn1.profile.mid
+nn1MID = nn1.profile.mid
 nn1Profile = nn1.getProfile()
 nn1Settings = nn1.getSettings()
 #==============================================================================#
@@ -48,10 +49,11 @@ nn1Poll = OEPoll(nn1)
 nn1MID = nn1.getProfile().mid
 admin = [nn1MID]
 RfuBot=[nn1MID]
-Bot=RfuBot
+Bot = RfuBot
 loop = asyncio.get_event_loop()
-listToken = ['desktopmac','desktopwin','iosipad','chromeos','win10']
+listToken = ['desktopmac','desktopwin','iosipad','chromeos','IOSIPAD']
 mc = {"wr":{}}
+sai = {'wc':{}}
 unsendchat = {}
 msgdikirim = {}
 msg_image={}
@@ -60,28 +62,60 @@ msg_sticker={}
 wbanlist = []
 msg_dict = {}
 temp_flood = {}
-DDATE= {}
-protectcancel = []
-protectcancelJoin = []
-protectcancelInvite = []
-protectcancelKICK = []
-protectcancelQr = []
-protectcancelkick = []
-protectcancelqr = []
-protectcanceljoin = []
-protectcancelinvite = []
+DDATE = {}
+protectcancel =[]
+protectJoin = []
+protectInvite = []
+protectKick = []
+protectQr = []
+protectkick = []
+protectqr = []
+protectjoin = []
+protectinvite = []
 autocancel = {}
-#==============================================================================#
+#================================================#
+autorejit = {
+    "autoJoin":False,
+    'autoCancel':{"on":True,"members":3},
+}    
+spamc = {
+    "spamcall": False, 
+}
+commant = {
+     "com":False,
+}     
+set = {"spamcall": False,"wc":{}}
+autobl = {
+    "autoblock":True,
+    "autoaddf":True, 
+}    
+welcomes = {
+    "Welcome":True, 
+    "Wc":False, 
+    "lv":False,
+    "Leave":True, 
+    "wcsti2":False, 
+}    
 sets = {
-    'autoCancel':{"on":False,"members":10},	
-    "pict": True,
-    "sti2": True,
+    "pictsa":False, 
+    "sendpict": {},
+    "gpict": False,
+    "gilstpict": {},
+    "pict": False,
+    "ilstpict": {},
+    "inv":{},
+    "wc":{},
+    "leave":{},
+    "spamGroup":True, 
     "tagsticker": False,
     "Sticker": False,
     "autoJoinTicket": False,
-    "image": {
-        "name": "",
-    },
+    "tagkick":False,
+    "Api": False,
+    "autoLeave":True,
+    "changeGroupPicture": [],
+    "changePictureProfile": False,
+    "autoRead": False,
     "addSticker": {
         "name": "",
         "status": False,
@@ -110,6 +144,11 @@ sets = {
                 "STKPKGID": "",
                 "STKVER": ""
             },
+            "readerSticker": {
+                "STKID": "",
+                "STKPKGID": "",
+                "STKVER": ""
+            },
             "join2": {
                 "STKID": "",
                 "STKPKGID": "",
@@ -117,14 +156,20 @@ sets = {
             },
         }
     },
-    "ilstpict": {},
+}
+autolike = {
+  "autolike":True
 }
 chatbot = {
     "admin": [],
     "botMute": [],
     "botOff": [],
 }
-
+RfuCctv={
+    "cyduk":{},
+    "point":{},
+    "sidermem":{}
+}
 anyun = {
     "addTikel": {
         "name": "",
@@ -140,21 +185,26 @@ nissa = {
 tagadd = {
     "tagss": False,
     "tags": False,
-    "tag": "วิธีตั้งแทค \n- ตั้งแทค ข้อความที่ต้องการ",
+    "tag": "วิธีตั้งแทค \n ตั้งแทค ข้อความที่ต้องการ",
+    "comment": "ออโต้ไลค์  by   ™ᴛᴇᴀᴍʙᴏᴛɴᴇᴠᴇʀᴅɪᴇ✯ ",
     "add": "ยินดีที่ได้รู้จักนะครับ 😃\nรับแอดละน้า. >_<",
-    "wctext": "",
+    "wctext": "ยินดีต้อนรับเข้ากลุ่มนะครับ 😃",
     "lv": "บ๊ายบาย >< ขอให้เธอโชคดีงับ >_<",
-    "b": "บัญชีนี้ถูกป้องกันด้วย ꧁💓 @:꓄ꍏꈤᖘꍏ꓄꓄ꍏꌩ💓꧂  ระบบได้บล็อคบัญชีคุณอัตโนมัติ >_<",
-    "m": "สวัสดีครับ ผมมุดลิ้งมานะครับ >_<",
+    "b": "🐱 บัญชีนี้ถูกป้องกันด้วย ™ᴛᴇᴀᴍʙᴏᴛɴᴇᴠᴇʀᴅɪᴇ✯ ระบบได้บล็อคบัญชีคุณอัตโนมัติ 🐱",
+    "m": "🐱 สวัสดี เรามุดลิ้งมานะ 🐱",
 }
 apalo = {
+    "bc":{},
+    "bc1":{},
+    "bc2":{},
     "blacklist":{},
     "Talkblacklist": {},
     "talkban": True,
     "Talkwblacklist": False,
     "Talkdblacklist": False,
 }
-temp = {"te": "#CC0033","t": "#000000"}
+temp = {"te": "#66FFFF","t": "#000000"}
+sets1 = {'autoCancel':{"on":True,"members":10}}
 read = {
     "readPoint": {},
     "readMember": {},
@@ -178,19 +228,19 @@ peler = {
     "receivercount": 0,
     "sendcount": 0
 }
-hoho = {
+hnn2o = {
     "savefile": False,
     "namefile": "",
 }
 
-user1 = maxgieMID
+user1 = nn1MID
 user2 = ""
 
 setTime = {}
 setTime = rfuSet['setTime']
 
-contact = maxgie.getProfile() 
-backup = maxgie.getProfile() 
+contact = nn1.getProfile() 
+backup = nn1.getProfile() 
 backup.dispalyName = contact.displayName 
 backup.statusMessage = contact.statusMessage
 backup.pictureStatus = contact.pictureStatus
@@ -201,17 +251,17 @@ Start = time.time()
 tz = pytz.timezone("Asia/Jakarta")
 timeNow = datetime.now(tz=tz)
 
-settings["myProfile"]["displayName"] = maxgieProfile.displayName
-settings["myProfile"]["statusMessage"] = maxgieProfile.statusMessage
-settings["myProfile"]["pictureStatus"] = maxgieProfile.pictureStatus
-cont = maxgie.getContact(maxgieMID)
+settings["myProfile"]["displayName"] = nn1Profile.displayName
+settings["myProfile"]["statusMessage"] = nn1Profile.statusMessage
+settings["myProfile"]["pictureStatus"] = nn1Profile.pictureStatus
+cont = nn1.getContact(nn1MID)
 settings["myProfile"]["videoProfile"] = cont.videoProfile
-coverId = maxgie.getProfileDetail()["result"]["objectId"]
+coverId = nn1.getProfileDetail()["result"]["objectId"]
 settings["myProfile"]["coverId"] = coverId
 
-ProfileMe["statusMessage"] = maxgieProfile.statusMessage
-ProfileMe["pictureStatus"] = maxgieProfile.pictureStatus
-coverId = maxgie.getProfileDetail()["result"]["objectId"]
+ProfileMe["statusMessage"] = nn1Profile.statusMessage
+ProfileMe["pictureStatus"] = nn1Profile.pictureStatus
+coverId = nn1.getProfileDetail()["result"]["objectId"]
 ProfileMe["coverId"] = coverId
 #=====================================================================
 with open("max.json", "r", encoding="utf_8_sig") as f:
@@ -222,6 +272,68 @@ with open("Max2.json", "r", encoding="utf_8_sig") as f:
     itu = json.loads(f.read())
     itu.update(wait)
     wait = itu
+#==============================================================================#
+def RhyN_(to, mid):
+    try:
+        aa = '{"S":"0","E":"3","M":'+json.dumps(mid)+'}'
+        text_ = '@Ma '
+        nn1.sendMessage(to, text_, contentMetadata={'MENTION':'{"MENTIONEES":['+aa+']}'}, contentType=0)
+    except Exception as error:
+        logError(error)
+def sendMessageCustom(to, text, icon , name):
+    annda = {'MSG_SENDER_ICON': icon,
+        'MSG_SENDER_NAME':  name,
+    }
+    nn1.sendMessage(to, text, contentMetadata=annda)
+def sendMessageCustomContact(to, icon, name, mid):
+    annda = { 'mid': mid,
+    'MSG_SENDER_ICON': icon,
+    'MSG_SENDER_NAME':  name,
+    }
+    nn1.sendMessage(to, '', annda, 13)
+def cloneProfile(mid):
+    contact = nn1.getContact(mid)
+    if contact.videoProfile == None:
+        nn1.cloneContactProfile(mid)
+    else:
+        profile = nn1.getProfile()
+        profile.displayName, profile.statusMessage = contact.displayName, contact.statusMessage
+        nn1.updateProfile(profile)
+        pict = nn1.downloadFileURL('http://dl.profile.line-cdn.net/' + contact.pictureStatus, saveAs="tmp/pict.bin")
+        vids = nn1.downloadFileURL( 'http://dl.profile.line-cdn.net/' + contact.pictureStatus + '/vp', saveAs="tmp/video.bin")
+        changeVideoAndPictureProfile(pict, vids)
+    coverId = nn1.getProfileDetail(mid)['result']['objectId']
+    nn1.updateProfileCoverById(coverId)
+def backupProfile():
+    profile = nn1.getContact(nn1MID)
+    settings['myProfile']['displayName'] = profile.displayName
+    settings['myProfile']['pictureStatus'] = profile.pictureStatus
+    settings['myProfile']['statusMessage'] = profile.statusMessage
+    settings['myProfile']['videoProfile'] = profile.videoProfile
+    coverId = nn1.getProfileDetail()['result']['objectId']
+    settings['myProfile']['coverId'] = str(coverId)
+def restoreProfile():
+    profile = nn1.getProfile()
+    profile.displayName = settings['myProfile']['displayName']
+    profile.statusMessage = settings['myProfile']['statusMessage']
+    if settings['myProfile']['videoProfile'] == None:
+        profile.pictureStatus = settings['myProfile']['pictureStatus']
+        nn1.updateProfileAttribute(8, profile.pictureStatus)
+        nn1.updateProfile(profile)
+    else:
+        nn1.updateProfile(profile)
+        pict = nn1.downloadFileURL('http://dl.profile.line-cdn.net/' + settings['myProfile']['pictureStatus'], saveAs="tmp/pict.bin")
+        vids = nn1.downloadFileURL( 'http://dl.profile.line-cdn.net/' + settings['myProfile']['pictureStatus'] + '/vp', saveAs="tmp/video.bin")
+        changeVideoAndPictureProfile(pict, vids)
+    coverId = settings['myProfile']['coverId']
+    nn1.updateProfileCoverById(coverId)
+def autoresponuy(to,msg,wait):
+    to = msg.to
+    if msg.to not in wait["GROUP"]['AR']['AP']:
+        return
+    if msg.to in wait["GROUP"]['AR']['S']:
+        nn1.sendMessage(msg.to,text=None,contentMetadata=wait["GROUP"]['AR']['S'][msg.to]['Sticker'], contentType=7)
+    if(wait["GROU
 #==============================================================================#
 def RhyN_(to, mid):
     try:
