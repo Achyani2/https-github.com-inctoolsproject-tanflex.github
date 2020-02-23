@@ -1,10 +1,10 @@
 {
-    "Leave": true,
+    "Leave": false,
     "Sticker": false,
     "Wc": false,
-    "Welcome": true,
-    "access_key": "u2da65de873bf947faa5204376c31a112:1K5W1FITgH1bWgxQAdMg",
-    "access_token": "a82654b990ebbcd15a599e4c6e7bc8f6fd624dcb",
+    "Welcome": false,
+    "access_key": "0066725464abd96d2cee00863ad9067f",
+    "access_token": "ec6a73ed66f5704bf4d071a2174fb736238aaeb6",
     "addContact": {
         "name": "",
         "status": false
@@ -23,7 +23,7 @@
         "status": false
     },
     "admin": [
-        "uda8195e53e6c6e17f3f745743e477100"
+        "udf060a89ebb2af83af77edddb767c329"
     ],
     "ani_guess": [
         "c9a9f741633543d70449a7d9801cbbd28"
@@ -36,8 +36,8 @@
     "autoRead": false,
     "autoRead1": false,
     "autoRestart": false,
-    "autoblock": true,
-    "autolike": false,
+    "autoblock": false,
+    "autolike": true,
     "botMute": [],
     "botOff": [],
     "changeCover": false,
@@ -110,11 +110,11 @@
         }
     },
     "myProfile": {
-        "coverId": "0f29a11bf122522e23b855949d046db3",
+        "coverId": "6347161ffbf3d3476d8dda1fb4b74c83",
         "coverStatus": "",
-        "displayName": "AdMasmax",
-        "pictureStatus": "0hQ04W_GLFDh8JLiU5b0FxSDVrAHJ-AAhXcRhHK398UCgkGh5NZhtGfygvV3wlH0lJN0BJeih-WXon",
-        "statusMessage": null,
+        "displayName": "เป็ดก๊าบๆ",
+        "pictureStatus": "0hf4g0gNlWORtaSRKvmfJGTGYMN3YtZz9TInx-f3ZBMiJwKXpLNS9yfCtBMih-cCoZNXpyeitObnh2",
+        "statusMessage": "ʨ้ә७Ճาधನุஏиี่နัந∫さื❍➅➈\n    のန☪υのနัՁ∫さื❍➅➈\n\n</> python5 </>",
         "videoProfile": null
     },
     "notag": false,
