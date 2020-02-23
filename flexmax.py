@@ -335,89 +335,22 @@ def autoresponuy(to,msg,wait):
         nn1.sendMessage(msg.to,text=None,contentMetadata=wait["GROUP"]['AR']['S'][msg.to]['Sticker'], contentType=7)
     if(wait["GROU
 #==============================================================================#
-def RhyN_(to, mid):
-    try:
-        aa = '{"S":"0","E":"3","M":'+json.dumps(mid)+'}'
-        text_ = '@Ma '
-        maxgie.sendMessage(to, text_, contentMetadata={'MENTION':'{"MENTIONEES":['+aa+']}'}, contentType=0)
-    except Exception as error:
-        logError(error)
-def sendMessageCustom(to, text, icon , name):
-    annda = {'MSG_SENDER_ICON': icon,
-        'MSG_SENDER_NAME':  name,
-    }
-    maxgie.sendMessage(to, text, contentMetadata=annda)
-def sendMessageCustomContact(to, icon, name, mid):
-    annda = { 'mid': mid,
-    'MSG_SENDER_ICON': icon,
-    'MSG_SENDER_NAME':  name,
-    }
-    maxgie.sendMessage(to, '', annda, 13)
-def cloneProfile(mid):
-    contact = maxgie.getContact(mid)
-    if contact.videoProfile == None:
-        maxgie.cloneContactProfile(mid)
-    else:
-        profile = maxgie.getProfile()
-        profile.displayName, profile.statusMessage = contact.displayName, contact.statusMessage
-        maxgie.updateProfile(profile)
-        pict = maxgie.downloadFileURL('http://dl.profile.line-cdn.net/' + contact.pictureStatus, saveAs="tmp/pict.bin")
-        vids = maxgie.downloadFileURL( 'http://dl.profile.line-cdn.net/' + contact.pictureStatus + '/vp', saveAs="tmp/video.bin")
-        changeVideoAndPictureProfile(pict, vids)
-    coverId = maxgie.getProfileDetail(mid)['result']['objectId']
-    maxgie.updateProfileCoverById(coverId)
-def backupProfile():
-    profile = maxgie.getContact(maxgieMID)
-    settings['myProfile']['displayName'] = profile.displayName
-    settings['myProfile']['pictureStatus'] = profile.pictureStatus
-    settings['myProfile']['statusMessage'] = profile.statusMessage
-    settings['myProfile']['videoProfile'] = profile.videoProfile
-    coverId = maxgie.getProfileDetail()['result']['objectId']
-    settings['myProfile']['coverId'] = str(coverId)
-def restoreProfile():
-    profile = maxgie.getProfile()
-    profile.displayName = settings['myProfile']['displayName']
-    profile.statusMessage = settings['myProfile']['statusMessage']
-    if settings['myProfile']['videoProfile'] == None:
-        profile.pictureStatus = settings['myProfile']['pictureStatus']
-        maxgie.updateProfileAttribute(8, profile.pictureStatus)
-        maxgie.updateProfile(profile)
-    else:
-        maxgie.updateProfile(profile)
-        pict = maxgie.downloadFileURL('http://dl.profile.line-cdn.net/' + settings['myProfile']['pictureStatus'], saveAs="tmp/pict.bin")
-        vids = maxgie.downloadFileURL( 'http://dl.profile.line-cdn.net/' + settings['myProfile']['pictureStatus'] + '/vp', saveAs="tmp/video.bin")
-        changeVideoAndPictureProfile(pict, vids)
-    coverId = settings['myProfile']['coverId']
-    maxgie.updateProfileCoverById(coverId)
-def autoresponuy(to,msg,wait):
-    to = msg.to
-    if msg.to not in wait["GROUP"]['AR']['AP']:
-        return
-    if msg.to in wait["GROUP"]['AR']['S']:
-        maxgie.sendMessage(msg.to,text=None,contentMetadata=wait["GROUP"]['AR']['S'][msg.to]['Sticker'], contentType=7)
-    if(wait["GROUP"]['AR']['P'][msg.to] in [""," ","\n",None]):
-        return
-    if '@!' not in wait["GROUP"]['AR']['P'][msg.to]:
-        wait["GROUP"]['AR']['P'][msg.to] = '@!'+wait["GROUP"]['AR']['P'][msg.to]
-    nama = maxgie.getGroup(msg.to).name
-    sd = maxgie.waktunjir()
-    maxgie.sendMention(msg.to,wait["GROUP"]['AR']['P'][msg.to].replace('greeting',sd).replace(';',nama),'',[msg._from]*wait["GROUP"]['AR']['P'][msg.to].count('@!'))
 def ClonerV2(to):
     try:
-        contact = maxgie.getContact(to)
-        profile = maxgie.profile
-        profileName = maxgie.profile
-        profileStatus = maxgie.profile
+        contact = nn1.getContact(to)
+        profile = nn1.profile
+        profileName = nn1.profile
+        profileStatus = nn1.profile
         profileName.displayName = contact.displayName
         profileStatus.statusMessage = contact.statusMessage
-        maxgie.updateProfile(profileName)
-        maxgie.updateProfile(profileStatus)
-        profile.pictureStatus = maxgie.downloadFileURL('http://dl.profile.line-cdn.net/{}'.format(contact.pictureStatus, 'path'))
-        if maxgie.getProfileCoverId(to) is not None:
-            maxgie.updateProfileCoverById(maxgie.getProfileCoverId(to))
-        maxgie.updateProfilePicture(profile.pictureStatus)
+        nn1.updateProfile(profileName)
+        nn1.updateProfile(profileStatus)
+        profile.pictureStatus = nn1.downloadFileURL('http://dl.profile.line-cdn.net/{}'.format(contact.pictureStatus, 'path'))
+        ifnn1.getProfileCoverId(to) is not None:
+            nn1.updateProfileCoverById(nn1.getProfileCoverId(to))
+        nn1.updateProfilePicture(profile.pictureStatus)
         print("Success Clone Profile {}".format(contact.displayName))
-        return maxgie.updateProfile(profile)
+        return nn1.updateProfile(profile)
         if contact.videoProfile == None:
             return "Get Video Profile"
         path2 = "http://dl.profile.line-cdn.net/" + profile.pictureStatus
