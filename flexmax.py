@@ -1411,16 +1411,16 @@ if op.type == 13:
 
 #=====================================================================
 #=====================================================================
-   if op.type == 25:
-            print("[ 25 ] ™TANBOTNEVERDIE✯͜͡❂➣")
-            msg = op.message
-            text = msg.text
-            msg_id = msg.id
-            receiver = msg.to
-            sender = msg._from
-            if msg.toType == 0 or msg.toType == 1 or msg.toType == 2:
-                if msg.toType == 0:
-                    if sender != nn1.profile.mid:
+ if op.type == 25:
+           print("[ 25 ] ™TANBOTNEVERDIE✯͜͡❂➣")
+           msg = op.message
+           text = msg.text
+           msg_id = msg.id
+           receiver = msg.to
+           sender = msg._from
+           if msg.toType == 0 or msg.toType == 1 or msg.toType == 2:
+               if msg.toType == 0:
+                   if sender != nn1.profile.mid:
                         to = sender
                     else:
                         to = receiver
@@ -1563,96 +1563,96 @@ if op.type == 13:
 		     ]
 		     },
 		     {
-		      "type":"box",
-		      "layout":"vertical",
-		      "spacing":"xs",
-		      "contents":[
-		      {
-		      "type":"box",
-		      "layout":"horizontal",
-		      "contents":[
-		      {
-		      "type":"image",
-		      "size":"xs",
-		      "action":{
-		      "type":"uri",
-		      "uri":"line://app/1643727178-0XPGAaRX?type=text&text=ออน"
-		      },
-		      "url":"https://www.img.live/images/2019/09/12/343321.jpg"
-		      },
-		      {
-                      "type":"image",
-                      "size":"xs",
-                      "action":{
-		      "type":"uri",
-		      "uri":"line://app/1643727178-0XPGAaRX?type=text&text=รีบอท"
-		      },
-		      "url":"https://www.img.live/images/2019/09/12/343321.jpg"
-					},
-					{
-					"type":"image",
-					"size":"xs",
-					"action":{
-					"type":"uri",
-					"uri":"line://app/1643727178-0XPGAaRX?type=text&text=me"
-					},
-					"url":"https://www.img.live/images/2019/09/12/343321.jpg"
-					}
-					],
-					"flex":1
-					},
-					{
-					"type":"box",
-					"layout":"horizontal",
-					"spacing":"xxl",
-					"contents":[
-					{
-					"type":"text",
-					"size":"xs",
-					"align":"center",
-					"color":"#66FFFF",
-					"text":"ออน"
-					},
-					{
-					"type":"text",
-					"size":"xs",
-					"align":"center",
-					"color":"#66FFFF",
-					"text":"รีบอท"
-					},
-					{
-					"type":"text",
-					"size":"xs",
-					"align":"center",
-					"color":"#66FFFF",
-					"text":"me"
-					}
-					]
-					}
-					]
-					}
-					]
-					}
-					},
-					{
-					"type":"bubble",
-					"styles":{
-					"body":{"backgroundColor":"#000000"
-					},
-					"header":{"backgroundColor":"#000000"
-					}
-					},
-					"body":{
-					"type":"box",
-					"layout":"vertical",
-					"spacing":"xs",
-					"contents":[
-					{
-					"type":"box",
-					"layout":"baseline",
-					"contents":[
-					{
-					"type":"icon",
+		     "type":"box",
+		     "layout":"vertical",
+		     "spacing":"xs",
+		     "contents":[
+		     {
+		     "type":"box",
+		     "layout":"horizontal",
+		     "contents":[
+		     {
+		     "type":"image",
+		     "size":"xs",
+		     "action":{
+		     "type":"uri",
+		     "uri":"line://app/1643727178-0XPGAaRX?type=text&text=ออน"
+		     },
+		     "url":"https://www.img.live/images/2019/09/12/343321.jpg"
+		     },
+		     {
+                     "type":"image",
+                     "size":"xs",
+                     "action":{
+		     "type":"uri",
+		     "uri":"line://app/1643727178-0XPGAaRX?type=text&text=รีบอท"
+		     },
+		     "url":"https://www.img.live/images/2019/09/12/343321.jpg"
+		     },
+		     {
+		     "type":"image",
+		     "size":"xs",
+		     "action":{
+		     "type":"uri",
+		     "uri":"line://app/1643727178-0XPGAaRX?type=text&text=me"
+		     },
+		     "url":"https://www.img.live/images/2019/09/12/343321.jpg"
+		     }
+		     ],
+		     "flex":1
+		     },
+		     {
+		     "type":"box",
+		     "layout":"horizontal",
+		     "spacing":"xxl",
+		     "contents":[
+		     {
+		     "type":"text",
+		     "size":"xs",
+		     "align":"center",
+		     "color":"#66FFFF",
+		     "text":"ออน"
+		     },
+		     {
+		     "type":"text",
+		     "size":"xs",
+		     "align":"center",
+		     "color":"#66FFFF",
+		     "text":"รีบอท"
+		     },
+		     {
+		     "type":"text",
+		     "size":"xs",
+		     "align":"center",
+		     "color":"#66FFFF",
+		     "text":"me"
+		     }
+		     ]
+		     }
+		     ]
+		     }
+		     ]
+		     }
+		     },
+		     {
+		     "type":"bubble",
+	             "styles":{
+		     "body":{"backgroundColor":"#000000"
+		     },
+		     "header":{"backgroundColor":"#000000"
+		     }
+		     },
+		     "body":{
+		     "type":"box",
+		     "layout":"vertical",
+		     "spacing":"xs",
+		     "contents":[
+		     {
+		     "type":"box",
+		     "layout":"baseline",
+		     "contents":[
+		     {
+		     "type":"icon",
 					"size":"md",
 					"url":"https://www.img.live/images/2019/09/12/343321.jpg"
 					},
