@@ -881,7 +881,7 @@ def sendMention(to, mid, firstmessage, lastmessage):
         nn1.sendMessage(to, "[ INFO ] Error :\n" + str(error))
 def mentionMembers(to, mid):
     try:
-        group = maxgie.getGroup(to)
+        group = nn1.getGroup(to)
         mids = [mem.mid for mem in group.members]
         jml = len(mids)
         arrData = ""
@@ -927,13 +927,10 @@ def restartBot():
     python = sys.executable
     os.execl(python, python, *sys.argv)
 def load():
-    global images
     global stickers
-    with open("image.json","r") as fp:
-        images = json.load(fp)
-    with open("sticker.json","r") as fp:
+    with open("sticker1.json","r") as fp:
         stickers = json.load(fp)
-    with open("stickerz.json","r") as fp:
+    with open("sticker2.json","r") as fp:
         stickerz = json.load(fp)
 def sendStickers(to, sver, spkg, sid):
     contentMetadata = {
@@ -944,8 +941,8 @@ def sendStickers(to, sver, spkg, sid):
     nn1.sendMessage(to, '', contentMetadata, 7)
 def sendSticker(to, mid, sver, spkg, sid):
     contentMetadata = {
-        'MSG_SENDER_NAME': maxgie.getContact(mid).displayName,
-        'MSG_SENDER_ICON': 'http://dl.profile.line-cdn.net/' + maxgie.getContact(mid).pictureStatus,
+        'MSG_SENDER_NAME': nn1.getContact(mid).displayName,
+        'MSG_SENDER_ICON': 'http://dl.profile.line-cdn.net/' + nn1.getContact(mid).pictureStatus,
         'STKVER': sver,
         'STKPKGID': spkg,
         'STKID': sid
@@ -972,7 +969,23 @@ def removeCmd(cmd, text):
     if settings["setKey"] == False: key = ''  
     rmv = len(key + cmd) + 1
     return text[rmv:]
-
+def commandMidContact(to, mid, cmd):
+    if cmd in ["ชื่อเรา","mid","คทเรา","ตัสเรา","ปกเรา","รูปเรา","วีดีโอเรา"]:
+        if cmd == "mid":
+            return nn1.sendMessage(to, mid)
+        if cmd == "คทเรา":
+            return nn1.sendContact(to, mid)
+        if cmd == "ชื่อเรา":
+            return nn1.sendMessage(to, nn1.getContact(mid).displayName)
+        if cmd == "ตัสเรา":
+            return nn1.sendMessage(to, nn1.getContact(mid).statusMessage)
+        if cmd == "รูปเรา":
+            return nn1.sendImageWithURL(to, 'http://dl.profile.line-cdn.net/' + nn1.getContact(mid).pictureStatus)
+        if cmd == "ปกเรา":
+            return nn1.sendImageWithURL(to, nn1.getProfileCoverURL(mid))
+        if cmd == "วีดีโอเรา":
+        	return nn1.sendVideoWithURL(to,"http://dl.profile.line-cdn.net/" + nn1.getContact(mid).pictureStatus + "/vp")
+    return
 #=====================================================================
 def backupData():
     try:
@@ -993,87 +1006,153 @@ def backupData():
         logError(error)
         return False
 #==============================================================================#
-async def nn1TANBOTMEVERDIE✯͜͡❂➣(op):
+async def nn1Bot(op):
     try:
         if settings["restartPoint"] != None:
             nn1.sendMessage(settings["restartPoint"], 'ล็อคอินแล้วเรียบร้อย ><')
             settings["restartPoint"] = None
         if op.type == 0:
-            return
+            return            
         if op.type == 5:
-            if settings["autoAdd"] == True:
-              if op.param2 in admin:
-                  return
-              nn1.findAndAddContactsByMid(op.param1)
-              nn1.sendMessage(op.param1,"{}".format(tagadd["add"]))
-              msgSticker = sets["messageSticker"]["listSticker"]["add"]
-              if msgSticker != None:
-                  sid = msgSticker["STKID"]
-                  spkg = msgSticker["STKPKGID"]
-                  sver = msgSticker["STKVER"]
-                  sendSticker(op.param1, sver, spkg, sid)
-              print ("[ 5 ] AUTO ADD")
-        if op.type == 5:
-            if settings["autoblock"] == True:
-              if op.param2 in admin:
-                  return
-              nn1.sendMessage(op.param1,tagadd["b"])
-              msgSticker = sets["messageSticker"]["listSticker"]["block"]
-              if msgSticker != None:
-                 sid = msgSticker["STKID"]
-                  spkg = msgSticker["STKPKGID"]
-                  sver = msgSticker["STKVER"]
-                  sendSticker(op.param1, sver, spkg, sid)
-                    nn1.sendMessage(op.param1,tagaad["b"])
-              nn1.blockContact(op.param1)
-              print ("[ 5 ] AUTO BLOCK")
+            if autobl["autoaddf"] == True:
+                nn1.blockContact(op.param1)
+            if autobl["autoblock"] == True:
+                chivaree = "https://www.img.live/images/2019/09/12/images13.jpg"
+                time.sleep(0.004)
+                nn1.blockContact(op.param1)
+                nn1.sendImageWithURL(op.param1, chivaree)
+                nn1.sendMessage(op.param1, "🐷ระบบออโต้บล็อคทำงาน🐷\nบัญชีไลนนี้ถูกป้องกันด้วย\n™ᴛᴇᴀᴍʙᴏᴛɴᴇᴠᴇʀᴅɪᴇ✯͜͡❂➣\nระบบได้บล็อคคุณ อัตโนมัติ\n\n😐หากสนใจติดบอทรอสักครู่😐")       
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------#        
+        if op.type == 11:
+            if op.param1 in protectqr:
+                try:
+                    if nn1.getGroup(op.param1).preventedJoinByTicket == False:
+                        if op.param2 not in Bot:
+                            nn1.reissueGroupTicket(op.param1)
+                            X = nn1.getGroup(op.param1)
+                            X.preventedJoinByTicket = True
+                            nn1.updateGroup(X)
+                            nn1.kickoutFromGroup(op.param1,[op.param2])
+                            nn1.sendMessage(op.param1, None, contentMetadata={'mid': op.param2}, contentType=13)
+                except:
+                    pass                  
+        if op.type == 11:    
+        	if nn1.getGroup(op.param1).preventedJoinByTicket == False:
+        	   nn2(op.param1,"👉พบการเปิดลิ้ง👈")
         if op.type == 13:
+            if op.param1 in protectinvite:
+                if op.param2 not in Bot:
+                    try:
+                        group = nn1.getGroup(op.param1)
+                        gMembMids = [contact.mid for contact in group.invitee]
+                        for _mid in gMembMids:
+                            nn1.cancelGroupInvitation(op.param1,[_mid])
+                            nn1.kickoutFromGroup(op.param1,[op.param2])
+                    except:
+                        pass  
+        if op.type == 17:
+            if op.param1 in protectjoin:
+                if op.param2 not in Bot:
+                    apalo["Talkwblacklist"][op.param2] = True
+                    try:
+                        if op.param3 not in apalo["Talkwblacklist"]:
+                            nn1.kickoutFromGroup(op.param1,[op.param2])
+                    except:
+                        pass
+                return   
+        if op.type == 19:
+            if op.param1 in protectkick:
+                if op.param2 not in Bot:
+                    apalo["Talkwblacklist"][op.param2] = True
+                    nn1.kickoutFromGroup(op.param1,[op.param2])
+                else:
+                    pass     
+#==========[ระบบกินห้อง เอจัง2019]=========================================
+#=====================================================================
+if op.type == 13:
             if nn1MID in op.param3:
-                G = nn1.getGroup(op.param1)
-                if settings["autoJoin"] == True:
-                    if sets["autoCancel"]["on"] == True:
-                        if len(G.members) <= sets["autoCancel"]["members"]:
-                            nn1.acceptGroupInvitation(op.param1)
+                chivaree2019 = nn1.getGroup(op.param1)
+                if autorejit["autoJoin"] == True:
+                    if autorejit["autoCancel"]["on"] == True:
+                        if len(chivaree2019.members) <= autorejit["autoCancel"]["members"]:
+                            nn1.rejectGroupInvitation(op.param1)
                         else:
-                            nn1.leaveGroup(op.param1)
+                            nn1.acceptGroupInvitation(op.param1)
                     else:
                         nn1.acceptGroupInvitation(op.param1)
-                elif sets["autoCancel"]["on"] == True:
-                    if len(G.members) <= sets["autoCancel"]["members"]:
-                        nn1.acceptGroupInvitation(op.param1)
-                        nn1.leaveGroup(op.param1)
+                elif autorejit["autoCancel"]["on"] == True:
+                    if len(chivaree2019.members) <= autorejit["autoCancel"]["members"]:
+                        time.sleep(random.uniform(4.5,5.0))
+                        nn1.rejectGroupInvitation(op.param1)
+                        print ("• ระบบกินห้องรันทำงานคับ •")
+                    else:
+                    	pass
             else:
                 Inviter = op.param3.replace("",',')
                 InviterX = Inviter.split(",")
                 matched_list = []
-                for tag in apalo["blacklist"]:
+                for tag in apalo["Talkwblacklist"]:
                     matched_list+=[str for str in InviterX if str == tag]
                 if matched_list == []:
                     pass
                 else:
-                    nn1.acceptGroupInvitation(op.param1, matched_list)
-                    nn1.leaveGroup(op.param1, matched_list)
-                    print ("[ 17 ] LEAVE GROUP")                 
+                    nn1.cancelGroupInvitation(op.param1, matched_list)
+#----------------------------------------------------------------------------#                                       
         if op.type == 15:
-          if settings["Leave"] == True:
+          if welcomes["Leave"] == True:
             if op.param2 in admin:
                 return
-            g = nn1.getGroup(op.param1)
+            ginfo = nn1.getGroup(op.param1)
             contact = nn1.getContact(op.param2)
-            cover = nn1.getProfileCoverURL(op.param2)
-            gname = g.name
             name = contact.displayName
-            status = contact.statusMessage
             pp = contact.pictureStatus
-            s = ""
-            s += "".format(gname)
-            s += "บายยน้า : {}".format(name)
-            s += tagadd["wctext"]
+            s = name + " " + tagadd["lv"]
             data = {
-"type":"flex","altText":" 🌸 มีคนสวยออกกลุ่ม 🌸 ","contents":{"styles":{"header":{"backgroundColor":"#990000","separator":True,"separatorColor":"#FFFFFF"},"body":{"backgroundColor":"#000000","separator":True,"separatorColor":"#FFFFFF"},"footer":{"backgroundColor":"#990000","separator":True,"separatorColor":"#FFFFFF"}},"type":"bubble","header":{"type":"box","layout":"horizontal","contents":[{"type":"button","style":"secondary","color":"#FFFFFF","height":"sm","gravity":"center","flex":1,"action":{"type":"uri","label":"⫷TANBOTMEVERDIE⫸","uri":"line://nv/profilePopup/mid=ue1e7265070c2a91ae90ad98bcd4bcea9"}}]},"hero":{"type":"image","url":"https://thumbs.gfycat.com/ColorlessPinkLangur-size_restricted.gif","size":"full","aspectRatio":"4:3","action":{"type":"uri","uri":"http://line.me/ti/p/%40zer7125z"}},"body":{"type":"box","layout":"horizontal","spacing":"md","contents":[{"type":"separator","color":"#FFFFFF"},{"type":"box","layout":"vertical","flex":0,"contents":[{"type":"separator","color":"#FFFFFF"},{"type":"image","url":"https://profile.line-scdn.net/" + str(pp),"size":"sm","gravity":"bottom"}]},{"type":"separator","color":"#FFFFFF"},{"type":"box","layout":"vertical","flex":2,"contents":[{"type":"text","text":"BOTLINEBY:MASMAX","color":"#FFCC00","size":"sm","weight":"bold","flex":3,"wrap":True,"gravity":"top"},{"type":"separator","color":"#FFFFFF"},{"type":"separator","color":"#FFFFFF"},{"type":"text","text": "{}".format(s),"color":"#FFCC00","size":"sm","weight":"bold","flex":3,"wrap":True,"gravity":"top"},{"type":"separator","color":"#FFFFFF"},{"type":"separator","color":"#FFFFFF"},{"type":"text","text":"ออกสะแล้วบายยนะครับ😎","color":"#FFCC00","size":"sm","weight":"bold","flex":3,"wrap":True,"gravity":"top"},{"type":"separator","color":"#FFFFFF"}]}]},"footer":{"type":"box","layout":"horizontal","contents":[{"type":"button","style":"secondary","color":"#FFFFFF","height":"sm","gravity":"center","flex":1,"action":{"type":"uri","label":"⫷ ติดต่อผู้สร้าง ⫸","uri":"http://line.me/ti/p/%40zer7125z"}},{"type":"spacer","size":"sm"}],"flex":0}}}
+                "type": "flex",
+                "altText": "มีคนออกกลุ่ม",
+                "contents": {
+                    "type": "bubble",
+                    "styles": {
+                        "body": {
+                            "backgroundColor": '#6600CC'
+                        },
+                    },
+                    "body": {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "{}".format(s),
+                                "wrap": True,
+                                "color": "#FFFFFF",
+                                "gravity": "center",
+                                "size": "md"
+                            },
+                        ]
+                    }
+                }
+            }
+            sendTemplate(op.param1, data)
+            data = {
+                "type": "flex",
+                "altText": "มีคนออกกลุ่ม",
+                "contents": {
+                    "type": "bubble",
+                    "hero": {
+                         "type":"image",
+                         "url": "https://profile.line-scdn.net/" + str(pp),
+                         "size":"full",
+                         "action": {
+                             "type": "uri",
+                             "uri": "line.me/ti/p/~steveneverdie002"
+                         }
+                    },
+                }
+            }
             sendTemplate(op.param1, data)
         if op.type == 15:
-          if settings["lv"] == True:
+          if welcomes["lv"] == True:
               ginfo = nn1.getGroup(op.param1)
               msg = sets["messageSticker"]["listSticker"]["lv"]
               if msg != None:
@@ -1084,30 +1163,70 @@ async def nn1TANBOTMEVERDIE✯͜͡❂➣(op):
                   data={'type':'template','altText': str(a)+' ส่งสติ๊กเกอร์','template':{'type':'image_carousel','columns':[{'imageUrl':'https://stickershop.line-scdn.net/stickershop/v1/sticker/{}/IOS/sticker_animation@2x.png'.format(stk),'action':{'type':'uri','uri':'https://line.me/S/sticker/{}'.format(spk)}}]}}
                   sendTemplate(op.param1, data)
         if op.type == 17:
-          if settings["Welcome"] == True:
+          if welcomes["Welcome"] == True:
             if op.param2 in admin:
                 return
-            g = maxgie.getGroup(op.param1)
-            contact = maxgie.getContact(op.param2)
-            cover = maxgie.getProfileCoverURL(op.param2)
+            g = nn1.getGroup(op.param1)
+            contact = nn1.getContact(op.param2)
             gname = g.name
             name = contact.displayName
-            status = contact.statusMessage
             pp = contact.pictureStatus
-            s = ""
-            s += "".format(gname)
-            s += "สวัสดีครับคุณ : {}".format(name)
+            s = "ยินดีต้อนรับ:)\n"
+            s += "\n• ชื่อกลุ่ม : {}".format(gname)
+            s += "\n• ชื่อคนเข้ากลุ่ม : {}\n\n".format(name)
             s += tagadd["wctext"]
             data = {
-"type":"flex","altText":" 🌸  มีคนเข้ากลุ่ม  🌸 ","contents":{"styles":{"header":{"backgroundColor":"#990000","separator":True,"separatorColor":"#FFFFFF"},"body":{"backgroundColor":"#000000","separator":True,"separatorColor":"#FFFFFF"},"footer":{"backgroundColor":"#990000","separator":True,"separatorColor":"#FFFFFF"}},"type":"bubble","header":{"type":"box","layout":"horizontal","contents":[{"type":"button","style":"secondary","color":"#FFFFFF","height":"sm","gravity":"center","flex":1,"action":{"type":"uri","label":"⫷TANBOTMEVERDIE⫸","uri":"line://nv/profilePopup/mid=ue1e7265070c2a91ae90ad98bcd4bcea9"}}]},"hero":{"type":"image","url":"https://media.giphy.com/media/MG1B6RPKn8OLC/giphy.gif","size":"full","aspectRatio":"4:3","action":{"type":"uri","uri":"http://line.me/ti/p/%40zer7125z"}},"body":{"type":"box","layout":"horizontal","spacing":"md","contents":[{"type":"separator","color":"#FFFFFF"},{"type":"box","layout":"vertical","flex":0,"contents":[{"type":"separator","color":"#FFFFFF"},{"type":"image","url":"https://profile.line-scdn.net/" + str(pp),"size":"sm","gravity":"bottom"}]},{"type":"separator","color":"#FFFFFF"},{"type":"box","layout":"vertical","flex":2,"contents":[{"type":"text","text":"TANBOTMEVERDIE✯͜͡❂➣","color":"#FFCC00","size":"sm","weight":"bold","flex":3,"wrap":True,"gravity":"top"},{"type":"separator","color":"#FFFFFF"},{"type":"separator","color":"#FFFFFF"},{"type":"text","text": "{}".format(s),"color":"#FFCC00","size":"sm","weight":"bold","flex":3,"wrap":True,"gravity":"top"},{"type":"separator","color":"#FFFFFF"},{"type":"separator","color":"#FFFFFF"},{"type":"text","text":"ยินดีต้อนรับเข้ารวมกลุ่มนะครับ😎","color":"#FFCC00","size":"sm","weight":"bold","flex":3,"wrap":True,"gravity":"top"},{"type":"separator","color":"#FFFFFF"}]}]},"footer":{"type":"box","layout":"horizontal","contents":[{"type":"button","style":"secondary","color":"#FFFFFF","height":"sm","gravity":"center","flex":1,"action":{"type":"uri","label":"⫷ ติดต่อผู้สร้าง ⫸","uri":"http://line.me/ti/p/%40zer7125z"}},{"type":"spacer","size":"sm"}],"flex":0}}}
+                "type": "flex",
+                "altText": "มีคนเข้ากลุ่ม",
+                "contents": {
+                    "type": "bubble",
+                    "styles": {
+                        "body": {
+                            "backgroundColor": '#6600CC'
+                        },
+                    },
+                    "body": {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "{}".format(s),
+                                "wrap": True,
+                                "color": "#FFFFFF",
+                                "align": "center",
+                                "gravity": "center",
+                                "size": "md"
+                            },
+                        ]
+                    }
+                }
+            }
             sendTemplate(op.param1, data)
-        if op.type == 18:
-          if settings["Wc"] == True:
+            data = {
+                "type": "flex",
+                "altText": "มีคนเข้ากลุ่ม",
+                "contents": {
+                    "type": "bubble",
+                    "hero": {
+                         "type":"image",
+                         "url": "https://profile.line-scdn.net/" + str(pp),
+                         "size":"full",
+                         "action": {
+                             "type": "uri",
+                             "uri": "line.me/ti/p/~steveneverdie002"
+                         }
+                    },
+                }
+            }
+            sendTemplate(op.param1, data)
+        if op.type == 17:
+          if welcomes["Wc"] == True:
             if op.param2 in admin:
                 return
             ginfo = nn1.getGroup(op.param1)
             contact = nn1.getContact(op.param2)
-            cover = maxgie.getProfileCoverURL(op.param2)
+            cover = nn1.getProfileCoverURL(op.param2)
             names = contact.displayName
             status = contact.statusMessage
             pp = contact.pictureStatus
@@ -1118,7 +1237,7 @@ async def nn1TANBOTMEVERDIE✯͜͡❂➣(op):
                     "type": "bubble",
                     'styles': {
                         "body": {
-                            "backgroundColor": '#000000'
+                            "backgroundColor": '#6600CC'
                         },
                      },
                      "hero": {
@@ -1146,7 +1265,7 @@ async def nn1TANBOTMEVERDIE✯͜͡❂➣(op):
                                  "text":"{}".format(names),
                                  "size":"xl",
                                  "weight":"bold",
-                                 "color":"#CC0033",
+                                 "color":"#FFFFFF",
                                  "align":"center"
                              },
                              {
@@ -1155,7 +1274,7 @@ async def nn1TANBOTMEVERDIE✯͜͡❂➣(op):
                                  "wrap": True,
                                  "align": "center",
                                  "gravity": "center",
-                                 "color": "#CC0033",
+                                 "color": "#FFFFFF",
                                  "size": "md"
                             },
                         ]
@@ -1164,44 +1283,21 @@ async def nn1TANBOTMEVERDIE✯͜͡❂➣(op):
             }
             sendTemplate(op.param1, data)
         if op.type == 17:
-          if settings["wcsti2"] == True:
-              ginfo = maxgie.getGroup(op.param1)
+          if welcomes["wcsti2"] == True:
+              ginfo = nn1.getGroup(op.param1)
               msg = sets["messageSticker"]["listSticker"]["wc"]
               if msg != None:
-                  contact = maxgie.getContact(maxgieMID)
+                  contact = nn1.getContact(nn1MID)
                   a = contact.displayName
                   stk = msg['STKID']
                   spk = msg['STKPKGID']
                   data={'type':'template','altText': str(a)+' ส่งสติ๊กเกอร์','template':{'type':'image_carousel','columns':[{'imageUrl':'https://stickershop.line-scdn.net/stickershop/v1/sticker/{}/IOS/sticker_animation@2x.png'.format(stk),'action':{'type':'uri','uri':'https://line.me/S/sticker/{}'.format(spk)}}]}}
-                  sendTemplate(op.param1, data)
+                  sendTemplate(op.param1, data)  
 #=====================================================================
-       # if op.type == 26:
-         #   print ("[ 26 ] RECEIVE MESSAGE")
-         #   msg = op.message
-         #   text = str(msg.text)
-         #   msg_id = msg.id
-         #   receiver = msg.to
-         #   sender = msg._from
-         #   cmd = command(text)
-         #   setKey = settings["keyCommand"].title()
-         #   if settings["setKey"] == False: setKey = ""
-         #   isValid = True
-         #   if isValid != False:
-               # if msg.toType == 0 and sender != maxgieMID: to = sender
-               # else: to = receiver
-               # if msg.toType == 0 and settings["replays"] and sender != maxgieMID:
-                   # contact = maxgie.getContact(sender)
-                    #if contact.attributes != 32 and "[ auto reply ]" not in text.lower():
-                     #   msgSticker = sets["messageSticker"]["listSticker"]["replay"]
-                     #   if msgSticker != None:
-                     #       sid = msgSticker["STKID"]
-                     #       spkg = msgSticker["STKPKGID"]
-                     #       sver = msgSticker["STKVER"]
-                     #       sendSticker(to, sver, spkg, sid)
-                     #   if "@!" in settings["reply"]:
-                     #       msg_ = settings["reply"].split("@!")
-                     #       sendMention(to, sender, "「 แทคส่วนตัว 」\n" + msg_[0], msg_[1])
-                     #   maxgie.sendMessage(to, "「 แทคส่วนตัว 」\n", settings["reply"])
+        if op.type == 22:
+            if sets["autoLeave"] == True:
+                nn1.leaveRoom(op.param1)
+        
         if op.type == 25:
             msg = op.message
             text = str(msg.text)
@@ -1223,10 +1319,11 @@ async def nn1TANBOTMEVERDIE✯͜͡❂➣(op):
                     try:
                         if msg.to not in wait['Unsend']:
                             wait['Unsend'][msg.to] = {'B':[]}
-                        if msg._from not in [maxgieMID]:
+                        if msg._from not in [nn1MID]:
                             return
                         wait['Unsend'][msg.to]['B'].append(msg.id)
                     except:pass
+
         if op.type in [25, 26]:
             msg = op.message
             text = str(msg.text)
@@ -1239,76 +1336,61 @@ async def nn1TANBOTMEVERDIE✯͜͡❂➣(op):
             setKey = settings["keyCommand"].title()
             if settings["setKey"] == False: setKey = ''
             if isValid != False:
-                if msg.toType == 0 and sender != maxgieMID: to = sender
+                if msg.toType == 0 and sender != nn1MID: to = sender
                 else: to = receiver
-                if msg._from not in maxgieMID:
+                if msg._from not in nn1MID:
                   if apalo["talkban"] == True:
                     if msg._from in apalo["Talkblacklist"]:
-                        maxgie.sendMention(to, "คุณติดดำผมอยู่นะครับ @! :)","",[msg._from])
-                        maxgie.kickoutFromGroup(msg.to, [msg._from])
+                        nn1.sendMention(to, "คุณติดดำผมอยู่นะครับ @! :)","",[msg._from])
+                        nn1.kickoutFromGroup(msg.to, [msg._from])
+
+                if msg.contentType == 13:
+                  if sets["inv"] == True:
+                    mid = msg.contentMetadata['mid']
+                    nn1.inviteIntoGroup(to, [mid])
                 if msg.contentType == 13:
                   if apalo["Talkwblacklist"] == True:
                     if msg._from in admin:
                       if msg.contentMetadata["mid"] in apalo["Talkblacklist"]:
-                          maxgie.sendMessage(msg.to,"Sudah Ada")
+                          nn1.sendMessage(msg.to,"Sudah Ada")
                           apalo["Talkwblacklist"] = False
                       else:
                           apalo["Talkblacklist"][msg.contentMetadata["mid"]] = True
                           apalo["Talkwblacklist"] = False
-                          maxgie.sendMessage(msg.to,"เพิ่มบัญชีนี้ในรายการสีดำเรียบร้อยแล้ว")
+                          nn1.sendMessage(msg.to,"เพิ่มบัญชีนี้ในรายการสีดำเรียบร้อยแล้ว")
                   if apalo["Talkdblacklist"] == True:
                     if msg._from in admin:
                       if msg.contentMetadata["mid"] in apalo["Talkblacklist"]:
                           del apalo["Talkblacklist"][msg.contentMetadata["mid"]]
-                          maxgie.sendMessage(msg.to,"เพิ่มบัญชีนี้ในรายการสีขาวเรียบร้อยแล้ว")
+                          nn1.sendMessage(msg.to,"เพิ่มบัญชีนี้ในรายการสีขาวเรียบร้อยแล้ว")
                           apalo["Talkdblacklist"] = False
                       else:
                           apalo["Talkdblacklist"] = False
-                          maxgie.sendMessage(msg.to,"Tidak Ada Dalam Da ftar Blacklist")
+                          nn1.sendMessage(msg.to,"Tidak Ada Dalam Da ftar Blacklist")                          
                 if msg.contentType == 16:
                     if msg.toType in [2,1,0]:
                         print ("AutoLikeCommat")
                         try:
-                            if settings["autolike"] == True:
+                            if autolike["autolike"] == True:
                                 purl = msg.contentMetadata["postEndUrl"].split('userMid=')[1].split('&postId=')
+                                nn2(to,"🐱 ไม่ไลค์คับเจ็บนิ้ว 🐱")
                                 if purl[1] not in wait['postId']:
-                                    maxgie.likePost(purl[0], purl[1], random.choice([1001,1002,1003,1004,1005]))
-                                if settings["com"] == True:
-                                    maxgie.createComment(purl[0], purl[1], settings["commet"])
+                                    nn1.likePost(purl[0], purl[1], random.choice([1001,1002,1003,1004,1005]))
+                                if commant["com"] == True:
+                                    nn1.createComment(purl[0], purl[1], tagadd["commet"])
                                     wait['postId'].append(purl[1])
                                 else:
                                     pass
                         except Exception as e:
-                                if settings["autolike"] == True:
+                                if autolike["autolike"] == True:
                                     purl = msg.contentMetadata['postEndUrl'].split('homeId=')[1].split('&postId=')
+                                    nn2(to,"🐱 ไม่ไลค์คับเจ็บนิ้ว 🐱")
                                     if purl[1] not in wait['postId']:
-                                        maxgie.likePost(msg._from, purl[1], random.choice([1001,1002,1003,1004,1005]))
-                                    if settings["com"] == True:
-                                        maxgie.createComment(msg._from, purl[1], settings["commet"])
+                                        nn1.likePost(msg._from, purl[1], random.choice([1001,1002,1003,1004,1005]))
+                                    if commant["com"] == True:
+                                        nn1.createComment(msg._from, purl[1], tagadd["commet"])
                                         wait['postId'].append(purl[1])
-                                    else:pass
-#=====================================================================
-#=====================================================================
-        if op.type == 25:
-            print("[ 25 ] SEND MESSAGE")
-            msg = op.message
-            text = msg.text
-            msg_id = msg.id
-            receiver = msg.to
-            sender = msg._from
-            if msg.toType == 0 or msg.toType == 1 or msg.toType == 2:
-                if msg.toType == 0:
-                    if sender != maxgie.profile.mid:
-                        to = sender
-                    else:
-                        to = receiver
-                elif msg.toType == 1:
-                    to = receiver
-                elif msg.toType == 2:
-                    to = receiver
-            if msg.contentType == 0:
-                if text is None:
-                    return
+                                    else:pass                       
                 if text.lower() == "ประกาศ":
                     sa="วิธีใช้ ประกาศกลุ่ม >\\<"
                     sa+="\n- ประกาศ ข้อความ/ไอดีไลน์"
