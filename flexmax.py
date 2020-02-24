@@ -842,7 +842,7 @@ def NOTIFIED_READ_MESSAGE(op):
     except:
         pass
 def logError(text):
-    maxgie.log("[ แจ้งเตือน ] " + str(text))
+    nn1.log("[ แจ้งเตือน ] " + str(text))
     time_ = datetime.now()
     with open("errorLog.txt","a") as error:
         error.write("\n[%s] %s" % (str(time), text))
@@ -875,10 +875,10 @@ def sendMention(to, mid, firstmessage, lastmessage):
         arrData = {'S':slen, 'E':elen, 'M':mid}
         arr.append(arrData)
         text += mention + str(lastmessage)
-        maxgie.sendMessage(to, text, {'MENTION': str('{"MENTIONEES":' + json.dumps(arr) + '}')}, 0)
+        nn1.sendMessage(to, text, {'MENTION': str('{"MENTIONEES":' + json.dumps(arr) + '}')}, 0)
     except Exception as error:
         logError(error)
-        maxgie.sendMessage(to, "[ INFO ] Error :\n" + str(error))
+        nn1.sendMessage(to, "[ INFO ] Error :\n" + str(error))
 def mentionMembers(to, mid):
     try:
         group = maxgie.getGroup(to)
@@ -902,10 +902,10 @@ def mentionMembers(to, mid):
         if no == jml:
             textx += ""
             textx += ""
-        maxgie.sendMessage(to, textx, {'MENTION': str('{"MENTIONEES":' + json.dumps(arr) + '}')}, 0)
+        nn1.sendMessage(to, textx, {'MENTION': str('{"MENTIONEES":' + json.dumps(arr) + '}')}, 0)
     except Exception as error:
         logError(error)
-        maxgie.sendMessage(to, "[ INFO ] Error :\n" + str(error))
+        nn1.sendMessage(to, "[ INFO ] Error :\n" + str(error))
 def timeChange(secs):
     mins, secs = divmod(secs,60)
     hours, mins = divmod(mins,60)
@@ -933,15 +933,15 @@ def load():
         images = json.load(fp)
     with open("sticker.json","r") as fp:
         stickers = json.load(fp)
-#    with open("stickerz.json","r") as fp:
-#        stickerz = json.load(fp)
+    with open("stickerz.json","r") as fp:
+        stickerz = json.load(fp)
 def sendStickers(to, sver, spkg, sid):
     contentMetadata = {
         'STKVER': sver,
         'STKPKGID': spkg,
         'STKID': sid
     }
-    maxgie.sendMessage(to, '', contentMetadata, 7)
+    nn1.sendMessage(to, '', contentMetadata, 7)
 def sendSticker(to, mid, sver, spkg, sid):
     contentMetadata = {
         'MSG_SENDER_NAME': maxgie.getContact(mid).displayName,
@@ -950,11 +950,11 @@ def sendSticker(to, mid, sver, spkg, sid):
         'STKPKGID': spkg,
         'STKID': sid
     }
-    maxgie.sendMessage(to, '', contentMetadata, 7)
+    nn1.sendMessage(to, '', contentMetadata, 7)
 def sendImage(to, path, name="image"):
     try:
         if settings["server"] == "VPS":
-            maxgie.sendImageWithURL(to, str(path))
+            nn1.sendImageWithURL(to, str(path))
     except Exception as error:
         logError(error)
 def command(text):
@@ -993,10 +993,10 @@ def backupData():
         logError(error)
         return False
 #==============================================================================#
-async def maxgieBot(op):
+async def nn1TANBOTMEVERDIE✯͜͡❂➣(op):
     try:
         if settings["restartPoint"] != None:
-            maxgie.sendMessage(settings["restartPoint"], 'ล็อคอินแล้วเรียบร้อย ><')
+            nn1.sendMessage(settings["restartPoint"], 'ล็อคอินแล้วเรียบร้อย ><')
             settings["restartPoint"] = None
         if op.type == 0:
             return
@@ -1004,8 +1004,8 @@ async def maxgieBot(op):
             if settings["autoAdd"] == True:
               if op.param2 in admin:
                   return
-              maxgie.findAndAddContactsByMid(op.param1)
-              maxgie.sendMessage(op.param1,"{}".format(tagadd["add"]))
+              nn1.findAndAddContactsByMid(op.param1)
+              nn1.sendMessage(op.param1,"{}".format(tagadd["add"]))
               msgSticker = sets["messageSticker"]["listSticker"]["add"]
               if msgSticker != None:
                   sid = msgSticker["STKID"]
@@ -1017,31 +1017,31 @@ async def maxgieBot(op):
             if settings["autoblock"] == True:
               if op.param2 in admin:
                   return
-              maxgie.sendMessage(op.param1,tagadd["b"])
-          #    msgSticker = sets["messageSticker"]["listSticker"]["block"]
-          #    if msgSticker != None:
-          #        sid = msgSticker["STKID"]
-          #        spkg = msgSticker["STKPKGID"]
-          #        sver = msgSticker["STKVER"]
-          #        sendSticker(op.param1, sver, spkg, sid)
-                    #maxgie.sendMessage(op.param1,tagaad["b"])
-              maxgie.blockContact(op.param1)
+              nn1.sendMessage(op.param1,tagadd["b"])
+              msgSticker = sets["messageSticker"]["listSticker"]["block"]
+              if msgSticker != None:
+                 sid = msgSticker["STKID"]
+                  spkg = msgSticker["STKPKGID"]
+                  sver = msgSticker["STKVER"]
+                  sendSticker(op.param1, sver, spkg, sid)
+                    nn1.sendMessage(op.param1,tagaad["b"])
+              nn1.blockContact(op.param1)
               print ("[ 5 ] AUTO BLOCK")
         if op.type == 13:
-            if maxgieMID in op.param3:
-                G = maxgie.getGroup(op.param1)
+            if nn1MID in op.param3:
+                G = nn1.getGroup(op.param1)
                 if settings["autoJoin"] == True:
                     if sets["autoCancel"]["on"] == True:
                         if len(G.members) <= sets["autoCancel"]["members"]:
-                            maxgie.acceptGroupInvitation(op.param1)
+                            nn1.acceptGroupInvitation(op.param1)
                         else:
-                            maxgie.leaveGroup(op.param1)
+                            nn1.leaveGroup(op.param1)
                     else:
-                        maxgie.acceptGroupInvitation(op.param1)
+                        nn1.acceptGroupInvitation(op.param1)
                 elif sets["autoCancel"]["on"] == True:
                     if len(G.members) <= sets["autoCancel"]["members"]:
-                        maxgie.acceptGroupInvitation(op.param1)
-                        maxgie.leaveGroup(op.param1)
+                        nn1.acceptGroupInvitation(op.param1)
+                        nn1.leaveGroup(op.param1)
             else:
                 Inviter = op.param3.replace("",',')
                 InviterX = Inviter.split(",")
@@ -1051,16 +1051,16 @@ async def maxgieBot(op):
                 if matched_list == []:
                     pass
                 else:
-                    maxgie.acceptGroupInvitation(op.param1, matched_list)
-                    maxgie.leaveGroup(op.param1, matched_list)
+                    nn1.acceptGroupInvitation(op.param1, matched_list)
+                    nn1.leaveGroup(op.param1, matched_list)
                     print ("[ 17 ] LEAVE GROUP")                 
         if op.type == 15:
           if settings["Leave"] == True:
             if op.param2 in admin:
                 return
-            g = maxgie.getGroup(op.param1)
-            contact = maxgie.getContact(op.param2)
-            cover = maxgie.getProfileCoverURL(op.param2)
+            g = nn1.getGroup(op.param1)
+            contact = nn1.getContact(op.param2)
+            cover = nn1.getProfileCoverURL(op.param2)
             gname = g.name
             name = contact.displayName
             status = contact.statusMessage
@@ -1070,14 +1070,14 @@ async def maxgieBot(op):
             s += "บายยน้า : {}".format(name)
             s += tagadd["wctext"]
             data = {
-"type":"flex","altText":" 🌸 มีคนสวยออกกลุ่ม 🌸 ","contents":{"styles":{"header":{"backgroundColor":"#990000","separator":True,"separatorColor":"#FFFFFF"},"body":{"backgroundColor":"#000000","separator":True,"separatorColor":"#FFFFFF"},"footer":{"backgroundColor":"#990000","separator":True,"separatorColor":"#FFFFFF"}},"type":"bubble","header":{"type":"box","layout":"horizontal","contents":[{"type":"button","style":"secondary","color":"#FFFFFF","height":"sm","gravity":"center","flex":1,"action":{"type":"uri","label":"⫷BOTLNEBY:MAX⫸","uri":"line://nv/profilePopup/mid=ue1e7265070c2a91ae90ad98bcd4bcea9"}}]},"hero":{"type":"image","url":"https://thumbs.gfycat.com/ColorlessPinkLangur-size_restricted.gif","size":"full","aspectRatio":"4:3","action":{"type":"uri","uri":"http://line.me/ti/p/%40zer7125z"}},"body":{"type":"box","layout":"horizontal","spacing":"md","contents":[{"type":"separator","color":"#FFFFFF"},{"type":"box","layout":"vertical","flex":0,"contents":[{"type":"separator","color":"#FFFFFF"},{"type":"image","url":"https://profile.line-scdn.net/" + str(pp),"size":"sm","gravity":"bottom"}]},{"type":"separator","color":"#FFFFFF"},{"type":"box","layout":"vertical","flex":2,"contents":[{"type":"text","text":"BOTLINEBY:MASMAX","color":"#FFCC00","size":"sm","weight":"bold","flex":3,"wrap":True,"gravity":"top"},{"type":"separator","color":"#FFFFFF"},{"type":"separator","color":"#FFFFFF"},{"type":"text","text": "{}".format(s),"color":"#FFCC00","size":"sm","weight":"bold","flex":3,"wrap":True,"gravity":"top"},{"type":"separator","color":"#FFFFFF"},{"type":"separator","color":"#FFFFFF"},{"type":"text","text":"ออกสะแล้วบายยนะครับ😎","color":"#FFCC00","size":"sm","weight":"bold","flex":3,"wrap":True,"gravity":"top"},{"type":"separator","color":"#FFFFFF"}]}]},"footer":{"type":"box","layout":"horizontal","contents":[{"type":"button","style":"secondary","color":"#FFFFFF","height":"sm","gravity":"center","flex":1,"action":{"type":"uri","label":"⫷ ติดต่อผู้สร้าง ⫸","uri":"http://line.me/ti/p/%40zer7125z"}},{"type":"spacer","size":"sm"}],"flex":0}}}
+"type":"flex","altText":" 🌸 มีคนสวยออกกลุ่ม 🌸 ","contents":{"styles":{"header":{"backgroundColor":"#990000","separator":True,"separatorColor":"#FFFFFF"},"body":{"backgroundColor":"#000000","separator":True,"separatorColor":"#FFFFFF"},"footer":{"backgroundColor":"#990000","separator":True,"separatorColor":"#FFFFFF"}},"type":"bubble","header":{"type":"box","layout":"horizontal","contents":[{"type":"button","style":"secondary","color":"#FFFFFF","height":"sm","gravity":"center","flex":1,"action":{"type":"uri","label":"⫷TANBOTMEVERDIE⫸","uri":"line://nv/profilePopup/mid=ue1e7265070c2a91ae90ad98bcd4bcea9"}}]},"hero":{"type":"image","url":"https://thumbs.gfycat.com/ColorlessPinkLangur-size_restricted.gif","size":"full","aspectRatio":"4:3","action":{"type":"uri","uri":"http://line.me/ti/p/%40zer7125z"}},"body":{"type":"box","layout":"horizontal","spacing":"md","contents":[{"type":"separator","color":"#FFFFFF"},{"type":"box","layout":"vertical","flex":0,"contents":[{"type":"separator","color":"#FFFFFF"},{"type":"image","url":"https://profile.line-scdn.net/" + str(pp),"size":"sm","gravity":"bottom"}]},{"type":"separator","color":"#FFFFFF"},{"type":"box","layout":"vertical","flex":2,"contents":[{"type":"text","text":"BOTLINEBY:MASMAX","color":"#FFCC00","size":"sm","weight":"bold","flex":3,"wrap":True,"gravity":"top"},{"type":"separator","color":"#FFFFFF"},{"type":"separator","color":"#FFFFFF"},{"type":"text","text": "{}".format(s),"color":"#FFCC00","size":"sm","weight":"bold","flex":3,"wrap":True,"gravity":"top"},{"type":"separator","color":"#FFFFFF"},{"type":"separator","color":"#FFFFFF"},{"type":"text","text":"ออกสะแล้วบายยนะครับ😎","color":"#FFCC00","size":"sm","weight":"bold","flex":3,"wrap":True,"gravity":"top"},{"type":"separator","color":"#FFFFFF"}]}]},"footer":{"type":"box","layout":"horizontal","contents":[{"type":"button","style":"secondary","color":"#FFFFFF","height":"sm","gravity":"center","flex":1,"action":{"type":"uri","label":"⫷ ติดต่อผู้สร้าง ⫸","uri":"http://line.me/ti/p/%40zer7125z"}},{"type":"spacer","size":"sm"}],"flex":0}}}
             sendTemplate(op.param1, data)
         if op.type == 15:
           if settings["lv"] == True:
-              ginfo = maxgie.getGroup(op.param1)
+              ginfo = nn1.getGroup(op.param1)
               msg = sets["messageSticker"]["listSticker"]["lv"]
               if msg != None:
-                  contact = maxgie.getContact(maxgieMID)
+                  contact = nn1.getContact(nn1MID)
                   a = contact.displayName
                   stk = msg['STKID']
                   spk = msg['STKPKGID']
@@ -1099,14 +1099,14 @@ async def maxgieBot(op):
             s += "สวัสดีครับคุณ : {}".format(name)
             s += tagadd["wctext"]
             data = {
-"type":"flex","altText":" 🌸  มีคนเข้ากลุ่ม  🌸 ","contents":{"styles":{"header":{"backgroundColor":"#990000","separator":True,"separatorColor":"#FFFFFF"},"body":{"backgroundColor":"#000000","separator":True,"separatorColor":"#FFFFFF"},"footer":{"backgroundColor":"#990000","separator":True,"separatorColor":"#FFFFFF"}},"type":"bubble","header":{"type":"box","layout":"horizontal","contents":[{"type":"button","style":"secondary","color":"#FFFFFF","height":"sm","gravity":"center","flex":1,"action":{"type":"uri","label":"⫷BOTLNEBY:MAX⫸","uri":"line://nv/profilePopup/mid=ue1e7265070c2a91ae90ad98bcd4bcea9"}}]},"hero":{"type":"image","url":"https://media.giphy.com/media/MG1B6RPKn8OLC/giphy.gif","size":"full","aspectRatio":"4:3","action":{"type":"uri","uri":"http://line.me/ti/p/%40zer7125z"}},"body":{"type":"box","layout":"horizontal","spacing":"md","contents":[{"type":"separator","color":"#FFFFFF"},{"type":"box","layout":"vertical","flex":0,"contents":[{"type":"separator","color":"#FFFFFF"},{"type":"image","url":"https://profile.line-scdn.net/" + str(pp),"size":"sm","gravity":"bottom"}]},{"type":"separator","color":"#FFFFFF"},{"type":"box","layout":"vertical","flex":2,"contents":[{"type":"text","text":"BOTLINEBY:MASMAX","color":"#FFCC00","size":"sm","weight":"bold","flex":3,"wrap":True,"gravity":"top"},{"type":"separator","color":"#FFFFFF"},{"type":"separator","color":"#FFFFFF"},{"type":"text","text": "{}".format(s),"color":"#FFCC00","size":"sm","weight":"bold","flex":3,"wrap":True,"gravity":"top"},{"type":"separator","color":"#FFFFFF"},{"type":"separator","color":"#FFFFFF"},{"type":"text","text":"ยินดีต้อนรับเข้ารวมกลุ่มนะครับ😎","color":"#FFCC00","size":"sm","weight":"bold","flex":3,"wrap":True,"gravity":"top"},{"type":"separator","color":"#FFFFFF"}]}]},"footer":{"type":"box","layout":"horizontal","contents":[{"type":"button","style":"secondary","color":"#FFFFFF","height":"sm","gravity":"center","flex":1,"action":{"type":"uri","label":"⫷ ติดต่อผู้สร้าง ⫸","uri":"http://line.me/ti/p/%40zer7125z"}},{"type":"spacer","size":"sm"}],"flex":0}}}
+"type":"flex","altText":" 🌸  มีคนเข้ากลุ่ม  🌸 ","contents":{"styles":{"header":{"backgroundColor":"#990000","separator":True,"separatorColor":"#FFFFFF"},"body":{"backgroundColor":"#000000","separator":True,"separatorColor":"#FFFFFF"},"footer":{"backgroundColor":"#990000","separator":True,"separatorColor":"#FFFFFF"}},"type":"bubble","header":{"type":"box","layout":"horizontal","contents":[{"type":"button","style":"secondary","color":"#FFFFFF","height":"sm","gravity":"center","flex":1,"action":{"type":"uri","label":"⫷TANBOTMEVERDIE⫸","uri":"line://nv/profilePopup/mid=ue1e7265070c2a91ae90ad98bcd4bcea9"}}]},"hero":{"type":"image","url":"https://media.giphy.com/media/MG1B6RPKn8OLC/giphy.gif","size":"full","aspectRatio":"4:3","action":{"type":"uri","uri":"http://line.me/ti/p/%40zer7125z"}},"body":{"type":"box","layout":"horizontal","spacing":"md","contents":[{"type":"separator","color":"#FFFFFF"},{"type":"box","layout":"vertical","flex":0,"contents":[{"type":"separator","color":"#FFFFFF"},{"type":"image","url":"https://profile.line-scdn.net/" + str(pp),"size":"sm","gravity":"bottom"}]},{"type":"separator","color":"#FFFFFF"},{"type":"box","layout":"vertical","flex":2,"contents":[{"type":"text","text":"TANBOTMEVERDIE✯͜͡❂➣","color":"#FFCC00","size":"sm","weight":"bold","flex":3,"wrap":True,"gravity":"top"},{"type":"separator","color":"#FFFFFF"},{"type":"separator","color":"#FFFFFF"},{"type":"text","text": "{}".format(s),"color":"#FFCC00","size":"sm","weight":"bold","flex":3,"wrap":True,"gravity":"top"},{"type":"separator","color":"#FFFFFF"},{"type":"separator","color":"#FFFFFF"},{"type":"text","text":"ยินดีต้อนรับเข้ารวมกลุ่มนะครับ😎","color":"#FFCC00","size":"sm","weight":"bold","flex":3,"wrap":True,"gravity":"top"},{"type":"separator","color":"#FFFFFF"}]}]},"footer":{"type":"box","layout":"horizontal","contents":[{"type":"button","style":"secondary","color":"#FFFFFF","height":"sm","gravity":"center","flex":1,"action":{"type":"uri","label":"⫷ ติดต่อผู้สร้าง ⫸","uri":"http://line.me/ti/p/%40zer7125z"}},{"type":"spacer","size":"sm"}],"flex":0}}}
             sendTemplate(op.param1, data)
         if op.type == 18:
           if settings["Wc"] == True:
             if op.param2 in admin:
                 return
-            ginfo = maxgie.getGroup(op.param1)
-            contact = maxgie.getContact(op.param2)
+            ginfo = nn1.getGroup(op.param1)
+            contact = nn1.getContact(op.param2)
             cover = maxgie.getProfileCoverURL(op.param2)
             names = contact.displayName
             status = contact.statusMessage
