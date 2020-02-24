@@ -1512,82 +1512,82 @@ if op.type == 13:
 		     "type":"uri",
 		     "uri":"line://app/1643727178-0XPGAaRX?type=text&text=ข้อมูล"
 		     },
-					"url":"https://www.img.live/images/2019/09/12/sytech-dr-1.png",
-					},
-					{
-					"type":"image",
-					"size":"xxs",
-					"action":{
-					"type":"uri",
-					"uri":"line://app/1643727178-0XPGAaRX?type=text&text=เชคค่า"
-					},
-					"url":"https://www.img.live/images/2019/09/12/sytech-dr-1.png",
-					}
-					],
-					"flex":1
-					},
-					{
-					"type":"box",
-					"layout":"horizontal",
-					"spacing":"xxl",
-					"contents":[
-					{
-					"type":"text",
-					"size":"xs",
-					"align":"center",
-					"color":"#66FFFF",
-					"text":"ติดต่อคนสร้างบอท"
-					},
-					{
-					"type":"text",
-					"size":"xs",
-					"align":"center",
-					"color":"#66FFFF",
-					"text":"คำสั่ง"
-					},
-					{
-					"type":"text",
-					"size":"xs",
-					"align":"center",
-					"color":"#66FFFF",
-					"text":"ข้อมูล"
-					},
-					{
-					"type":"text",
-					"size":"xs",
-					"color":"#66FFFF",
-					"text":"เชคค่า"
-					}
-					]
-					}
-					]
-					},
-					{
-					"type":"box",
-					"layout":"vertical",
-					"spacing":"xs",
-					"contents":[
-					{
-					"type":"box",
-					"layout":"horizontal",
-					"contents":[
-					{
-					"type":"image",
-					"size":"xs",
-					"action":{
-					"type":"uri",
-					"uri":"line://app/1643727178-0XPGAaRX?type=text&text=ออน"
-					},
-					"url":"https://www.img.live/images/2019/09/12/343321.jpg"
-					},
-					{
-					"type":"image",
-					"size":"xs",
-					"action":{
-					"type":"uri",
-					"uri":"line://app/1643727178-0XPGAaRX?type=text&text=รีบอท"
-					},
-					"url":"https://www.img.live/images/2019/09/12/343321.jpg"
+		     "url":"https://www.img.live/images/2019/09/12/sytech-dr-1.png",
+		     },
+		     {
+		     "type":"image",
+		     "size":"xxs",
+		     "action":{
+		     "type":"uri",
+		     "uri":"line://app/1643727178-0XPGAaRX?type=text&text=เชคค่า"
+		     },
+		     "url":"https://www.img.live/images/2019/09/12/sytech-dr-1.png",
+		     }
+		     ],
+		     "flex":1
+		     },
+		     {
+		     "type":"box",
+		     "layout":"horizontal",
+		     "spacing":"xxl",
+		     "contents":[
+		     {
+		     "type":"text",
+		     "size":"xs",
+		     "align":"center",
+		     "color":"#66FFFF",
+		     "text":"ติดต่อคนสร้างบอท"
+		     },
+		     {
+		     "type":"text",
+		     "size":"xs",
+		     "align":"center",
+		     "color":"#66FFFF",
+		     "text":"คำสั่ง"
+		     },
+		     {
+		     "type":"text",
+		     "size":"xs",
+		     "align":"center",
+		     "color":"#66FFFF",
+		     "text":"ข้อมูล"
+		     },
+		     {
+		     "type":"text",
+		     "size":"xs",
+		     "color":"#66FFFF",
+		     "text":"เชคค่า"
+		     }
+		     ]
+		     }
+		     ]
+		     },
+		     {
+		      "type":"box",
+		      "layout":"vertical",
+		      "spacing":"xs",
+		      "contents":[
+		      {
+		      "type":"box",
+		      "layout":"horizontal",
+		      "contents":[
+		      {
+		      "type":"image",
+		      "size":"xs",
+		      "action":{
+		      "type":"uri",
+		      "uri":"line://app/1643727178-0XPGAaRX?type=text&text=ออน"
+		      },
+		      "url":"https://www.img.live/images/2019/09/12/343321.jpg"
+		      },
+		      {
+                      "type":"image",
+                      "size":"xs",
+                      "action":{
+		      "type":"uri",
+		      "uri":"line://app/1643727178-0XPGAaRX?type=text&text=รีบอท"
+		      },
+		      "url":"https://www.img.live/images/2019/09/12/343321.jpg"
 					},
 					{
 					"type":"image",
@@ -1839,7 +1839,7 @@ if op.type == 13:
 					"action":{
 					"type":"uri",
 					"uri":"line://app/1643727178-0XPGAaRX?type=text&text=วีดีโอเรา"  
-            					
+            										
     if text.lower() == "ประกาศ":
                     sa="วิธีใช้ ประกาศกลุ่ม >\\<"
                     sa+="\n- ประกาศ ข้อความ/ไอดีไลน์"
