@@ -427,7 +427,204 @@ def nn4(to, text):
     }
     }
     }
+    sendTemplate(to,data)
+        def sendMentionFooter(to, mid, firstmessage, lastmessage):
+    try:
+        arrData = ""
+        text = "%s " %(str(firstmessage))
+        arr = []
+        mention = "@LopeAgri"
+        slen = str(len(text))
+        elen = str(len(text) + len(mention))
+        arrData = {'S':slen, 'E':elen, 'M':mid}
+        arr.append(arrData)
+        text += mention + str(lastmessage)
+        nama = "{}".format(nn1.getContact(nn1MID).displayName)
+        img = "http://dl.profile.line-cdn.net/{}".format(nn1.getContact(nn1MID).pictureStatus)
+        ticket = "https://line.me/ti/p/~steveneverdie002"
+        nn1.sendMessage(to, text, {'AGENT_LINK': ticket, 'AGENT_ICON': img, 'AGENT_NAME': nama, 'MENTION': str('{"MENTIONEES":' + json.dumps(arr) + '}')}, 0)
+    except Exception as error:
+        logError(error)
+        nn1.sendMessage(to, "[ INFO ] Error :\n" + str(error))
+def messageTime():
+    global DDATE
+    while True:
+        date = subprocess.getoutput('date +"%H:%M:%S"')
+        for x in DDATE:
+            if x == date:
+                groups = nn1.getGroupIdsJoined()
+                for group in groups:
+                    nn1.sendMessage(group, DDATE[x])
+       
+threads = threading.Thread(target=messageTime)
+threads.daemon = True
+threads.start()
+def nn2(to, text):
+    s = temp["te"]
+    a = temp["t"]
+    cover = nn1.getProfileCoverURL(nn1MID)
+    data = {
+    "type": "flex",
+    "altText": "™TANBOTMEVERDIE✯͜͡❂➣",
+    "contents": {
+    "type": "bubble",
+    "styles": {
+    "body": {
+    "backgroundColor":a
+    }
+    },    
+    "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+    {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+    {
+    "type": "image",
+    "url":  "https://obs.line-scdn.net/{}".format(nn1.getContact(nn1MID).pictureStatus),
+    "size": "sm",
+    },
+    {
+    "type": "separator",
+    "color": "#66FFFF"
+    },
+    {
+    "type": "image",
+    "url":  "https://www.img.live/images/2019/09/12/images13.jpg",
+    "size": "sm",
+    },
+    ]
+    },
+    {
+    "type": "separator",
+    "color": "#66FFFF"
+    },
+    {
+    "type": "text",
+    "text": "™TANBOTNEVERDIE✯͜͡❂➣",
+    "color": s,
+    "weight": "bold",
+    "align":"center",
+    "size": "xl"
+    },
+    {
+    "type": "separator",
+    "color": "#66FFFF"
+    },
+    {
+    "type":"text",
+    "text": " ",
+    },
+    {
+    "type": "text",
+    "text": text,
+    "color":s,
+    "gravity": "center",
+    "align":"center",
+    "wrap": True,
+    "size": "lg"
+    },
+    {
+    "type":"text",
+    "text": " ",
+    },
+    {
+    "type":"button",
+    "style": "primary",
+    "height": "sm",
+    "color": "#FF6600",
+    "action": {
+    "type": "uri",
+    "label": "™TANBOTNEVERDIE✯",
+    "uri": "line://ti/p/~"+nn1.getProfile().userid,
+    }
+    },
+    ]
+    }
+    }
+    }
     sendTemplate(to,data)        
+def nn5(to, text):
+    s = temp["te"]
+    a = temp["t"]
+    warna1 = ("#00FFcc","#FF9999","#009999","#666666","#FF1493","#FFFF00","#50B1493","#66600CC","#00FF00","FF0033")
+    warna2 = ("#FF0033","#00FF00","#6600CC","#50B4F5","#FFFF00","#FF1493","#666666","#009999","#FF9999","#00FFcc")
+    warnanya1 = random.choice(warna1)
+    warnanya2 = random.choice(warna2)
+    data = {
+    "type": "flex",
+    "altText": text,
+    "contents": {
+    "type": "bubble",
+    "styles": {
+    "body": {
+    "backgroundColor":a
+    }
+    },
+    "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+    {
+    "type": "text",
+    "text": text,
+    "color":s,
+    "gravity": "center",
+    "wrap": True,
+    "size": "sm"
+    }
+    ]
+    }
+    }
+    }
+    sendTemplate(to,data)
+def nn3(to, nn3):
+    data={
+"type": "flex",
+"altText": nn3,
+"contents": {
+"type": "bubble",
+"styles": {
+"footer": {"backgroundColor": "#000000"},
+},
+"footer": {
+"type": "box",
+"layout": "vertical",
+"spacing": "sm",
+"contents": [
+{
+"type": "box",
+"layout": "baseline",
+"contents": [
+{
+"type": "icon",
+"url": "https://obs.line-scdn.net/{}".format(nn1.getContact(nn1MID).pictureStatus),
+"size": "md"
+},
+{
+"type": "text",
+"text": nn3,
+"color":"#66FFFF",
+"gravity": "center",
+"align":"center",
+"wrap": True,
+"size": "md"
+},
+{
+"type": "icon",
+"url": "https://obs.line-scdn.net/{}".format(nn1.getContact(nn1MID).pictureStatus),
+"size": "md"
+},
+]
+}
+]
+}
+}
+}
+    sendTemplate(to, data)        
 def sendMentionFooter(to, mid, firstmessage, lastmessage):
     try:
         arrData = ""
