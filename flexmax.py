@@ -1411,7 +1411,7 @@ if op.type == 13:
 
 #=====================================================================
 #=====================================================================
-        if op.type == 25:
+   if op.type == 25:
             print("[ 25 ] ™TANBOTNEVERDIE✯͜͡❂➣")
             msg = op.message
             text = msg.text
@@ -1429,19 +1429,418 @@ if op.type == 13:
                 elif msg.toType == 2:
                     to = receiver
             if msg.contentType == 0:
-                if text is None:
+            if text is None:
                     return
-                if text.lower() == "help":
-                    cover = nn1.getProfileCoverURL(nn1.profile.mid)
-                    pp = nn1.getProfile().pictureStatus
-                    profile = "https://profile.line-scdn.net/" + str(pp)
-                    name = nn1.getProfile().displayName
-                    status = nn1.getProfile().statusMessage
-                    s = temp["te"]
-                    a = temp["t"]
-                    data={
-                       
-                if text.lower() == "ประกาศ":
+       if text.lower() == "help":
+               cover = nn1.getProfileCoverURL(nn1.profile.mid)
+               pp = nn1.getProfile().pictureStatus
+               profile = "https://profile.line-scdn.net/" + str(pp)
+               name = nn1.getProfile().displayName
+               status = nn1.getProfile().statusMessage
+               s = temp["te"]
+               a = temp["t"]
+               data={
+                    'type':'flex',
+		     'altText':"help message",
+		     'contents':{
+	             "type":"carousel",
+		     "contents":[
+		     {
+		     "hero":{
+		     "type":"image",
+		     "action":{
+		     "type":"uri","uri":"line://app/1643557392-pe8AQomG?type=profile"
+		     },
+		     "url":profile,"size":"full",
+	             "aspectMode":"cover",
+		     "aspectRatio":"1:1"},
+		     "styles":{
+		     "body":{"backgroundColor":"#000000"
+		     },
+		     "header":{"backgroundColor":"#000000"
+		     }
+		     },
+		     "type":"bubble","body":{
+		     "type":"box","layout":"vertical",
+		     "spacing":"xs",
+		     "contents":[
+		     {
+                     "type":"box",
+	             "margin":"md",
+		     "layout":"baseline",
+		     "contents":[
+		     {
+	             "type":"text",
+		     "size":"xl",
+		     "align":"end",
+		     "color":"#CC0000",
+		     "text":"™ᴛᴇᴀᴍʙᴏᴛɴᴇᴠᴇʀᴅɪᴇ✯"
+		     }
+		     ]
+		     },
+		     {
+		     "type":"box",
+		     "layout":"vertical",
+		     "spacing":"xs",
+		     "contents":[
+                      {
+		     "type":"box",
+		     "layout":"horizontal",
+		     "contents":[
+		     {
+		     "type":"image",
+		     "size":"xxs",
+		     "action":{
+		     "type":"uri",
+		     "uri":"https://line.me/ti/p/~"+nn1.getProfile().userid,
+		     },
+		     "url":"https://www.img.live/images/2019/09/12/deep-web-dark-web-internet-spam-hack-cyber-security.jpg"
+		     },
+		     {
+		     "type":"image",
+		     "size":"xxs",
+		     "action":{
+		     "type":"uri",
+		     "uri":"line://app/1643727178-0XPGAaRX?type=text&text=คำสั่ง"
+		     },
+		     "url":"https://www.img.live/images/2019/09/12/sytech-dr-1.png",
+		     },
+		     {
+		     "type":"image",
+		     "size":"xxs",
+		     "action":{
+		     "type":"uri",
+		     "uri":"line://app/1643727178-0XPGAaRX?type=text&text=ข้อมูล"
+		     },
+					"url":"https://www.img.live/images/2019/09/12/sytech-dr-1.png",
+					},
+					{
+					"type":"image",
+					"size":"xxs",
+					"action":{
+					"type":"uri",
+					"uri":"line://app/1643727178-0XPGAaRX?type=text&text=เชคค่า"
+					},
+					"url":"https://www.img.live/images/2019/09/12/sytech-dr-1.png",
+					}
+					],
+					"flex":1
+					},
+					{
+					"type":"box",
+					"layout":"horizontal",
+					"spacing":"xxl",
+					"contents":[
+					{
+					"type":"text",
+					"size":"xs",
+					"align":"center",
+					"color":"#66FFFF",
+					"text":"ติดต่อคนสร้างบอท"
+					},
+					{
+					"type":"text",
+					"size":"xs",
+					"align":"center",
+					"color":"#66FFFF",
+					"text":"คำสั่ง"
+					},
+					{
+					"type":"text",
+					"size":"xs",
+					"align":"center",
+					"color":"#66FFFF",
+					"text":"ข้อมูล"
+					},
+					{
+					"type":"text",
+					"size":"xs",
+					"color":"#66FFFF",
+					"text":"เชคค่า"
+					}
+					]
+					}
+					]
+					},
+					{
+					"type":"box",
+					"layout":"vertical",
+					"spacing":"xs",
+					"contents":[
+					{
+					"type":"box",
+					"layout":"horizontal",
+					"contents":[
+					{
+					"type":"image",
+					"size":"xs",
+					"action":{
+					"type":"uri",
+					"uri":"line://app/1643727178-0XPGAaRX?type=text&text=ออน"
+					},
+					"url":"https://www.img.live/images/2019/09/12/343321.jpg"
+					},
+					{
+					"type":"image",
+					"size":"xs",
+					"action":{
+					"type":"uri",
+					"uri":"line://app/1643727178-0XPGAaRX?type=text&text=รีบอท"
+					},
+					"url":"https://www.img.live/images/2019/09/12/343321.jpg"
+					},
+					{
+					"type":"image",
+					"size":"xs",
+					"action":{
+					"type":"uri",
+					"uri":"line://app/1643727178-0XPGAaRX?type=text&text=me"
+					},
+					"url":"https://www.img.live/images/2019/09/12/343321.jpg"
+					}
+					],
+					"flex":1
+					},
+					{
+					"type":"box",
+					"layout":"horizontal",
+					"spacing":"xxl",
+					"contents":[
+					{
+					"type":"text",
+					"size":"xs",
+					"align":"center",
+					"color":"#66FFFF",
+					"text":"ออน"
+					},
+					{
+					"type":"text",
+					"size":"xs",
+					"align":"center",
+					"color":"#66FFFF",
+					"text":"รีบอท"
+					},
+					{
+					"type":"text",
+					"size":"xs",
+					"align":"center",
+					"color":"#66FFFF",
+					"text":"me"
+					}
+					]
+					}
+					]
+					}
+					]
+					}
+					},
+					{
+					"type":"bubble",
+					"styles":{
+					"body":{"backgroundColor":"#000000"
+					},
+					"header":{"backgroundColor":"#000000"
+					}
+					},
+					"body":{
+					"type":"box",
+					"layout":"vertical",
+					"spacing":"xs",
+					"contents":[
+					{
+					"type":"box",
+					"layout":"baseline",
+					"contents":[
+					{
+					"type":"icon",
+					"size":"md",
+					"url":"https://www.img.live/images/2019/09/12/343321.jpg"
+					},
+					{
+					"type":"icon",
+					"size":"md",
+					"url":"https://i.ibb.co/Scv2SyN/battery-Phones.png"
+					},
+					{
+					"type":"text",
+					"size":"xxs",
+					"color":"#66FF66",
+					"flex":0,
+					"text":"  ᴬᴵˢ 4G"
+					},
+					{
+					"type":"text",
+					"size":"xxs",
+					"color":"#66FF66",
+					"align":"end",
+					"text":"⏰ 22/10/19 ™"
+					}
+					]
+					},
+					{
+					"type":"box",
+					"layout":"vertical",
+					"spacing":"xs",
+					"contents":[
+					{
+					"type":"box",
+					"layout":"horizontal",
+					"contents":[
+					{
+					"type":"image",
+					"size":"xs",
+					"action":{
+					"type":"uri",
+					"uri":"line://app/1643727178-0XPGAaRX?type=text&text=ข้อมูล"
+					},
+					"url":"https://www.img.live/images/2019/09/12/343321.jpg",
+					},
+					{
+					"type":"image",
+					"size":"xs",
+					"action":{
+					"type":"uri",
+					"uri":"line://app/1643727178-0XPGAaRX?type=text&text=รูปเรา"
+					},
+					"url":"https://www.img.live/images/2019/09/12/343321.jpg",
+					},
+					{
+					"type":"image",
+					"size":"xs",
+					"action":{
+					"type":"uri",
+					"uri":"line://app/1643727178-0XPGAaRX?type=text&text=คทเรา"
+					},
+					"url":"https://www.img.live/images/2019/09/12/343321.jpg",
+					}
+					],
+					"flex":1
+					},
+					{
+					"type":"box",
+					"layout":"horizontal",
+					"spacing":"xxl",
+					"contents":[
+					{
+					"type":"text",
+					"size":"xs",
+					"align":"center",
+					"color":"#66FFFF",
+					"text":"ข้อมูล"
+					},
+					{
+					"type":"text",
+					"size":"xs",
+					"align":"center",
+					"color":"#66FFFF",
+					"text":"รูปเรา"
+					},
+					{
+					"type":"text",
+					"size":"xs",
+					"align":"center",
+					"color":"#66FFFF",
+					"text":"คทเรา"
+					}
+					]
+					}
+					]
+					},
+					{
+					"type":"box",
+					"layout":"vertical",
+					"spacing":"xs",
+					"contents":[
+					{
+					"type":"box",
+					"layout":"horizontal",
+					"contents":[
+					{
+					"type":"image",
+					"size":"xs",
+					"action":{
+					"type":"uri",
+					"uri":"line://app/1643727178-0XPGAaRX?type=text&text=ไอดีเรา"
+					},
+					"url":"https://www.img.live/images/2019/09/12/343321.jpg",
+					},
+					{
+					"type":"image",
+					"size":"xs",
+					"action":{
+					"type":"uri",
+					"uri":"line://app/1643727178-0XPGAaRX?type=text&text=ชื่อเรา"
+					},
+					"url":"https://www.img.live/images/2019/09/12/343321.jpg",
+					},
+					{
+					"type":"image",
+					"size":"xs",
+					"action":{
+					"type":"uri",
+					"uri":"line://app/1643727178-0XPGAaRX?type=text&text=ตัสเรา"
+					},
+					"url":"https://www.img.live/images/2019/09/12/343321.jpg",
+					}
+					],
+					"flex":1
+					},
+					{
+					"type":"box",
+					"layout":"horizontal",
+					"spacing":"xxl",
+					"contents":[
+					{
+					"type":"text",
+					"size":"xs",
+					"align":"center",
+					"color":"#66FFFF",
+					"text":"ไอดีเรา"
+					},
+					{
+					"type":"text",
+					"size":"xs",
+					"align":"center",
+					"color":"#66FFFF",
+					"text":"ชื่อเรา"
+					},
+					{
+					"type":"text",
+					"size":"xs",
+					"align":"center",
+					"color":"#66FFFF",
+					"text":"ตัสเรา"
+					}
+					]
+					}
+					]
+					},
+					{
+					"type":"box",
+					"layout":"vertical",
+					"spacing":"xs",
+					"contents":[
+					{
+					"type":"box",
+					"layout":"horizontal",
+					"contents":[
+					{
+					"type":"image",
+					"size":"xs",
+					"action":{
+					"type":"uri",
+					"uri":"line://app/1643727178-0XPGAaRX?type=text&text=รูปเรา"
+					},
+					"url":"https://www.img.live/images/2019/09/12/343321.jpg",
+					},
+					{
+					"type":"image",
+					"size":"xs",
+					"action":{
+					"type":"uri",
+					"uri":"line://app/1643727178-0XPGAaRX?type=text&text=วีดีโอเรา"  
+            					
+    if text.lower() == "ประกาศ":
                     sa="วิธีใช้ ประกาศกลุ่ม >\\<"
                     sa+="\n- ประกาศ ข้อความ/ไอดีไลน์"
                     sa+="\nตัวอย่าง >\\<"
@@ -1693,500 +2092,7 @@ if op.type == 13:
                     Re = settings["reply"]
                     nn1.generateReplyMessage(msg.id)
                     nn1.sendReplyMessage(msg.id, to, "ข้อความแอด :\n"+str(add)+"\n\nข้อความแทค :\n"+str(tag)+"\n\nข้อความเม้น :\n"+str(like)+"\n\nข้อความต้อนรับ :\n"+str(wc)+"\n\nข้อความคนออก :\n"+str(lv)+"\n\nจำนวนค้างเชิญ :\n"+str(c)+" จำนวน\n\nข้อความบล็อค :\n"+str(b))
-                if text.lower() == "/คำสั่ง" or text.lower() == "/help":
-                    sas = "😀 Help Message 😀\n"
-                    sa = "• คท\n"
-                    sa += "• ไอดีเรา\n"
-                    sa += "• ชื่อเรา\n"
-                    sa += "• ตัสเรา\n"
-                    sa += "• รูปเรา\n"
-                    sa += "• รูปวีดีโอเรา\n"
-                    sa += "• ปกเรา\n"
-                    sa += "──────────────\n"
-                    sa += "• ข้อมูล\n"
-                    sa += "• ออน\n"
-                    sa += "• รีบอท\n"
-                    sa += "• แทค\n"
-                    sa += "• ยกเชิญ\n"
-                    sa += "• /ลบรัน\n"
-                    sa += "• ก็อป @user\n"
-                    sa += "• กลับร่าง\n"
-                    sa += "──────────────\n"
-                    sa += "• สะกดกิต [พิม'สะกดกิต'เพื่อดูวิธี]\n"
-                    sa += "• ตั้งapi [พิมเพื่อดูวิธี]\n"
-                    sa += "• ล้างapi [คำที่จะลบ]\n"
-                    sa += "• เชคapi\n"
-                    sa += "• stag [พิม'stag'เพื่อดูวิธี]\n"
-                    sa += "• แปรงคท [MID]\n"
-                    sa += "• ยูทูป [ข้อความ]\n"
-                    sa += "• image [text(ภาษาอังกฤษ)]\n"
-                    sa += "• รูป [ข้อความ(ภาษาไทย)]\n"
-                    sa += "• เพลสโต [ชื่อแอพ]\n"
-                    sa += "• ตั้งรูปโปรไฟล์ [ลิ้งยูทูป]\n"
-                    sa += "• ประกาศ [พิม'ประกาศ'เพื่อดูวิธี]\n"
-                    sa += "• ยกเลิก [ใส่จำนวนที่จะยกเลิก]\n"
-                    sa += "──────────────\n"
-                    sa += "• ดำ ส่งคท.\n"
-                    sa += "• ขาว ส่งคท.\n"
-                    sa += "• ดำ @user\n"
-                    sa += "• ล้าง @user\n"
-                    sa += "• เชคดำ\n"
-                    sa += "• คทดำ\n"
-                    sa += "• ล้างดำ\n"
-                    sa += "──────────────\n"
-                    sa += "• ตั้งต้อนรับ [ข้อความ]\n"
-                    sa += "• ตั้งคนออก [ข้อความ]\n"
-                    sa += "• ตั้งแอด [ข้อความ]\n"
-                    sa += "• ตั้งแทค [ข้อความ]\n"
-                    sa += "• ตั้งคอมเม้น [ข้อความ]\n"
-                    sa += "──────────────\n"
-                    sa += "• เปิดแทค/ปิดแทค\n"
-                    sa += "• เปิดแทค2/ปิดแทค2\n"
-                    sa += "• เปิดแทค3/ปิดแทค3\n"
-                    sa += "• เปิดไลค์/ปิดไลค์\n"
-                    sa += "• เปิดคอมเม้น/ปิดคอมเม้น\n"
-                    sa += "• เปิดบล็อค/ปิดบล็อค\n"
-                    sa += "• เปิดแอด/ปิดแอด\n"
-                    sa += "• เปิดกันรัน/ปิดกันรัน\n"
-                    sa += "• เปิดต้อนรับ/ปิดต้อนรับ\n"
-                    sa += "• เปิดต้อนรับ2/ปิดต้อนรับ2\n"
-                    sa += "• เปิดคนออก/ปิดคนออก\n"
-                    sa += "• เปิดยกเลิก/ปิดยกเลิก\n"
-                    sa += "• เปิดโค๊ดติ๊ก/ปิดโค๊ดติ๊ก\n"
-                    sa += "• เปิดติ๊กใหญ่/ปิดติ๊กใหญ่"
-                    helps = "{}".format(str(sa))
-                    data = {
-                        "type": "flex",
-                        "altText": "{}".format(sas),
-                        "contents": {
-                            "type": "bubble",
-                            "styles": {
-                                "body": {
-                                    "backgroundColor": '#000000'
-                                 },
-                            },
-                            "body": {
-                                "type": "box",
-                                "layout": "vertical",
-                                "contents": [
-                                    {
-                                        "type":"text",
-                                        "text": sas,
-                                        "size":"xl",
-                                        "weight":"bold",
-                                        "color":"#66FFFF",
-                                        "align":"center"
-                                    },
-                                    {
-                                        "type":"text",
-                                        "text": " "
-                                    },
-                                    {
-                                        "type": "text",
-                                        "text": "{}".format(sa),
-                                        "wrap": True,
-                                        "color": "#66FFFF,
-                                        "gravity": "center",
-                                        "size": "md"
-                                    },
-                                    {
-                                        "type": "text",
-                                        "text": " "
-                                    },
-                                    {
-                                        "type":"button",
-                                        "style":"primary",
-                                        "color":"#66FFFF",
-                                        "action": {
-                                            "type":"uri",
-                                            "label":"ผู้สร้าง",
-                                            "uri":"https://line.me/R/ti/p/~ptatan1983"
-                                        },
-                                    },
-                                ]
-                            }
-                        }
-                    }
-                    sendTemplate(to, data)
-                if text.lower() == "help" or text.lower() == "คำสั่ง":
-                            s = "#FF0000"
-                            sa = "🐭คท\n"
-                            sa += "🐭ไอดีเรา\n"
-                            sa += "🐭ชื่อเรา\n"
-                            sa += "🐭ตัสเรา\n"
-                            sa += "🐭รูปเรา\n"
-                            sa += "🐭รูปวีดีโอเรา\n"
-                            sa += "🐭ปกเรา\n"
-                            sa += "🐭ข้อมูล\n"
-                            sa += "🐭รีบอท\n"
-                            sa += "🐭ออน\n"
-                            sa += "🐭/ลบรัน\n"
-                            sa += "🐭เชคค่า\n"
-                            sa += "🐭แทค\n"
-                            sa += "🐭ยกเชิญ\n"
-                            ss = "\n"
-                            sa += ""
-                            ss += "🐰ตั้งapi [พิมเพื่อดูวิธี]\n"
-                            ss += "🐰ล้างapi [คำที่จะลบ]\n"
-                            ss += "🐰เชคapi\n"
-                            ss += "🐰ล้างapi [คำที่จะลบ]\n"
-                            ss += "🐰ก็อป @user\n"
-                            ss += "🐰กลับร่าง\n"
-                            ss += "🐰แปรงคท [MID]\n"
-                            ss += "🐰ยูทูป [ข้อความ]\n"
-                            ss += "🐰image [text(ภาษาอังกฤษ)]\n"
-                            ss += "🐰ตั้งรูปโปรไฟล์ [ลิ้งยูทูป]\n"
-                            ss += "🐰ประกาศ [พิม'ประกาศ'เพื่อดูวิธี]\n"
-                            ss += "🐰ยกเลิก [ใส่จำนวนที่จะยกเลิก]\n"
-                            ss += "\n"
-                            ss += ""
-                            sd = "🐷ดำ ส่งคท.\n"
-                            sd += "🐷ขาว ส่งคท.\n"
-                            sd += "🐷ดำ @user\n"
-                            sd += "🐷ล้าง @user\n"
-                            sd += "🐷เชคดำ\n"
-                            sd += "🐷คทดำ\n"
-                            sd += "🐷ล้างดำ\n"
-                            sd += "🐷ตั้งต้อนรับ [ข้อความ]\n"
-                            sd += "🐷ตั้งคนออก [ข้อความ]\n"
-                            sd += "🐷ตั้งแอด [ข้อความ]\n"
-                            sd += "🐷ตั้งแทค [ข้อความ]\n"
-                            sd += "🐷ตั้งคอมเม้น [ข้อความ]\n"
-                            sd += "🐷ตั้งค้างเชิญ [จำนวน]\n"
-                            sd += "🐷ตั้งมุดลิ้ง [ข้อความ]\n"
-                            sd += "🐷ตั้งคนบล็อค [ข้อความ]"
-                            se = "🐯เปิดแทค/ปิดแทค\n"
-                            se += "🐯เปิดไลค์/ปิดไลค์\n"
-                            se += "🐯เปิดไลค์/ปิดไลค์\n"
-                            se += "🐯เปิดคอมเม้น/ปิดคอมเม้น\n"
-                            se += "🐯เปิดบล็อค/ปิดบล็อค\n"
-                            se += "🐯เปิดแอด/ปิดแอด\n"
-                            se += "🐯เปิดกันรัน/ปิดกันรัน\n"
-                            se += "🐯เปิดต้อนรับ/ปิดต้อนรับ\n"
-                            se += "🐯เปิดคนออก/ปิดคนออก\n"
-                            se += "🐯เปิดกาดนางฟ้า/ปิด\n"
-                            se += "🐯เปิดคนออก/ปิดคนออก\n"
-                            se += "🐯เปิดยกเลิก/ปิดยกเลิก\n"
-                            se += "🐯เปิดติ๊กคนเข้า/ปิดติ๊กคนเข้า\n"
-                            se += "🐯เปิดติ๊กคนออก/ปิดติ๊กคนออก\n"
-                            se += "🐯เปิดติ๊กใหญ่/ปิดติ๊กใหญ่"
-                            sti = "🐘เปิดมุดลิ้ง/ปิดมุดลิ้ง\n"
-                            sti += "🐘ตั้งติ๊กคนแอด\n"
-                            sti += "🐘ลบติ๊กคนแอด\n"
-                            sti += "• ตั้งติ๊กแทคแชท\n"
-                            sti += "• ลบติ๊กแทคแชท\n"
-                            sti += "🐘ตั้งติ๊กคนแทค\n"
-                            sti += "🐘ลบติ๊กคนแทค\n"
-                            sti += "🐘ตั้งติ๊กคนเข้า\n"
-                            sti += "🐘ลบติ๊กคนเข้า\n"
-                            sti += "🐘ตั้งติ๊กคนออก\n"
-                            sti += "🐘ลบติ๊กคนออก\n"
-                            sti += "🐘เขียน [ข้อความ]\n"
-                            sti += "🐘ไอดีไลน์ [idline]\n"
-                            sti += "🐘ดึง @user\n"
-                            sti += "🐘บล็อค @user\n"
-                            sti += "🐘เพิ่มเพื่อน @user\n"
-                            sti += "🐘ลบเพื่อน @user"
-                            dataProfile = [
-                                {
-                                    "type": "bubble",
-                                    "styles": {
-                                        "header": {"backgroundColor":"#000000"},
-                                        "hero": {"backgroundColor": "#000000"}, #"separator": True, "separatorColor": "#333333"},
-                                        "footer": {"backgroundColor": "#FF0000"}, #"separator": True, "separatorColor": "#333333"}
-                                    },
-                                    "header": {
-                                        "type": "box",
-                                        "layout": "vertical",
-                                        "spacing": "sm",
-                                        "contents": [
-                                            {
-                                                "type": "image",
-                                                "url": 'https://i.pinimg.com/originals/df/97/3b/df973b04f198ff959f3cfba155f928a2.gif',
-                                                "size": "full"
-                                            },
-                                            {
-                                                "type": "text",
-                                                "text": "🐈คำสั่งส่วนตัว🐈",
-                                                "size": "xxl",
-                                                "weight": "bold",
-                                                "align": "center",
-                                                "color": s
-                                            },
-                                            {
-                                                "type": "text",
-                                                "text": " "
-                                            },
-                                            {
-                                                "type": "text",
-                                                "text": sa,
-                                                "color": s, 
-                                                "wrap": True,
-                                                "gravity": "center",
-                                                "size": "md"
-                                            },
-                                            { 
-                                                "type": "text",
-                                                "text": " "
-                                            },
-                                            {
-                                                 "type":"button",
-                                                 "style":"primary",
-                                                 "color":"#990000",
-                                                 "action":{
-                                                     "type":"uri",
-                                                     "label":"꧁💓 @:꓄ꍏꈤᖘꍏ꓄꓄ꍏꌩ💓꧂",
-                                                     "uri":"https://line.me/R/ti/p/%40642xtzwc"
-                                                 },
-                                            },
-                                        ]
-                                    },
-                                },
-                                {
-                                    "type": "bubble",
-                                    "styles": {
-                                        "header": {"backgroundColor": "#000000"},
-                                        "hero": {"backgroundColor": "#000000"}, #"separator": True, "separatorColor": "#333333"},
-                                        "footer": {"backgroundColor": "#FF0000"}, #"separator": True, "separatorColor": "#333333"}
-                                    },
-                                    "header": {
-                                        "type": "box",
-                                        "layout": "vertical",
-                                        "spacing": "sm",
-                                        "contents": [
-                                            {
-                                                "type": "image",
-                                                "url": 'https://i.pinimg.com/originals/df/97/3b/df973b04f198ff959f3cfba155f928a2.gif',
-                                                "size": "full"
-                                            },
-                                            {
-                                                "type": "text",
-                                                "text": "🇹🇭คำสั่งพิเศษ🇹🇭",
-                                                "size": "xxl",
-                                                "weight": "bold",
-                                                "align": "center",
-                                                "color": s
-                                            },
-                                            { 
-                                                "type": "text",
-                                                "text": " "
-                                            },
-                                            {
-                                                "type": "text",
-                                                "text": ss, 
-                                                "color": s,
-                                                "wrap": True,
-                                                "gravity": "center",
-                                            },
-                                            {
-                                                "type": "text",
-                                                "text": " "
-                                            },
-                                            {
-                                                 "type":"button",
-                                                 "style":"primary",
-                                                 "color":"#FF0000",
-                                                 "action":{
-                                                     "type":"uri",
-                                                     "label":"꧁💓 @:꓄ꍏꈤᖘꍏ꓄꓄ꍏꌩ💓꧂",
-                                                     "uri":"https://line.me/R/ti/p/%40642xtzwc"
-                                                 },
-                                            },
-                                        ]
-                                    },
-                                },
-                                {
-                                    "type": "bubble",
-                                    "styles": {
-                                        "header": {"backgroundColor": "#000000"},
-                                        "hero": {"backgroundColor": "#000000"}, #"separator": True, "separatorColor": "#333333"},
-                                        "footer": {"backgroundColor": "#FF0000"}, #"separator": True, "separatorColor": "#333333"}
-                                    },
-                                    "header": {
-                                        "type": "box",
-                                        "layout": "vertical",
-                                        "spacing": "sm",
-                                        "contents": [
-                                            {
-                                                "type": "image",
-                                                "url": 'https://i.pinimg.com/originals/df/97/3b/df973b04f198ff959f3cfba155f928a2.gif',
-                                                "size": "full"
-                                            },
-                                            {
-                                                "type": "text",
-                                                "text": "🇹🇭คำสั่งเปิด/ปิด🇹🇭",
-                                                "size": "xxl",
-                                                "weight": "bold",
-                                                "align": "center",
-                                                "color": s
-                                            },
-                                            { 
-                                                "type": "text",
-                                                "text": " "
-                                            },
-                                            {
-                                                "type": "text",
-                                                "text": se, 
-                                                "color": s,
-                                                "wrap": True,
-                                                "gravity": "center",
-                                            },
-                                            {
-                                                "type": "text",
-                                                "text": " "
-                                            },
-                                            {
-                                                 "type":"button",
-                                                 "style":"primary",
-                                                 "color":"#990000",
-                                                 "action":{
-                                                     "type":"uri",
-                                                     "label":"꧁💓 @:꓄ꍏꈤᖘꍏ꓄꓄ꍏꌩ💓꧂",
-                                                     "uri":"https://line.me/R/ti/p/%40642xtzwc"
-                                                 },
-                                            },
-                                        ]
-                                    },
-                                },
-                                {
-                                    "type": "bubble",
-                                    "styles": {
-                                        "header": {"backgroundColor": "#000000"},
-                                        "hero": {"backgroundColor": "#000000"}, #"separator": True, "separatorColor": "#333333"},
-                                        "footer": {"backgroundColor": "#FF0000"}, #"separator": True, "separatorColor": "#333333"}
-                                    },
-                                    "header": {
-                                        "type": "box",
-                                        "layout": "vertical",
-                                        "spacing": "sm",
-                                        "contents": [
-                                            {
-                                                "type": "image",
-                                                "url": 'https://i.pinimg.com/originals/df/97/3b/df973b04f198ff959f3cfba155f928a2.gif',
-                                                "size": "full"
-                                            },
-                                            {
-                                                "type": "text",
-                                                "text": "🇹🇭คำสั่งตั้งค่า/ติดดำ🇹🇭",
-                                                "size": "xxl",
-                                                "weight": "bold",
-                                                "align": "center",
-                                                "color": s
-                                            },
-                                            { 
-                                                "type": "text",
-                                                "text": " "
-                                            },
-                                          #  {
-                                          #      "type": "text",
-                                           #     "text": " "
-                                         #   },
-                                         #   {
-                                            #    "type": "text",
-                                           #     "text": " "
-                                          #  },
-                                            {
-                                                "type": "text",
-                                                "text": sd, 
-                                                "color": s,
-                                           #     "size": "lg",
-                                                "wrap": True,
-                                                "gravity": "center",
-                                            },
-                                            #{
-                                            #    "type": "text",
-                                            #    "text": " "
-                                           # },
-                                          #  {
-                                           #     "type": "text",
-                                            #    "text": " "
-                                           # },
-                                            {
-                                                "type": "text",
-                                                "text": " "
-                                            },
-                                          #  {
-                                          #      "type": "text",
-                                          #      "text": "สนใจบอท ติดต่อได้ที่ปุ่มเลยค้ะ >_<",
-                                          #      "color": "#B5B5B5",
-                                          #      "size": "xs"
-                                          #  },
-                                            {
-                                                 "type":"button",
-                                                 "style":"primary",
-                                                 "color":"#FF0000",
-                                                 "action":{
-                                                     "type":"uri",
-                                                     "label":"꧁💓 @:꓄ꍏꈤᖘꍏ꓄꓄ꍏꌩ💓꧂",
-                                                     "uri":"https://line.me/R/ti/p/%40642xtzwc"
-                                                 },
-                                            },
-                                        ]
-                                    },
-                                },
-                                {
-                                    "type": "bubble",
-                                    "styles": {
-                                        "header": {"backgroundColor": "#000000"},
-                                        "hero": {"backgroundColor": "#000000"}, #"separator": True, "separatorColor": "#333333"},
-                                        "footer": {"backgroundColor": "#FF0000"}, #"separator": True, "separatorColor": "#333333"}
-                                    },
-                                    "header": {
-                                        "type": "box",
-                                        "layout": "vertical",
-                                        "spacing": "sm",
-                                        "contents": [
-                                            {
-                                                "type": "image",
-                                                "url": 'https://i.pinimg.com/originals/df/97/3b/df973b04f198ff959f3cfba155f928a2.gif',
-                                                "size": "full"
-                                            },
-                                            {
-                                                "type": "text",
-                                                "text": "🇹🇭คำสั่งทั่วไป🇹🇭",
-                                                "size": "xxl",
-                                                "weight": "bold",
-                                                "align": "center",
-                                                "color": s
-                                            },
-                                            { 
-                                                "type": "text",
-                                                "text": " "
-                                            },
-                                            {
-                                                "type": "text",
-                                                "text": sti, 
-                                                "color": s,
-                                                "wrap": True,
-                                                "gravity": "center",
-                                            },
-                                            {
-                                                "type": "text",
-                                                "text": " "
-                                            },
-                                            {
-                                                 "type":"button",
-                                                 "style":"primary",
-                                                 "color":"#990000",
-                                                 "action":{
-                                                     "type":"uri",
-                                                     "label":"꧁💓 @:꓄ꍏꈤᖘꍏ꓄꓄ꍏꌩ💓꧂",
-                                                     "uri":"https://line.me/R/ti/p/%40642xtzwc"
-                                                 },
-                                            },
-                                        ]
-                                    },
-                                },
-                            ]
-                            data = {
-                                "type": "flex",
-                                "altText": "Help Message",
-                                "contents": {
-                                    "type": "carousel",
-                                    "contents": dataProfile
-                                }
-                            }
-                            sendTemplate(to, data)
+                
 #=====================================================================
                 elif msg.text.lower().startswith("ก็อป "):
                             if 'MENTION' in msg.contentMetadata.keys()!= None:
