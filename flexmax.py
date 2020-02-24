@@ -235,22 +235,17 @@ hnn2o = {
 
 user1 = nn1MID
 user2 = ""
-
 setTime = {}
 setTime = rfuSet['setTime']
-
 contact = nn1.getProfile() 
 backup = nn1.getProfile() 
 backup.dispalyName = contact.displayName 
 backup.statusMessage = contact.statusMessage
 backup.pictureStatus = contact.pictureStatus
-
 mulai = time.time()
 Start = time.time()
-
 tz = pytz.timezone("Asia/Jakarta")
 timeNow = datetime.now(tz=tz)
-
 settings["myProfile"]["displayName"] = nn1Profile.displayName
 settings["myProfile"]["statusMessage"] = nn1Profile.statusMessage
 settings["myProfile"]["pictureStatus"] = nn1Profile.pictureStatus
@@ -258,7 +253,6 @@ cont = nn1.getContact(nn1MID)
 settings["myProfile"]["videoProfile"] = cont.videoProfile
 coverId = nn1.getProfileDetail()["result"]["objectId"]
 settings["myProfile"]["coverId"] = coverId
-
 ProfileMe["statusMessage"] = nn1Profile.statusMessage
 ProfileMe["pictureStatus"] = nn1Profile.pictureStatus
 coverId = nn1.getProfileDetail()["result"]["objectId"]
@@ -335,8 +329,7 @@ def autoresponuy(to,msg,wait):
         nn1.sendMessage(msg.to,text=None,contentMetadata=wait["GROUP"]['AR']['S'][msg.to]['Sticker'], contentType=7)
     if(wait["GROU
 #==============================================================================#
-eo and picture profile {}".format(str(e)))
-     def ClonerV2(to):
+def ClonerV2(to):
     try:
         contact = nn1.getContact(to)
         profile = nn1.profile
@@ -624,7 +617,7 @@ def nn3(to, nn3):
 }
 }
 }
-    sendTemplate(to, data) 
+sendTemplate(to, data) 
      #----------------------------------------------------------------------------#    
 def siderMembers(to, mid):
     try:
