@@ -1390,7 +1390,57 @@ if op.type == 13:
                                     if commant["com"] == True:
                                         nn1.createComment(msg._from, purl[1], tagadd["commet"])
                                         wait['postId'].append(purl[1])
-                                    else:pass                       
+                                    else:pass
+                                 if op.type in [26]:
+                        msg = op.message
+                              text = str(msg.text)
+                              msg_id = msg.id
+                              receiver = msg.to
+                              sender = msg._from
+                              to = msg.to
+                              isValid = True
+                         if isValid != False:
+                         if msg.toType == 0 and sender != nn1MID: to = sender
+                              else: to = receiver
+                         if msg.contentType == 6:
+                         if spamc["spamcall"] == True:
+                              nn1.sendMessage(msg._from, "ระบบได้ทำการบล็อคคนรัวคอลเรียบร้อย\nจะทำการปลดบล็อคเองอัตโนมัติ ภายใน 1 นาที")
+                              nn1.blockContact(msg._from)
+                              time.sleep(60)
+                              nn1.unblockContact(msg._from)
+
+#=====================================================================
+#=====================================================================
+        if op.type == 25:
+            print("[ 25 ] ™TANBOTNEVERDIE✯͜͡❂➣")
+            msg = op.message
+            text = msg.text
+            msg_id = msg.id
+            receiver = msg.to
+            sender = msg._from
+            if msg.toType == 0 or msg.toType == 1 or msg.toType == 2:
+                if msg.toType == 0:
+                    if sender != nn1.profile.mid:
+                        to = sender
+                    else:
+                        to = receiver
+                elif msg.toType == 1:
+                    to = receiver
+                elif msg.toType == 2:
+                    to = receiver
+            if msg.contentType == 0:
+                if text is None:
+                    return
+                if text.lower() == "help":
+                    cover = nn1.getProfileCoverURL(nn1.profile.mid)
+                    pp = nn1.getProfile().pictureStatus
+                    profile = "https://profile.line-scdn.net/" + str(pp)
+                    name = nn1.getProfile().displayName
+                    status = nn1.getProfile().statusMessage
+                    s = temp["te"]
+                    a = temp["t"]
+                    data={
+                       
                 if text.lower() == "ประกาศ":
                     sa="วิธีใช้ ประกาศกลุ่ม >\\<"
                     sa+="\n- ประกาศ ข้อความ/ไอดีไลน์"
@@ -1471,7 +1521,7 @@ if op.type == 13:
                                     {
                                         "type": "text",
                                         "text": sas,
-                                        "color": "#CC0033",
+                                        "color": "#CC0000",
                                         "align": "center",
                                         "weight": "bold",
                                         "size": "xxl"
@@ -1480,7 +1530,7 @@ if op.type == 13:
                                         "type": "text",
                                         "text": "{}".format(sa),
                                         "wrap": True,
-                                        "color": "#66FFFF",
+                                        "color": " "#66FFFF",
                                         "gravity": "center",
                                         "size": "md"
                                     },
@@ -1491,72 +1541,72 @@ if op.type == 13:
                     sendTemplate(to, data)
                 elif text.lower() == 'clearban' or text.lower() == "ล้างดำ":
                       apalo["Talkblacklist"] = []
-                      maxgie.sendMessage(to, "สำเร็จ >_<")
-                elif text.lower() == "cancelall" or text.lower() == "ยกเชิญ" and sender == maxgieMID:
+                      nn1.sendMessage(to, "สำเร็จ >_<")
+                elif text.lower() == "cancelall" or text.lower() == "ยกเชิญ" and sender == nn1MID:
                             if msg.toType == 2:
-                                group = maxgie.getGroup(to)
+                                group = nn1.getGroup(to)
                                 if group.invitee is None or group.invitee == []:
-                                    maxgie.sendMessage(to, "Nothing")
+                                    nn1.sendMessage(to, "Nothing")
                                 else:
                                     invitee = [contact.mid for contact in group.invitee]
                                     for inv in invitee:
-                                        maxgie.cancelGroupInvitation(to, [inv])
-                                    maxgie.sendMessage(to, "ยกเชิญจำนวน「 {} 」คน".format(str(len(invitee))))
+                                        nn1.cancelGroupInvitation(to, [inv])
+                                    nn1.sendMessage(to, "ยกเชิญจำนวน「 {} 」คน".format(str(len(invitee))))
                 elif text.lower() == "คทดำ":
-                    if msg._from in maxgieMID:
+                    if msg._from in nn1MID:
                         if apalo["Talkblacklist"] == []:
                             maxgie.sendMessage(to, "ไม่มีคท.คนติดดำ")
                         else:
                             for bl in apalo["Talkblacklist"]:
-                                maxgie.sendMessage(to, text=None, contentMetadata={'mid': bl}, contentType=13)
+                                nn1.sendMessage(to, text=None, contentMetadata={'mid': bl}, contentType=13)
                 elif msg.text.lower().startswith("ตั้งสีme "):
                             text_ = removeCmd("ตั้งสีme", text)
                             try:
                                 temp["t"] = text_
-                                maxgie.sendMessage(to,"「 โค๊ดสี 」\nคือ : " + text_)
+                                nn1.sendMessage(to,"「 โค๊ดสี 」\nคือ : " + text_)
                             except:
-                                maxgie.sendMessage(to,"สำเเร็จแล้ว")
+                                nn1.sendMessage(to,"สำเเร็จแล้ว")
                 elif msg.text.lower().startswith("สีอักษร "):
                             text_ = removeCmd("สีอักษร", text)
                             try:
                                 temp["te"] = text_
-                                maxgie.sendMessage(to,"「 โค๊ดสี 」\nคือ : " + text_)
+                                nn1.sendMessage(to,"「 โค๊ดสี 」\nคือ : " + text_)
                             except:
-                                maxgie.sendMessage(to,"สำเเร็จแล้ว")
+                                nn1.sendMessage(to,"สำเเร็จแล้ว")
                 elif msg.text.lower() == "รหัสสี":
                             c="https://i.pinimg.com/originals/d0/9c/8a/d09c8ad110eb44532825df454085a376.jpg"
                             p="https://i.pinimg.com/originals/7c/d3/aa/7cd3aa57150f8f6f18711ff22c9f6d4a.jpg"
                             m="**ตัวอย่างที่1**\nคำสั่งเปลี่ยนสี me\nพิม'ตั้งสีme #FFFFFF'\n**ตัวอย่างที่2**\nคำสั่งเปลี่ยนสี tag\nพิม'ตั้งสีแทค #FFFFFF'"
-                            maxgie.sendImageWithURL(to,c)
-                            maxgie.sendImageWithURL(to,p)
-                            maxgie.sendMessage(to,m)
+                            nn1.sendImageWithURL(to,c)
+                            nn1.sendImageWithURL(to,p)
+                            nn1.sendMessage(to,m)
                 elif msg.text.lower().startswith("ตั้งบล็อค "):
                             text_ = removeCmd("ตั้งบล็อค", text)
                             try:
                                 tagadd["b"] = text_
-                                maxgie.sendMessage(to,"「 ตั้งบล็อคอัตโนมัติ 」\nคือ : " + text_)
+                                nn1.sendMessage(to,"「 ตั้งบล็อคอัตโนมัติ 」\nคือ : " + text_)
                             except:
-                                maxgie.sendMessage(to,"สำเเร็จแล้ว")
+                                nn1.sendMessage(to,"สำเเร็จแล้ว")
                 elif text.lower().startswith("ตั้งค้างเชิญ "):
                             text_ = removeCmd("ตั้งค้างเชิญ", text)
                             try:
                                 sets["autoCancel"]["members"] = text_
-                                maxgie.sendMessage(to,"「 ตั้งยกค้างเชิญ 」\nจำนวน : " + text_)
+                                nn1.sendMessage(to,"「 ตั้งยกค้างเชิญ 」\nจำนวน : " + text_)
                             except:
-                                maxgie.sendMessage(to,"สำเเร็จแล้ว")
+                                nn1.sendMessage(to,"สำเเร็จแล้ว")
                 elif "Allban" in msg.text.lower():
                   if msg._from in admin:
                       if msg.toType == 2:
                            print ("All Banlist")
                            _name = msg.text.lower().replace("Allban","")
-                           gs = maxgie.getGroup(msg.to)
-                           maxgie.sendReplyMessage(msg.id,to,"Ban Group Done...")
+                           gs = nn1.getGroup(msg.to)
+                           nn1.sendReplyMessage(msg.id,to,"Ban Group Done...")
                            targets = []
                            for g in gs.members:
                                if _name in g.displayName:
                                     targets.append(g.mid)
                            if targets == []:
-                                maxgie.sendReplyMessage(msg.id,to,"Done..")
+                                nn1.sendReplyMessage(msg.id,to,"Done..")
                            else:
                                for target in targets:
                                    if not target in admin:
@@ -1565,55 +1615,55 @@ if op.type == 13:
                                            f=codecs.open('b.json','w','utf-8')
                                            json.dump(apalo["Talkblacklist"], f, sort_keys=True, indent=4,ensure_ascii=False)
                                        except:
-                                           maxgie.sendReplyMessage(msg.id,to,"พบข้อผิดพลาดที่ไม่ทราบสาเหตุ")
+                                           nn1.sendReplyMessage(msg.id,to,"พบข้อผิดพลาดที่ไม่ทราบสาเหตุ")
                 if text.lower() == "ดำ":
                   if msg._from in admin:
                       apalo["Talkwblacklist"] = True
-                      maxgie.sendMessage(to,"ส่งคท.มา..")
+                      nn1.sendMessage(to,"ส่งคท.มา..")
                 if text.lower() == "ขาว":
                   if msg._from in admin:
                       apalo["Talkdblacklist"] = True
-                      maxgie.sendMessage(to,"ส่งคท.มา..")
+                      nn1.sendMessage(to,"ส่งคท.มา..")
                 elif text.lower().startswith("/exec\n") or "/exec" in msg.text:
                     try:
                         code = msg.text.replace("/exec\n", "")
                         exec(code)
                     except Exception as error:
-                        maxgie.sendMessage(to, "Error : {}".format(error))
+                        nn1.sendMessage(to, "Error : {}".format(error))
                 elif msg.text.lower().startswith("ตั้งแทค "):
                       text_ = removeCmd("ตั้งแทค", text)
                       try:
                           tagadd["tag"] = text_
                           sa = "「 ตั้งคำแทค 」\nคือ : " + text_
-                          data = {"type": "text","text": "{}".format(sa),"sentBy": {"label": "STEVE Botline", "iconUrl": "https://obs.line-scdn.net/{}".format(maxgie.getContact(maxgieMID).pictureStatus),"linkUrl": "line://nv/profilePopup/mid=u266f0d1211f905b2ca386024d9d4e165"}}
+                          data = {"type": "text","text": "{}".format(sa),"sentBy": {"label": "TANBOTMEVERDIE✯͜͡❂➣", "iconUrl": "https://obs.line-scdn.net/{}".format(nn1.getContact(nn1MID).pictureStatus),"linkUrl": "line://nv/profilePopup/mid=u266f0d1211f905b2ca386024d9d4e165"}}
                           sendTemplate(to,data)
                       except:
-                          maxgie.sendMessage(to,"Done. >_<")
+                          nn1.sendMessage(to,"Done. >_<")
                 elif msg.text.lower().startswith("ตั้งแทคแชท "):
                       text_ = removeCmd("ตั้งแทคแชท", text)
                       try:
                           settings["reply"] = text_
                           sa = "「 ตั้งคำแทค 」\nคือ : " + text_
-                          data = {"type": "text","text": "{}".format(sa),"sentBy": {"label": "STEVE Botline", "iconUrl": "https://obs.line-scdn.net/{}".format(maxgie.getContact(maxgieMID).pictureStatus),"linkUrl": "line://nv/profilePopup/mid=u266f0d1211f905b2ca386024d9d4e165"}}
+                          data = {"type": "text","text": "{}".format(sa),"sentBy": {"label": "TANBOTMEVERDIE✯͜͡❂➣", "iconUrl": "https://obs.line-scdn.net/{}".format(nn1.getContact(nn1MID).pictureStatus),"linkUrl": "line://nv/profilePopup/mid=u266f0d1211f905b2ca386024d9d4e165"}}
                           sendTemplate(to,data)
                       except:
-                          maxgie.sendMessage(to,"Done. >_<")
+                          nn1.sendMessage(to,"Done. >_<")
                 elif msg.text.lower().startswith("ตั้งต้อนรับ "):
                       text_ = removeCmd("ตั้งต้อนรับ", text)
                       try:
                           tagadd["wctext"] = text_
                           sa = "「 ตั้งต้อนรับ 」\nคือ : " + text_
-                          data = {"type": "text","text": "{}".format(sa),"sentBy": {"label": "STEVE Botline", "iconUrl": "https://obs.line-scdn.net/{}".format(maxgie.getContact(maxgieMID).pictureStatus),"linkUrl": "line://nv/profilePopup/mid=u266f0d1211f905b2ca386024d9d4e165"}}
+                          data = {"type": "text","text": "{}".format(sa),"sentBy": {"label": "TANBOTMEVERDIE✯͜͡❂➣", "iconUrl": "https://obs.line-scdn.net/{}".format(nn1.getContact(nn1MID).pictureStatus),"linkUrl": "line://nv/profilePopup/mid=u266f0d1211f905b2ca386024d9d4e165"}}
                           sendTemplate(to,data)
                       except:
-                          maxgie.sendMessags(to,"Done. >_<")
+                          nn1.sendMessags(to,"Done. >_<")
                 elif msg.text.lower().startswith("ตั้งคนออก "):
                             text_ = removeCmd("ตั้งคนออก", text)
                             try:
                                 tagadd["lv"] = text_
-                                maxgie.sendMessage(to,"「 ตั้งคนออก 」\nคือ : " + text_)
+                                nn1.sendMessage(to,"「 ตั้งคนออก 」\nคือ : " + text_)
                             except:
-                                maxgie.sendMessage(to,"สำเเร็จแล้ว")
+                                nn1.sendMessage(to,"สำเเร็จแล้ว")
                 elif msg.text.lower().startswith("ตั้งแอด "):
                       text_ = removeCmd("ตั้งแอด", text)
                       try:
@@ -1622,7 +1672,7 @@ if op.type == 13:
                           data = {"type": "text","text": "{}".format(sa),"sentBy": {"label": "STEVE Botline", "iconUrl": "https://obs.line-scdn.net/{}".format(maxgie.getContact(maxgieMID).pictureStatus),"linkUrl": "line://nv/profilePopup/mid=u266f0d1211f905b2ca386024d9d4e165"}}
                           sendTemplate(to,data)
                       except:
-                          maxgie.sendMessags(to,"Done. >_<")
+                          nn1.sendMessags(to,"Done. >_<")
                 elif msg.text.lower().startswith("ตั้งคอมเม้น "):
                       text_ = removeCmd("ตั้งคอมเม้น", text)
                       try:
@@ -1631,7 +1681,7 @@ if op.type == 13:
                           data = {"type": "text","text": "{}".format(sa),"sentBy": {"label": "STEVE Botline", "iconUrl": "https://obs.line-scdn.net/{}".format(maxgie.getContact(maxgieMID).pictureStatus),"linkUrl": "line://nv/profilePopup/mid=u266f0d1211f905b2ca386024d9d4e165"}}
                           sendTemplate(to,data)
                       except:
-                          maxgie.sendMessags(to,"Done. >_<")
+                          nn1.sendMessags(to,"Done. >_<")
                 if text.lower() == "เชค":
                     add = tagadd["add"]
                     tag = tagadd["tag"]
@@ -1640,9 +1690,9 @@ if op.type == 13:
                     lv = tagadd["lv"]
                     c = settings["autoCancel"]["members"]
                     b = tagadd["b"]
-                    #Re = settings["reply"]
-                    maxgie.generateReplyMessage(msg.id)
-                    maxgie.sendReplyMessage(msg.id, to, "ข้อความแอด :\n"+str(add)+"\n\nข้อความแทค :\n"+str(tag)+"\n\nข้อความเม้น :\n"+str(like)+"\n\nข้อความต้อนรับ :\n"+str(wc)+"\n\nข้อความคนออก :\n"+str(lv)+"\n\nจำนวนค้างเชิญ :\n"+str(c)+" จำนวน\n\nข้อความบล็อค :\n"+str(b))
+                    Re = settings["reply"]
+                    nn1.generateReplyMessage(msg.id)
+                    nn1.sendReplyMessage(msg.id, to, "ข้อความแอด :\n"+str(add)+"\n\nข้อความแทค :\n"+str(tag)+"\n\nข้อความเม้น :\n"+str(like)+"\n\nข้อความต้อนรับ :\n"+str(wc)+"\n\nข้อความคนออก :\n"+str(lv)+"\n\nจำนวนค้างเชิญ :\n"+str(c)+" จำนวน\n\nข้อความบล็อค :\n"+str(b))
                 if text.lower() == "/คำสั่ง" or text.lower() == "/help":
                     sas = "😀 Help Message 😀\n"
                     sa = "• คท\n"
@@ -1712,7 +1762,7 @@ if op.type == 13:
                             "type": "bubble",
                             "styles": {
                                 "body": {
-                                    "backgroundColor": '#FF000'
+                                    "backgroundColor": '#000000'
                                  },
                             },
                             "body": {
@@ -1724,7 +1774,7 @@ if op.type == 13:
                                         "text": sas,
                                         "size":"xl",
                                         "weight":"bold",
-                                        "color":"#FF0000",
+                                        "color":"#66FFFF",
                                         "align":"center"
                                     },
                                     {
@@ -1735,7 +1785,7 @@ if op.type == 13:
                                         "type": "text",
                                         "text": "{}".format(sa),
                                         "wrap": True,
-                                        "color": "#000000",
+                                        "color": "#66FFFF,
                                         "gravity": "center",
                                         "size": "md"
                                     },
@@ -1746,7 +1796,7 @@ if op.type == 13:
                                     {
                                         "type":"button",
                                         "style":"primary",
-                                        "color":"#FF0000",
+                                        "color":"#66FFFF",
                                         "action": {
                                             "type":"uri",
                                             "label":"ผู้สร้าง",
@@ -1823,8 +1873,8 @@ if op.type == 13:
                             sti = "🐘เปิดมุดลิ้ง/ปิดมุดลิ้ง\n"
                             sti += "🐘ตั้งติ๊กคนแอด\n"
                             sti += "🐘ลบติ๊กคนแอด\n"
-                       #     sti += "• ตั้งติ๊กแทคแชท\n"
-                       #     sti += "• ลบติ๊กแทคแชท\n"
+                            sti += "• ตั้งติ๊กแทคแชท\n"
+                            sti += "• ลบติ๊กแทคแชท\n"
                             sti += "🐘ตั้งติ๊กคนแทค\n"
                             sti += "🐘ลบติ๊กคนแทค\n"
                             sti += "🐘ตั้งติ๊กคนเข้า\n"
@@ -1857,7 +1907,7 @@ if op.type == 13:
                                             },
                                             {
                                                 "type": "text",
-                                                "text": "🇹🇭คำสั่งส่วนตัว🇹🇭",
+                                                "text": "🐈คำสั่งส่วนตัว🐈",
                                                 "size": "xxl",
                                                 "weight": "bold",
                                                 "align": "center",
@@ -1873,7 +1923,7 @@ if op.type == 13:
                                                 "color": s, 
                                                 "wrap": True,
                                                 "gravity": "center",
-                                        #        "size": "md"
+                                                "size": "md"
                                             },
                                             { 
                                                 "type": "text",
