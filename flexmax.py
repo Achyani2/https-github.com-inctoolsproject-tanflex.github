@@ -624,7 +624,73 @@ def nn3(to, nn3):
 }
 }
 }
-    sendTemplate(to, data)        
+    sendTemplate(to, data) 
+     #----------------------------------------------------------------------------#    
+def siderMembers(to, mid):
+    try:
+        arrData = ""
+        textx = "「{}」\nต่ะเอ๋ ".format(str(len(mid)))
+        arr = []
+        no = 1
+        num = 2
+        for i in mid:
+            mention = "@x\n"
+            slen = str(len(textx))
+            elen = str(len(textx) + len(mention) - 1)
+            arrData = {'S':slen, 'E':elen, 'M':i}
+            arr.append(arrData)
+            textx += mention+settings["mention"]
+            if no < len(mid):
+                no += 1
+                textx += "%i. " % (num)
+                num=(num+1)
+            else:
+                try:
+                    no = "\n┗━━[ {} ]".format(str(nn1.getGroup(to).name))
+                except:
+                    no = "\n┗━━[ Success ]"
+        nn1.sendMessage(to, textx, {'MENTION': str('{"MENTIONEES":' + json.dumps(arr) + '}')}, 0)
+    except Exception as error:
+        nn1.sendMessage(to, "[ INFO ] Error :\n" + str(error))		
+def mentions(to, text="", mids=[]):
+    arrData = ""
+    arr = []
+    mention = "@nn1  "
+    if mids == []:
+        raise Exception("Invalid mids")
+    if "@!" in text:
+        if text.count("@!") != len(mids):
+            raise Exception("Invalid mids")
+        texts = text.split("@!")
+        textx = ""
+        for mid in mids:
+            textx += str(texts[mids.index(mid)])
+            slen = len(textx)
+            elen = len(textx) + 15
+            arrData = {'S':str(slen), 'E':str(elen - 4), 'M':mid}
+            arr.append(arrData)
+            textx += mention
+        textx += str(texts[len(mids)])
+    else:
+        textx = ""
+        slen = len(textx)
+        elen = len(textx) + 15
+        arrData = {'S':str(slen), 'E':str(elen - 4), 'M':mids[0]}
+        arr.append(arrData)
+        textx += mention + str(text)
+    nn1.sendMessage(to, textx, {'AGENT_NAME':'LINE OFFICIAL', 'AGENT_LINK': 'line://ti/p/~{}'.format(nn1.getProfile().userid), 'AGENT_ICON': "http://dl.profile.line-cdn.net/" + nn1.getContact("u8b4c22de6d4a1e18190ae14f76465d66").picturePath, 'MENTION': str('{"MENTIONEES":' + json.dumps(arr) + '}')}, 0)
+def changeVideoAndPictureProfile(pict, vids):
+    try:
+        files = {'file': open(vids, 'rb')}
+        obs_params = nn1.genOBSParams({'oid': nn1MID, 'ver': '2.0', 'type': 'video', 'cat': 'vp.mp4'})
+        data = {'params': obs_params}
+        r_vp = nn1.server.postContent('{}/talk/vp/upload.nhn'.format(str(nn1.server.LINE_OBS_DOMAIN)), data=data, files=files)
+        if r_vp.status_code != 201:
+            return "Failed update profile"
+        nn1.updateProfilePicture(pict, 'vp')
+        return "Success update profile"
+    except Exception as e:
+        raise Exception("Error change video and picture profile {}".format(str(e)))       
 def sendMentionFooter(to, mid, firstmessage, lastmessage):
     try:
         arrData = ""
